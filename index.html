@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Title Page -->
+	<title>Scrolls | 2016</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8"> 
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Bootstrap Javascript-->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Jquery Lib -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- User Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="asset/css/index.css">
+	<!-- User Javascript -->
+	<script src="asset/js/index.js"></script>
+	<!-- Scrollify Javascript -->
+	<script src="asset/js/jquery.scrollify.js"></script>
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<!-- Section Landing Page (Parallex.js) -->
+<section class="landing">
+
+
+	<!-- Bottom Information Bar -->
+	<div class="container-fluid gap-off subscribe">
+		<div class="row">
+			<div class="col-lg-3">
+				<p>STAY UP TO DATE WITH SCROLLS 2016</p>
+			</div>
+			<div class="col-lg-5">
+				<div class="search">
+				  <a href="#"><span class="fa fa-long-arrow-right"></span></a>
+				  <input class="textbox" type="text" placeholder="EMAIL ADDRESS">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pull-right">
+					<a href="#"><span class="fa fa-twitter" style=" padding-right: 10px; font-size: 20px;"></span><p> FOLLOW @SCROLLS2016</p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- Video Play Button -->
+	<div class="container video-btn">
+		 <a href="#"><span class="fa fa-play"></span></a>
+	</div>
+
+	<!-- Scroll Down Button -->
+	<div class="container scroll-btn">
+		<a href="#wrapper">
+		<p>Scroll Down</p>
+		<span class="fa fa-angle-double-down"></span></a>
+	</div>
+</section>
+
+<!-- Section 2 -->
+<section class="wrapper" id="wrapper">
+	<!-- About Scrolls -->
+	<div class="container-fluid gap-off">
+
+		<!-- Left Liner Block -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<!-- Subheading in Bold -->
+			<div class="row">
+				<div class="col-lg-12 gap-off sec-2-padding half" id="about-quote">
+					<quote>" If you can imagine something that is beyond all the limitations,then, you have the urge to conquer the world."</quote>
+				</div>
+			</div>
+			<!-- Subdivided in two block -->
+			<div class="row">
+				<!-- Glyphicon with Few text and image on background -->
+				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding half" id="about-block-1">
+					<img src="asset/images/a.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
+				</div>
+				<!-- Glyphicon with Few text and image on background -->
+				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding half" id="about-block-2">
+					<img src="asset/images/b.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
+				</div>
+			</div>
+		</div><!-- Left Block Ends -->
+
+		<!-- Right Detail Block -->
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 gap-off sec-2-padding full" id="about-detail" style="background-image: url(asset/images/c.jpg);
+		background-size: cover; background-position: center;">
+			<!-- <h2>About Scroll</h2>
+			<p>We believe that Imagination is not only the unique human capacity to envision the unperceived and undiscovered , but also the foundation of all inventions and innovations. If one has to reach for the ultimate then one must be able to think beyond the conventions. 
+			Thus, keeping all these things in mind, we here at AKGEC organize the national-level paper presentation event called SCROLLS (Students creative and Oratory Learning Skills)’15 which aims at raising one’s excellence towards the zenith so that they can become the technocrats of tomorrow. This event is not only for the engineering field but also for the management ones. Budding pioneers from management domain and various branches of engineering like Computer Science, Information technology, Tele-communication, Mechanical and Electrical and Civil are invited in this event. It is just an effort to manifest a horizon for all the addicts of the technology to partake their knowledge for a better future. Hence, it is the right time for all of us to unite together and explore all the unimaginable and untouched categories in the large world of science, surmounting the peak of engineering and management, giving them a chance for the best future they can hope for.</p> -->
+		</div>
+	</div>
+</section>
+
+<!-- Section Android -->
+<section class="android">
+	<div class="container-fluid gap-off" id="android-in">
+		<div class="row">
+			
+			<div class="col-lg-6 gap-off">
+				<!-- Application Avalible -->
+				<div id="application" style="background-image: url(asset/images/g.png);	background-size: cover;}">
+					<div class="row">
+						<a href="#"><img src="asset/images/h.png" style="width: 150px; height: auto;"></a>
+						<a href="#"><img src="asset/images/i.png" style="width: 150px; height: auto;"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 gap-off">
+				<!-- Contact Us  -->
+				<div id="contact" class="full">
+					<img src="asset/images/silive.png" class="center-block" style="width: 300px; height: auto; padding-top: 25%;">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- ++++++++++++++++ Insheet Script +++++++++++++++++-->
+<!-- Scrollify Script -->
+<script>
+    $(function() {
+        $.scrollify({
+	        section : ".landing, .android",
+	        interstitialSection : " .wrapper",
+	        easing: "easeOutExpo",
+	        scrollSpeed: 800,
+	        offset : 0,
+	        scrollbars: false,
+	        standardScrollElements: " .wrapper",
+	        setHeights: true,
+	        overflowScroll: true,
+	    });
+    });
+</script>
+
+</body>
+</html>
