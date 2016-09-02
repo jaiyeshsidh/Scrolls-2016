@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Parallax.js | Simple Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
+
+	<style>
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container" class="container">
+		<ul id="scene" class="scene" style="overflow:hidden;">
+			<li class="layer" data-depth="0.00"><img src="asset/images/.jpg"></li>
+			<li class="layer" data-depth="1.00"><img src="asset/images/layer1.jpg"></li>
+			<li class="layer" data-depth="0.30"><img src="asset/images/podium.png"></li>
+			<li class="layer" data-depth="0.40" style="margin-top: 450px !important;"><img src="asset/images/layer5.png"></li>
+			<li class="layer" data-depth="0.80" style="margin-top: 460px !important;"><img src="asset/images/layer5.png"></li>
+			<li class="layer" data-depth="1.20" style="margin-top: 480px !important;"><img src="asset/images/layer5.png"></li>
+		</ul>
+	</div>
+
+	<!-- Scripts -->
+	<script src="parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>

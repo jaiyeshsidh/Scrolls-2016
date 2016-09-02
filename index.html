@@ -15,6 +15,8 @@
 
 	<!-- User Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="asset/css/index.css">
+	<!-- parallax stylesheet -->
+	<link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
 	<!-- User Javascript -->
 	<script src="asset/js/index.js"></script>
 	<!-- Scrollify Javascript -->
@@ -23,6 +25,10 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:400,600" rel="stylesheet">
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 </head>
 <body>
@@ -50,16 +56,14 @@
 			</div>
 		</div>
 	</div>
-<!-- ===================================================================== modal 1======================================================================== -->
+<!-- ===================================================================== modal 1======================================================== -->
 
 
  
-<div class="container">
+<div class="container-fluid" style="padding:0px;">
 
 	<!-- Button trigger modal -->
-	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-	  Register here 
-	</button>
+	<button type="button" class="btn btn-primary right" data-toggle="modal" data-target="#myModal">REGISTER HERE</button>
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -248,7 +252,7 @@
 
 
 
-					<!-- ==================================================== member details =============================================== -->
+					<!-- ==================================================== team details =============================================== -->
 
 					<div class="form-group">
 					  <label for="usr">Team Leader :</label>
@@ -273,10 +277,11 @@
 
 	<!-- =============================================== second modal =================================================================== -->
 
-			<!-- Small modal -->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">LOG IN</button>
+			<!-- Button trigger Modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">LOG IN</button>
 
-			<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<!-- Modal -->
+	<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 			  <div class="modal-dialog modal-sm">
 			    <div class="modal-content">
 			       <div class="modal-header">
@@ -301,7 +306,23 @@
 	     		   </div>
 			    </div>
 			  </div>
-			</div>
+	</div>
+
+	<!-- parallax window -->
+			<ul id="scene" class="scene" style="overflow:none;">
+			<li class="layer" data-depth="0.00"><img src="asset/images/.jpg"></li>
+			<li class="layer" data-depth="1.00"><img src="asset/images/layer1.jpg"></li>
+			<li class="layer" data-depth="0.30" style="margin-top: 220px !important;"><img src="asset/images/podium.png"></li>
+			<li class="layer" data-depth="0.40" style="margin-top: 350px !important;"><img src="asset/images/layer5.png"></li>
+			<li class="layer" data-depth="0.80" style="margin-top: 360px !important;"><img src="asset/images/layer5.png"></li>
+			<li class="layer" data-depth="1.20" style="margin-top: 380px !important;"><img src="asset/images/layer5.png"></li>
+		</ul>
+
+	<!-- parallax window end -->
+
+
+
+
   
 </div>
 
@@ -313,10 +334,7 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
 
-	<!-- Video Play Button -->
-	<div class="container video-btn">
-		 <a href="#"><span class="fa fa-play"></span></a>
-	</div>
+
 </section>
 
 <!-- ============================================================================================================================================ -->
@@ -552,6 +570,19 @@
 
 
 </script>
+
+<!-- parallax script -->
+
+
+	<script src="parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
 
 </body>
 </html>
