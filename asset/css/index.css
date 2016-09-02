@@ -203,7 +203,8 @@ h1,h2,h3,h4,h5,h6{
 	transition-duration: 0.4s
 }
 .shade:hover{
-	background-color: rgba(0,0,0,0.8);
+	background-color:#fff;
+	color:#333;
 }
 .btn-topic{
 	width: 100%;
@@ -270,3 +271,12 @@ h1,h2,h3,h4,h5,h6{
     from {margin-top: 17%;}
     to {margin-top: 17.5%;}
 }
+
+
+
+
+
+
+
+
+
