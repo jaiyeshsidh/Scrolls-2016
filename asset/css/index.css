@@ -235,7 +235,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .topic-main{
 	padding: 60px;
-	height: 100%;
+}
+.height-full{
+	
 }
 .shade{
 	padding: 60px;
