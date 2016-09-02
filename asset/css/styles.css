@@ -14,16 +14,6 @@ input[type=checkbox] {
 }
 
 
-input[type=checkbox] + label:before {
-  display: inline-block;
-  position: relative;
-  background: #444;
-  margin-right: 8px;
-  content: "";
-  height: 16px;
-  width: 16px;
-  top: 1px;
-}
 
 input[type=checkbox]:checked + label:before {
   background: #00FFAA;
@@ -65,7 +55,7 @@ input[type=checkbox]:checked + label:before {
 .layer:nth-child(1) {
   opacity: 1;
   background-size: cover;
-  margin-top:-46px;
+  
 }
 .layer:nth-child(1) button {
   -webkit-transform: rotate(150deg);

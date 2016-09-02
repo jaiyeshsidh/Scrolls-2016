@@ -38,7 +38,7 @@
 <section class="landing">
 
 	<!-- Bottom Information Bar -->
-	<div class="container-fluid gap-off subscribe">
+<!--	<div class="container-fluid gap-off subscribe">
 		<div class="row">
 			<div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-xs-3">
 				<p>STAY UP TO DATE WITH SCROLLS 2016</p>
@@ -56,6 +56,14 @@
 			</div>
 		</div>
 	</div>
+-->	
+<!-- ==============================================================Register modal 1 ==================================================== -->
+
+
+
+
+
+
 <!-- ===================================================================== modal 1======================================================== -->
 
 
@@ -73,207 +81,129 @@
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
-	        <h4 class="modal-title" id="myModalLabel">SIGN UP</h4>
+	        <h4 class="modal-title" id="myModalLabel">REGISTER AS</h4>
 	      </div>
 	      <div class="modal-body" style="overflow-y:scroll; height:540px;">
-	     				<form>
+		     		
+	<!-- tab content -->
 
-				 	<p>No. of Participants :</p>
-					<label class="radio-inline"><input type="radio" name="optradio"> 2</label>
-					<label class="radio-inline"><input type="radio" name="optradio"> 3</label>
-				    
-				    <h3>Member 1 Details :</h3>
-				    <div class="form-group">
-				      <label for="name">Member 1:</label>
-				      <input type="name" class="form-control" id="member-1" placeholder="Enter name">
+		  <ul class="nav nav-tabs">
+		    <li class="active"><a data-toggle="tab" href="#home">Member</a></li>
+		    <li><a data-toggle="tab" href="#menu1">Team</a></li>
 
-				    </div>
-				    <div class="form-group">
-					  <label for="sel1">Select Course :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
+		  </ul>
+
+			  <div class="tab-content">
+			    <div id="home" class="tab-pane fade in active">
+							    
+					    <div class="form-group" style="margin-top: 3%;">
+					       <input type="text" class="form-control" id="member-1" placeholder="Enter your name">
+					    </div>
+					    <div class="form-group">
+						  <label for="sel1">Course </label>
+						  <select class="form-control" id="sel1">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						  </select>
+						</div>
+						<div class="form-group">
+						  <label for="sel1">Year </label>
+						  <select class="form-control" id="sel1">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						  </select>
+						</div>
+						<div class="form-group">
+						  <label for="sel1">College </label>
+						  <select class="form-control" id="sel1">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						  </select>
+						</div>
+					    <div class="form-group">
+					       <input type="text" class="form-control" id="member-1" placeholder="Enter your College Name">
+					    </div>
+						<div class="form-group">
+						 
+						  <input type="text" class="form-control" id="usr" placeholder="Student ID">
+						</div>
+						<div class="form-group">
+						  
+						  <input type="text" class="form-control" id="usr" placeholder="Contact Number">
+						</div>
+						<div class="form-group">
+						  
+						  <input type="text" class="form-control" id="usr" placeholder="Email">
+						</div>
+
+						<p>Accomodation</p>	
+							<label class="radio-inline"><input type="radio" name="optradio">Yes</label>
+							<label class="radio-inline"><input type="radio" name="optradio">No</label>
+							<br>
+ 						
+ 						<button type="submit" class="btn btn-default">Submit</button>
+
+
+			    </div>
+			    <div id="menu1" class="tab-pane fade">
+			   	    <div class="form-group" style="margin-top: 3%;">
+					       <input type="text" class="form-control" id="member-1" placeholder="Enter team name">
 					</div>
-					<div class="form-group">
-					  <label for="sel1">Year :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="sel1">College :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="usr">Contact :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-					<div class="form-group">
-					  <label for="usr">Email :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
+				 
+					<label class="radio-inline"><input type="radio" name="optradio"> 2 members</label>
+					<label class="radio-inline"><input type="radio" name="optradio"> 3 members</label>
+					<br>
 
-					<p>Accomodation</p>	
-						<label class="radio-inline"><input type="radio" name="optradio">Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio">No</label>
+					<label>Member 1</label>
+						 <input type="text" class="form-control" id="usr" placeholder="Scroll ID">
+				
+						  <input type="text" class="form-control" id="usr" placeholder="Name">
+			
+					<label>Member 2</label>
+						 <input type="text" class="form-control" id="usr" placeholder="Scroll ID">
+						 <input type="text" class="form-control" id="usr" placeholder="Name">
 
-					
-
-					<!-- ====================================== member 2 =========================================== -->
-
-					<h3>Member 2 Details :</h3>
-				    <div class="form-group">
-				      <label for="name">Member 1:</label>
-				      <input type="name" class="form-control" id="member-1" placeholder="Enter name">
-
-				    </div>
-				    <div class="form-group">
-					  <label for="sel1">Select Course :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="sel1">Year :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="sel1">College :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="usr">Contact :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-					<div class="form-group">
-					  <label for="usr">Email :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-
-					<p>Accomodation</p>	
-						<label class="radio-inline"><input type="radio" name="optradio">Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio">No</label>
-
-					
-					<!-- ============================================= member 3 ================================================ -->
-
-						<h3>Member 3 Details :</h3>
-				    <div class="form-group">
-				      <label for="name">Member 3:</label>
-				      <input type="name" class="form-control" id="member-1" placeholder="Enter name">
-
-				    </div>
-				    <div class="form-group">
-					  <label for="sel1">Select Course :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="sel1">Year :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="sel1">College :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="usr">Contact :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-					<div class="form-group">
-					  <label for="usr">Email :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-
-					<p>Accomodation</p>	
-						<label class="radio-inline"><input type="radio" name="optradio">Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio">No</label>
-
-						<br>
-
-					<div class="form-group">
-					  <label for="sel1">Domain :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>	
-
-					<div class="form-group">
-					  <label for="sel1">TOPIC :</label>
-					  <select class="form-control" id="sel1">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					  </select>
-					</div>
-
-
-
-
-					<!-- ==================================================== team details =============================================== -->
-
-					<div class="form-group">
-					  <label for="usr">Team Leader :</label>
-					  <input type="text" class="form-control" id="usr">
-					</div>
-
-
-				    <div class="form-group">
-				      <label for="pwd">Password:</label>
-				      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-				    </div>
-
-				    <button type="submit" class="btn btn-default">Submit</button>
-
-				    
-  	    		</form>
-	      </div>
-
-	    </div>
-	  </div>
+							<label>
+							Select the team leader 
+							</label><br>
+							<label class="radio-inline"><input type="radio" name="optradio">Member 1</label>
+							<label class="radio-inline"><input type="radio" name="optradio">Member 2</label>
+							<br>
+							<label>Domain</label>
+								  <select class="form-control" id="sel1">
+								    <option>1</option>
+								    <option>2</option>
+								    <option>3</option>
+								    <option>4</option>
+								  </select>
+							<label>Topic</label>
+								  <select class="form-control" id="sel1">
+								    <option>1</option>
+								    <option>2</option>
+								    <option>3</option>
+								    <option>4</option>
+								  </select>
+						    <div class="form-group">
+						      <label for="pwd">Password:</label>
+						      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+						    </div>
+						    <button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+						  
+		</div>
+	   </div>
+	 </div>
 	</div>
+
+	
+	
 
 	<!-- =============================================== second modal =================================================================== -->
 
@@ -309,14 +239,14 @@
 	</div>
 
 	<!-- parallax window -->
-			<ul id="scene" class="scene" style="overflow:none;">
-			<li class="layer" data-depth="0.00"><img src="asset/images/.jpg"></li>
-			<li class="layer" data-depth="1.00"><img src="asset/images/layer1.jpg"></li>
-			<li class="layer" data-depth="0.30" style="margin-top: 220px !important;"><img src="asset/images/podium.png"></li>
-			<li class="layer" data-depth="0.40" style="margin-top: 350px !important;"><img src="asset/images/layer5.png"></li>
-			<li class="layer" data-depth="0.80" style="margin-top: 360px !important;"><img src="asset/images/layer5.png"></li>
-			<li class="layer" data-depth="1.20" style="margin-top: 380px !important;"><img src="asset/images/layer5.png"></li>
-		</ul>
+			<ul id="scene" class="scene" style="overflow:hidden;">
+				<li class="layer" data-depth="0.00"><img src="asset/images/layer7.jpg"></li>
+				<li class="layer" data-depth="1.00"><img src="asset/images/layer1.jpg"></li>
+				<li class="layer" data-depth="0.30" style="margin-top: 220px !important;"><img src="asset/images/podium.png"></li>
+				<li class="layer" data-depth="0.40" style="margin-top: 350px !important;"><img src="asset/images/layer5.png"></li>
+				<li class="layer" data-depth="0.80" style="margin-top: 360px !important;"><img src="asset/images/layer5.png"></li>
+				<li class="layer" data-depth="1.20" style="margin-top: 380px !important;"><img src="asset/images/layer5.png"></li>
+			</ul>
 
 	<!-- parallax window end -->
 
