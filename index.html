@@ -25,6 +25,8 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:400,600" rel="stylesheet">
+	  <!-- oswald font -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
 
 	<!-- Behavioral Meta Data -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,7 +37,7 @@
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Section Landing Page (Parallex.js) -->
-<section class="landing">
+
 
 	<!-- Bottom Information Bar -->
 <!--	<div class="container-fluid gap-off subscribe">
@@ -57,11 +59,10 @@
 		</div>
 	</div>
 -->	
-<!-- ==============================================================Register modal 1 ==================================================== -->
 
 
 
-
+<section class="landing" style="background-image: url('asset/images/stage-2	.png'); background-size: cover; background-repeat: no-repeat; overflow:hidden;">
 
 
 <!-- ===================================================================== modal 1======================================================== -->
@@ -71,7 +72,7 @@
 <div class="container-fluid" style="padding:0px;">
 
 	<!-- Button trigger modal -->
-	<button type="button" class="btn btn-primary right" data-toggle="modal" data-target="#myModal">REGISTER HERE</button>
+	<button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="position:absolute; z-index:1; top:1.90%; right:2%;  background-color: #fbc94a; color:#fff;">REGISTER HERE</button>
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -95,7 +96,7 @@
 
 			  <div class="tab-content">
 			    <div id="home" class="tab-pane fade in active">
-							    
+					<form>		    
 					    <div class="form-group" style="margin-top: 3%;">
 					       <input type="text" class="form-control" id="member-1" placeholder="Enter your name">
 					    </div>
@@ -148,33 +149,41 @@
 							<br>
  						
  						<button type="submit" class="btn btn-default">Submit</button>
-
+ 			</form>
 
 			    </div>
 			    <div id="menu1" class="tab-pane fade">
+			    <form>
 			   	    <div class="form-group" style="margin-top: 3%;">
+
+			   	  
 					       <input type="text" class="form-control" id="member-1" placeholder="Enter team name">
 					</div>
-				 
+				 	<div class="form-group">
 					<label class="radio-inline"><input type="radio" name="optradio"> 2 members</label>
 					<label class="radio-inline"><input type="radio" name="optradio"> 3 members</label>
-					<br>
-
+					</div>
+					
+					<div class="form-group">
 					<label>Member 1</label>
 						 <input type="text" class="form-control" id="usr" placeholder="Scroll ID">
 				
 						  <input type="text" class="form-control" id="usr" placeholder="Name">
-			
+					</div>	  
+					
+					<div class="form-group">
 					<label>Member 2</label>
 						 <input type="text" class="form-control" id="usr" placeholder="Scroll ID">
 						 <input type="text" class="form-control" id="usr" placeholder="Name">
-
+					</div>
+					<div class="form-group">		 
 							<label>
 							Select the team leader 
 							</label><br>
 							<label class="radio-inline"><input type="radio" name="optradio">Member 1</label>
 							<label class="radio-inline"><input type="radio" name="optradio">Member 2</label>
-							<br>
+					</div>
+					<div class="form-group">
 							<label>Domain</label>
 								  <select class="form-control" id="sel1">
 								    <option>1</option>
@@ -182,6 +191,8 @@
 								    <option>3</option>
 								    <option>4</option>
 								  </select>
+					</div>
+					<div class="form-group">			  
 							<label>Topic</label>
 								  <select class="form-control" id="sel1">
 								    <option>1</option>
@@ -189,11 +200,14 @@
 								    <option>3</option>
 								    <option>4</option>
 								  </select>
+					</div>			  
 						    <div class="form-group">
 						      <label for="pwd">Password:</label>
 						      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
 						    </div>
 						    <button type="submit" class="btn btn-default">Submit</button>
+
+					</form>	    
 				</div>
 			</div>
 						  
@@ -208,7 +222,7 @@
 	<!-- =============================================== second modal =================================================================== -->
 
 			<!-- Button trigger Modal -->
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">LOG IN</button>
+	<button type="button" class="btn " data-toggle="modal" data-target=".bd-example-modal-sm" style="position:absolute; z-index:1; top:1.90%; right:14%; background-color: #fbc94a; color:#fff;">LOG IN</button>
 
 	<!-- Modal -->
 	<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -240,12 +254,14 @@
 
 	<!-- parallax window -->
 			<ul id="scene" class="scene" style="overflow:hidden;">
-				<li class="layer" data-depth="0.00"><img src="asset/images/layer7.jpg"></li>
-				<li class="layer" data-depth="1.00"><img src="asset/images/layer1.jpg"></li>
-				<li class="layer" data-depth="0.30" style="margin-top: 220px !important;"><img src="asset/images/podium.png"></li>
-				<li class="layer" data-depth="0.40" style="margin-top: 350px !important;"><img src="asset/images/layer5.png"></li>
-				<li class="layer" data-depth="0.80" style="margin-top: 360px !important;"><img src="asset/images/layer5.png"></li>
-				<li class="layer" data-depth="1.20" style="margin-top: 380px !important;"><img src="asset/images/layer5.png"></li>
+				<li class="layer" data-depth="0.00"><img src=""></li>
+				<li class="layer" data-depth="0.05" style="margin-top:8%; margin-left:28%;">
+					<h1 style="font-family: 'Oswald', sans-serif; font-size: 70px; letter-spacing: 5px; color:#fff; ">SCROLLS 2016</h1>
+				</li>
+				<li class="layer" data-depth="0.20" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
+				<li class="layer" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chairs.png"></li>
+				<li class="layer" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chairs.png"></li>
+				<li class="layer" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chairs.png"></li>
 			</ul>
 
 	<!-- parallax window end -->
@@ -256,8 +272,7 @@
   
 </div>
 
-
-
+</section>
 
 
 
@@ -265,7 +280,7 @@
 
 
 
-</section>
+
 
 <!-- ============================================================================================================================================ -->
 		

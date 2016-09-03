@@ -55,6 +55,7 @@ input[type=checkbox]:checked + label:before {
 .layer:nth-child(1) {
   opacity: 1;
   background-size: cover;
+  height:100%;
   
 }
 .layer:nth-child(1) button {
@@ -63,6 +64,7 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(2) {
   opacity: 1;
+  width
 }
 .layer:nth-child(2) button {
   -webkit-transform: rotate(120deg);
@@ -72,8 +74,8 @@ input[type=checkbox]:checked + label:before {
   opacity: 1;
   margin-left: 68%;
 
-  height:330px;
-  width:165px;
+  height:350px;
+  width:185px;
 
 }
 .layer:nth-child(3) button {
@@ -83,7 +85,7 @@ input[type=checkbox]:checked + label:before {
 .layer:nth-child(4) {
   opacity: 1;
   left:-200px !important;
-  width:150%;
+  width:140%;
   background-size:contain;
 }
 .layer:nth-child(4) button {
