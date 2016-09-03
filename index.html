@@ -21,7 +21,11 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:400,600" rel="stylesheet">
-
+  <!--Google Map-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTPWN__X_moAy4Nty0TgEJKMkynbw-n6U&callback=initMap" async defer></script>
+  
+  
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -29,8 +33,59 @@
 <!-- Section Landing Page (Parallex.js) -->
 <section class="landing">
 
+
+    <div id="menu-back"> 
+      
+    </div>
+
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">Navigation</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Scrolls</a>
+                </li>
+                <li>
+                    <a href="#topics">Topics</a>
+                </li>
+                <li>
+                    <a href="#">Rules</a>
+                </li>
+                <li>
+                    <a href="#">Dates</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" >
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="menu-text"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
 	<!-- Bottom Information Bar -->
-	<div class="container-fluid gap-off subscribe">
+	<!-- <div class="container-fluid gap-off subscribe">
 		<div class="row">
 			<div class="col-lg-3">
 				<p>STAY UP TO DATE WITH SCROLLS 2016</p>
@@ -47,19 +102,28 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Video Play Button -->
-	<div class="container video-btn">
+	<!-- <div class="container video-btn">
 		 <a href="#"><span class="fa fa-play"></span></a>
-	</div>
+	</div> -->
 </section>
+
+
+
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-		
 <section class="about">
-		<!-- Fixed Menu -->
-		<div class="menu-fixed ">
+<!-- <div class="content" style="position: fixed;">
+	<div class="fixme menu-fixed">
 			<span class="fa fa-bars"></span>
-		</div>
+	</div>
+</div> -->
+
+
+
+
+
+		<!-- Fixed Menu -->
 		<!-- Up and Down Arrow -->
 		<!-- #### Comment #### Arrow Keys are not Looking Good, change its styling with its glyphicon -->
 		<!-- <div class="arrow-fixed">
@@ -71,9 +135,9 @@
 		<div class="row">	
 			<div class="col-lg-12">
 				<h1>About Scrolls</h1>
-				<h4>“ If you can imagine something that is beyond all the limitations,then,<br> you have the urge to conquer the world.”</h4>
-				<p>We believe that Imagination is not only the unique human capacity to envision the unperceived and undiscovered , but also the foundation of all inventions and innovations. If one has to reach for the ultimate then one must be able to think beyond the conventions. 
-				Thus, keeping all these things in mind, we here at AKGEC organize the national-level paper presentation event called SCROLLS (Students creative and Oratory Learning Skills)’15 which aims at raising one’s excellence towards the zenith so that they can become the technocrats of tomorrow. This event is not only for the engineering field but also for the management ones. Budding pioneers from management domain and various branches of engineering like Computer Science, Information technology, Tele-communication, Mechanical and Electrical and Civil are invited in this event. It is just an effort to manifest a horizon for all the addicts of the technology to partake their knowledge for a better future. Hence, it is the right time for all of us to unite together and explore all the unimaginable and untouched categories in the large world of science, surmounting the peak of engineering and management, giving them a chance for the best future they can hope for.</p>
+				<h4>“ Reasons will take you from A to B but imagination will take you everywhere.”<br>- Albert Einstein</h4>
+        <p>A national level technical paper presentation contest that provides a pedestal to unleash the talent of budding technocrats, SCROLLS-2016 deals with the most thriving and progressive fields of technology and management, bringing Computing, Information Technology, Mechanical Engineering, Electrical Engineering, Electronics &amp; Communication Technologies and Civil Engineering along with major developmental leaps in management and leadership in its fold.The crystal clarity and insight of the unique topics will not only transcend the contestant to glory but will also add to the technological advancement of the era. The share you transcribe to evacuate the sub fusc of unawareness will be in your own hands. Melt the dusk and evolve into the new dawn of prestige with utter confidence and perseverance.</p>
+        <p>We believe that the real conflux to innovation and creativity is imagination, power to think beyond the stereotype and conventions.The unfaltering will and determination to conquer your dreams and the knowledge of the path is what makes an individual rise to the unsurpassable summits. Be as bold as the strokes of a Maestro and leave an untarnished hue on the world.Keeping the above in mind, we at AKGEC organize an annual National Level Technical Paper Presentation event called SCROLLS (Student Creative Oratory Learning Skills) which aspires to amplify excellence in the sphere of technology and management to promote the technocrats and entrepreneurs of tomorrow. This event provides a prominent rostrum to the evolving professionals who can channelize their talent into creativity and give their imagination cutting edge.Innovation being the key to the treasurable ability of wrapping the abstracts into actions and words is our motto to the magnificent event. If you can imagine it, you can achieve it and if you can achieve it the perks are all yours. We invite budding pioneers from Management and various Engineering domains to this event. It is an honest effort to widen the horizon of the technophiles to partake their knowledge for a better future.Let us unite together and explore all the new dimensions in this large world of science, surmounting the peak of engineering and management, giving ourselves a chance for the best future we can hope of.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -100,21 +164,21 @@
 		</div>
 		<div class="col-lg-6 gap-off">
 			<div class="row row-off">
-				<div class="col-lg-6 gap-off half" style="background-color: #fbc94a;">
+				<div class="col-lg-6 gap-off " style="background-color: #fbc94a;">
 					<div class="logo-sec-text">
 						<img src="asset/images/b.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
 					</div>
 				</div>
-				<div class="col-lg-6 gap-off half" style="background-image: url(asset/images/f.jpg); background-size: cover;">
+				<div class="col-lg-6 gap-off " style="background-image: url(asset/images/f.jpg); background-size: cover;">
 					
 				</div>
 			</div>
 			<div class="row row-off">
-				<div class="col-lg-6 gap-off half" style="background-image: url(asset/images/j.jpg); background-size: cover;">
+				<div class="col-lg-6 gap-off " style="background-image: url(asset/images/j.jpg); background-size: cover;">
 
 				</div>
-				<div class="col-lg-6 gap-off half" style="background-color: #fbc94a;">
+				<div class="col-lg-6 gap-off " style="background-color: #fbc94a;">
 					<div class="logo-sec-text">
 						<img src="asset/images/b.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
@@ -125,70 +189,185 @@
 	</div>
 </section> -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<section class="topics">
-	<div class="container-fluid gap-off">
-		<div class="col-lg-3 gap-off height-full" style="background-color: #fbc94a; min-height: 100%; max-height: 100%;">
+<section class="topics" id="topics">
+	<div class="container-fluid gap-off display-web">
+		<div class="col-lg-9 col-md-8 col-sm-8 col-xs-6 gap-off nav nav-pills"><!--  Navigation Pill Iniciatation -->
+        <div class="row row-off">
+            <div class="row row-off">
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+            </div>
+            <div class="row row-off">
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+            </div>
+        </div>
+        <div class="row row-off">
+            <div class="row row-off">
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
+                  <div class=" shade">
+                    <h3>Mechanical Engineering</h3>
+                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                  </div>  
+              </div>
+            </div>
+            <div class="row row-off">
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+               </div> 
+            </div>
+        </div>
+
+
+
+					 
+		</div>
+		<!-- <div class="col-lg-9 col-md-8 col-sm-6 col-xs-6 gap-off nav display-mob nav-pills" style="padding-top: 50px;">
+
+		</div> -->
+		<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 gap-off" style="background-color: #fbc94a; min-height: 100%; max-height: 100%;">
 			<div class="topic-main">
 				<h1>Topics</h1>
-				<ul>
-					<li>Mechanincal Engineering</li>
-					<li>Computer Science</li>
-					<li>Electrical and Electronics</li>
-					<li>Electronics and Communation </li>
-					<li>Managment Science</li>
-					<li>Civil Engineering</li>
-				</ul>
-			</div>
-		</div>
-		<div class="col-lg-9 gap-off">
-			<div class="row row-off">
-				<div class="col-lg-4 col-sm-4 gap-off half">
-					<div class="half shade">
-						<h3>Mechanical Engineering</h3>
-						<p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+				<div class="tab-content">
+					<div id="see-0" class="tab-pane fade in active">
+						<p>asskjfjhasfkgiul</p>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-4 gap-off half">
-					<div class="half shade">
-						<h3>Coumputer Science</h3>
-						<p>Computer science is the scientific and practical approach to computation and its applications.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+					<div id="see-1" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>Application of Nano technology in health monitor treatment.</li>
+							<li>Power Generation using Nano-carbon tubes.</li>
+							<li>Cryogenic Engines.</li>
+							<li>Application of CAD software (Catia, ProE) and designing software’s.</li>
+							<li>Automatic Transmission in Automobiles.</li>
+							<li>Hydraulic and pneumatic actuators.</li>
+							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
+							<li>Improvisation during the last two decades in passenger cars.</li>
+							<li>Advanced radiator concepts and smart materials.</li>
+							<li>Recent trends in Mechanical Engineering.</li>
+							<li>Kinematics/dynamics of Robotic Manipulators.</li>
+							<li>Robotic Applications: Present & Future.</li>
+						</ol>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-4 gap-off half">
-					<div class="half shade">
-						<h3>Elecrinics &amp; Communication</h3>
-						<p>The curriculum is organized such that it enables students to get a strong foundation on various aspects of both.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+					<div id="see-2" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>Embedded Systems.</li>
+							<li>Augmented Reality.</li>
+							<li>Natural Language Processing.</li>
+							<li>Genetic Algorithms.</li>
+							<li>Cloud Computing.</li>
+							<li>Bio-Inspired Computing.</li>
+							<li>Semantic Web.</li>
+							<li>Mobile Computing and Data Intensive Computing.</li>
+							<li>Soft Computing including multi-criteria Analysis.</li>
+							<li>Artificial Intelligence.</li>
+							<li>Big Data Analytics.</li>
+						</ol>
 					</div>
-				</div>
-			</div>
-			<div class="row row-off">
-				<div class="col-lg-4 col-sm-4 gap-off half">
-					<div class="half shade">
-						<h3>Electrical &amp; Electronics</h3>
-						<p>Electrical engineering is a field of engineering that generally deals with the study and application of Electricity and Electronics.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+					<div id="see-3" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>4G Technology.</li>
+							<li>Mobile Satellite Communication.</li>
+							<li>Future of Mobile Technology.</li>
+							<li>Optoelectronics.</li>
+							<li>Nanotechnology.</li>
+							<li>VLSI.</li>
+							
+						</ol>
 					</div>
-				</div>
-				<div class="col-lg-4 col-sm-4 gap-off half">
-					<div class="half shade">
-						<h3>Managment Science</h3>
-						<p>It is the broad interdisciplinary study of problem solving and decision making in human organizations, with strong links to economics.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+					<div id="see-4" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>Artificial Intelligence in Substation Control.</li>
+							<li>Automated Energy Meter Reading for Billing Purpose. </li>
+							<li>I-Series Processor.</li>
+							<li>Electromagnetic Bomb.</li>
+							<li>Humanoid Robotics.</li>
+							<li>Hydraulic and pneumatic actuators.</li>
+							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
+							<li>Improvisation during the last two decades in passenger cars.</li>
+							<li>Advanced radiator concepts and smart materials.</li>
+							<li>Recent trends in Mechanical Engineering.</li>
+							<li>Kinematics/dynamics of Robotic Manipulators.</li>
+							<li>Robotic Applications: Present & Future.</li>
+						</ol>
 					</div>
-				</div>
-				<div class="col-lg-4 gap-off half">
-					<div class="half shade">
-						<h3>CIvil Engineering</h3>
-						<p>Civil engineering is a professional engineering discipline that deals with the design, construction and maintenance of the physical.</p>
-						<button class="btn btn-topic hvr-icon-forward">See Inside</button>
+					<div id="see-5" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>Application of Nano technology in health monitor treatment.</li>
+							<li>Power Generation using Nano-carbon tubes.</li>
+							<li>Cryogenic Engines.</li>
+							<li>Application of CAD software (Catia, ProE) and designing software’s.</li>
+							<li>Automatic Transmission in Automobiles.</li>
+							<li>Hydraulic and pneumatic actuators.</li>
+							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
+							<li>Improvisation during the last two decades in passenger cars.</li>
+							<li>Advanced radiator concepts and smart materials.</li>
+							<li>Recent trends in Mechanical Engineering.</li>
+							<li>Kinematics/dynamics of Robotic Manipulators.</li>
+							<li>Robotic Applications: Present & Future.</li>
+						</ol>
+					</div>
+					<div id="see-6" class="tab-pane fade in">
+						<ol style="padding: 20px;">
+							<li>Earthquake Engineering - Seismic risk reduction in NCR region.</li>
+							<li>Water Supply & Sanitation under Swachh Bharat Abhiyan.</li>
+							<li>Evolution of Skyscrapers.</li>
+							<li>Application of remote Sensing and GIS techniques.</li>
+							<li>Automatic Transmission in Automobiles.</li>
+							<li>Hydraulic and pneumatic actuators.</li>
+							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
+							<li>Improvisation during the last two decades in passenger cars.</li>
+							<li>Advanced radiator concepts and smart materials.</li>
+							<li>Recent trends in Mechanical Engineering.</li>
+							<li>Kinematics/dynamics of Robotic Manipulators.</li>
+							<li>Robotic Applications: Present & Future.</li>
+						</ol>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
 </section>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <section class="wrapper" id="wrapper">
@@ -199,19 +378,19 @@
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 			<!-- Subheading in Bold -->
 			<div class="row">
-				<div class="col-lg-12 gap-off sec-2-padding half" id="about-quote">
+				<div class="col-lg-12 gap-off sec-2-padding " id="about-quote">
 					<quote>" If you can imagine something that is beyond all the limitations,then, you have the urge to conquer the world."</quote>
 				</div>
 			</div>
 			<!-- Subdivided in two block -->
 			<div class="row">
 				<!-- Glyphicon with Few text and image on background -->
-				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding half" id="about-block-1">
+				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding " id="about-block-1">
 					<img src="asset/images/a.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
 				</div>
 				<!-- Glyphicon with Few text and image on background -->
-				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding half" id="about-block-2">
+				<div class="col-lg-6 col-xs-6 gap-off sec-2-padding" id="about-block-2">
 					<img src="asset/images/b.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
 				</div>
@@ -219,65 +398,75 @@
 		</div><!-- Left Block Ends -->
 
 		<!-- Right Detail Block -->
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 gap-off sec-2-padding full" id="about-detail" style="background-image: url(asset/images/c.jpg);
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 gap-off sec-2-padding " id="about-detail" style="background-image: url(asset/images/c.jpg);
 		background-size: cover; background-position: center;">
 			
 		</div>
 	</div>
 </section>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<section class="motivation">
-	<div class="conatiner-fluid gap-off full">
-		 <div class="col-lg-6 gap-off full">
-		 	dfdas
-		 </div>
-		 <div class="col-lg-6 gap-off full" style="background-image: url(asset/images/j.jpg); background-size: cover;">
-		 	
-		 </div>
+<section class="rules">
+	<div class="conatiner-fluid gap-off ">
+		 <div class="row row-off">
+        <div class="col-lg-6 col-md-6 col-sm-6 gap-off" id="rules-head">
+          <h1>Rules <br>and <br>Regultions</h1>
+          <h5>Rules and <br>Regulations</h5>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>1. The competition will be open to all bonafide students of Engineering and Management Colleges.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>2. Maximum of 3 and minimum of 2 authors per paper.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>3. Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>4. For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>5. A soft copy of the final paper is to be sent before the designated date.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+          <p>6. The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.</p>
+        </div>  
+     </div>
 	</div>
 </section>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<section class="rules">
-	<div class="container-fluid gap-off full">
-		<div class="col-lg-6 gap-off">
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-			</div>
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-6 gap-off">
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-			</div>
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-				<div class="col-lg-6 gap-off">
-					
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
+<section class="team">
+  <div class="conatiner-fluid gap-off ">
+     <div class="row row-off">
+        <div class="col-lg-6 col-md-6 col-sm-6 gap-off" id="team-head">
+          <h1>Contact Us</h1>
+          <h5>Rules and <br>Regulations</h5>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off">
+          <div class="container-fluid" style="padding: 0;">
+              <div id="map"></div>
+          </div>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off team-div">
+            <h3>Query</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
+
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off team-div">
+          <p>3. Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off team-div">
+          <p>4. For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off team-div">
+          <p>5. A soft copy of the final paper is to be sent before the designated date.</p>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-3 gap-off team-div">
+          <p>6. The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.</p>
+        </div>  
+     </div>
+  </div>
+</section>
 
 
 
@@ -286,7 +475,7 @@
 <script>
     $(function() {
         $.scrollify({
-	        section : ".landing, .about, .wrapper, .logo-section, .topics, .motivation, .rules",
+	        section : ".landing, .about, .wrapper, .logo-section, .topics, .rules, .team",
 	        interstitialSection : "",
 	        easing: "easeOutExpo",
 	        scrollSpeed: 800,
@@ -297,6 +486,246 @@
 	        overflowScroll: true,
 	    });
     });
+</script>
+
+<!-- ++++++++++++++++ Tab Script +++++++++++++++++-->
+<script>
+$(document).ready(function() {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+</script>
+
+<!-- ++++++++++++++++ Navigation Fix Script +++++++++++++++++-->
+<script>
+var fixmeTop = $('.fixme').offset().top;
+$(window).scroll(function() {
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixmeTop) {
+        $('.fixme').css({
+            position: 'fixed',
+            top: '0',
+            left: '0'
+        });
+    } else {
+        $('.fixme').css({
+            position: 'static'
+        });
+    }
+});
+</script>
+
+<!-- ++++++++++++++++ Hamburger Script +++++++++++++++++-->
+<script>
+  $(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+</script>
+
+<!-- ++++++++++++++++ Map Script +++++++++++++++++-->
+<script>
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+            // How zoomed in you want the map to start at (always required)
+            zoom: 15,
+            scrollwheel: false,
+            draggable: false,
+
+            // The latitude and longitude to center the map (always required)
+            center: new google.maps.LatLng(28.676488, 77.501936), // New York
+
+            // How you would like to style the map.
+            // This is where you would paste any style found on Snazzy Maps.
+            styles: [{
+                "featureType": "all",
+                "elementType": "labels",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "administrative",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "administrative.neighborhood",
+                "elementType": "geometry",
+                "stylers": [{"visibility": "off"}]
+            }, {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "landscape.natural",
+                "elementType": "geometry.fill",
+                "stylers": [{"visibility": "on"}, {"color": "#e0efef"}]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry.fill",
+                "stylers": [{"visibility": "on"}, {"hue": "#1900ff"}, {"color": "#c0e8e8"}]
+            }, {
+                "featureType": "poi.attraction",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}, {"hue": "#ff0000"}]
+            }, {
+                "featureType": "poi.attraction",
+                "elementType": "labels",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "poi.attraction",
+                "elementType": "labels.icon",
+                "stylers": [{"hue": "#ff0000"}, {"saturation": "76"}]
+            }, {
+                "featureType": "poi.business",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}, {"hue": "#ff0000"}]
+            }, {
+                "featureType": "poi.business",
+                "elementType": "labels.icon",
+                "stylers": [{"hue": "#ff0000"}, {"visibility": "on"}, {"saturation": "66"}]
+            }, {
+                "featureType": "poi.government",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "poi.government",
+                "elementType": "labels.icon",
+                "stylers": [{"hue": "#ff0000"}, {"saturation": "100"}]
+            }, {
+                "featureType": "poi.medical",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "poi.park",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}, {"hue": "#00ff74"}]
+            }, {
+                "featureType": "poi.place_of_worship",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "poi.school",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "poi.sports_complex",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [{"lightness": 100}, {"visibility": "simplified"}]
+            }, {
+                "featureType": "road",
+                "elementType": "labels",
+                "stylers": [{"visibility": "off"}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}, {"lightness": "10"}, {"saturation": "-23"}, {"gamma": "1.57"}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{"color": "#c2cacd"}]
+            }, {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "road.local",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "transit.line",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "transit.line",
+                "elementType": "geometry",
+                "stylers": [{"visibility": "on"}, {"lightness": 700}]
+            }, {
+                "featureType": "transit.station",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "transit.station.bus",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "transit.station.rail",
+                "elementType": "all",
+                "stylers": [{"visibility": "on"}]
+            }, {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [{"color": "#77c9c9"}, {"visibility": "on"}]
+            }]
+        };
+
+        // Get the HTML DOM element that will contain your map
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById('map');
+
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(28.676488, 77.501936),
+            map: map,
+            title: 'Snazzy!'
+        });
+
+    }
 </script>
 
 </body>
