@@ -648,12 +648,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .menu-text{
 	padding-left: 40px;
 }
-.hamburger.is-closed .menu-text:before{
-	content: 'Menu';
-}
-.hamburger.is-open .menu-text:before{
-	content: 'Close';
-}
 .hamburger.is-open:before {
   content: '';
   display: block;
@@ -725,7 +719,23 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .rules h5{
 	display: none;
 }
+.rules span{
+	font-size: 100px;
+	padding: 10px;
+	display: block;
+	float: right;
+	color: #fbc94a;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.rules span:hover{
+	color: #fbc94a;
+}
 @media(max-width: 768px){
+	.rules span{
+		display: none;
+	}
 	.rule-div{
 		height: auto;
 	}
@@ -745,6 +755,11 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 		margin-bottom: 0px;
 	}
 
+}
+#rules-span-1{
+	font-size: 60px !important;
+	line-height: 50px;
+	text-align: right;
 }
 
 .team-div{
@@ -887,7 +902,12 @@ button.close{
 }
 
 .poweredbysi{
-	padding: 60px;
+	padding: 40px;
+	background-color: #fbc94a;
+	height: 50vh;
+}
+#si-logo{
+	width: 200px;
 }
 .poweredbysi img{
 	width: 200px; margin-left: auto; margin-right: auto; display: block;
@@ -965,10 +985,4 @@ button.close{
 #drop-date:focus, #drop-date:active, #drop-date:hover{
 	background-color: #fbc94a;
 	color: #fff;
-}
-#drop-date-panel{
-	
-}
-#drop-date-panel:hover, #drop-date-panel:focus, #drop-date-panel:active{
-
 }
