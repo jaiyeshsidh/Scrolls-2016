@@ -685,7 +685,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     right: 0;
     bottom: 0;
     background-color: rgba(250,250,250,.8);
-    z-index: 1;
+    z-index: 998;
 }
 
 
@@ -911,7 +911,7 @@ button.close{
 	top: 0px;
 	left: 106px;
 	background-color: #fbc94a;
-	z-index: 999;
+	z-index: 600;
 }
 .download button{
 	border-radius: 0;
@@ -930,20 +930,32 @@ button.close{
 .custom-register{
 	position: fixed;
 	top: 0px;
-	left: 153px;
+	left: 206px;
 	background-color: #fbc94a;
-	z-index: 999;
-}
-.custom-register:before{
-	content: 'Register';
+	z-index: 601;
 }
 .custom-register button{
 	border-radius: 0;
 	height: 52px;
 	background-color: #fbc94a;
+	padding: 0px 25px;
 	border-left: 1px solid rgba(0,0,0,0.1)
 
 }
 .custom-register button:focus{
 	outline: 0;
+}
+#mob-topic p{
+	color: #fbc94a;
+}
+#mob-topic span{
+	font-size: 20px;
+	float: right;
+	padding-right: 20px;
+	color: #fbc94a;
+	cursor: pointer;
+}
+.modal-list{
+	color: #424242;
+	padding: 30px;
 }
