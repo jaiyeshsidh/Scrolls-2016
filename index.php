@@ -135,7 +135,6 @@
             <h1 id="intro-head">Scrolls 2016</h1>
             <p id="intro-para">Conducted At <span style="display: block;">Ajay Kaumar Garg Engineering College</span>
             </p>
-            <a href="#portfolio" class="btn btn-warning scroll"><i class="fa fa-anchor"></i> View Collections</a>          
             </div>
           </div>
           </div>
