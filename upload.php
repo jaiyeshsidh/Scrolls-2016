@@ -32,7 +32,7 @@ print(" ");
 
 	curl_setopt_array($createCollegeCurl, array( CURLOPT_HTTPHEADER =>array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => 'http://localhost:8080/api/Teams/UploadFile',
+											CURLOPT_URL => 'http://akgec-scrolls.com/rest/api/Teams/UploadFile',
 											CURLOPT_POST => 1,
 											CURLOPT_POSTFIELDS => json_encode($postCollegeData),
 										));

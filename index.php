@@ -719,7 +719,7 @@
 					    </div>
 					    <?php
 					$courses= curl_init();
-					$courses_url="http://localhost:8080/api/Domains/GetCourses";
+					$courses_url="http://akgec-scrolls.com/rest/api/Domains/GetCourses";
 					curl_setopt_array($courses, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
 											CURLOPT_URL => $courses_url,
@@ -749,7 +749,7 @@
 						</div>
 						<?php
 					$colleges= curl_init();
-					$colleges_url="http://localhost:8080/api/Colleges/GetColleges";
+					$colleges_url="http://akgec-scrolls.com/rest/api/Colleges/GetColleges";
 					curl_setopt_array($colleges, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
 											CURLOPT_URL => $colleges_url,
@@ -793,7 +793,7 @@
 
 			    </div>
 			    <div id="menu1" class="tab-pane fade">
-			   	    <form method="POST" action="RegisterTeam.php">
+			   	    <form method="POST" action="registerTeam.php">
 			   	    <div class="form-group" style="margin-top: 3%;">
 					       <input type="text" class="textbox" id="form-team-name" name="team_name" placeholder="Enter team name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" >
 					</div>
@@ -824,7 +824,7 @@
 							<br>
 							<?php
 					$domains= curl_init();
-					$domains_url="http://localhost:8080/api/Domains/GetDomains";
+					$domains_url="http://akgec-scrolls.com/rest/api/Domains/GetDomains";
 					curl_setopt_array($domains, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
 											CURLOPT_URL => $domains_url,
@@ -845,7 +845,7 @@
 
 					<?php
 					$topics= curl_init();
-					$topics_url="http://localhost:8080/api/Domains/GetTopics?domainId=1";
+					$topics_url="http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=1";
 					curl_setopt_array($topics, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
 											CURLOPT_URL => $topics_url,
@@ -950,7 +950,7 @@ $(document).ready(function(){
 
 	$('#form-domains').change(function(){
 		$('#form-topics').children().remove();
-		 $.get("http://localhost:8080/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
+		 $.get("http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
 		 		//console.log(data);
 		 		for(var i=0;i<data.length;i++) {
 		 			$('#form-topics').append($('<option>', {

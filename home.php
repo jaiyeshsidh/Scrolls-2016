@@ -88,7 +88,7 @@
                   else {
 
                   ?>
-                        <h4>It seems you havent submitted your final paper.</h4>
+                        <h4>It seems you haven't submitted your final paper.</h4>
                   <?php
                       }
                   ?>

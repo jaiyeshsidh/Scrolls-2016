@@ -6,7 +6,7 @@
 							"Password" =>$_POST['password']); 
 	curl_setopt_array($loginCurl, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => 'http://localhost:8080/api/Teams/IsTeamValid',
+											CURLOPT_URL => 'http://akgec-scrolls.com/rest/api/Teams/IsTeamValid',
 											CURLOPT_POST => 1,
 											CURLOPT_POSTFIELDS => json_encode($postLoginData),
 										));
@@ -18,7 +18,7 @@
 		curl_close($loginCurl);
 	//print_r(json_encode($postLoginData));
 	$scrollsIdCurl= curl_init();
-	$url= "http://localhost:8080/api/Teams/GetTeam?teamId=".trim($teamIds);
+	$url= "http://akgec-scrolls.com/rest/api/Teams/GetTeam?teamId=".trim($teamIds);
 	//echo $url;
 	curl_setopt_array($scrollsIdCurl, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
