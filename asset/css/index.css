@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{
 }*/
 .landing{
 	background-color: #424242;
-	z-index: 999;
+	z-index: 1;
 }
 .about{
 	padding: 30px 0;
@@ -434,7 +434,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 
 #page-content-wrapper {
     width: 100%;
-    padding-top: 70px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -648,12 +647,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .menu-text{
 	padding-left: 40px;
 }
-.hamburger.is-closed .menu-text:before{
-	content: 'Menu';
-}
-.hamburger.is-open .menu-text:before{
-	content: 'Close';
-}
 .hamburger.is-open:before {
   content: '';
   display: block;
@@ -725,7 +718,23 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .rules h5{
 	display: none;
 }
+.rules span{
+	font-size: 100px;
+	padding: 10px;
+	display: block;
+	float: right;
+	color: #fbc94a;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.rules span:hover{
+	color: #fbc94a;
+}
 @media(max-width: 768px){
+	.rules span{
+		display: none;
+	}
 	.rule-div{
 		height: auto;
 	}
@@ -745,6 +754,11 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 		margin-bottom: 0px;
 	}
 
+}
+#rules-span-1{
+	font-size: 60px !important;
+	line-height: 50px;
+	text-align: right;
 }
 
 .team-div{
@@ -813,7 +827,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 106px;
+	width: 56px;
 	height: 52px;
 	background-color: rgba(251,201,74,1);
 	z-index: 998;
@@ -887,7 +901,12 @@ button.close{
 }
 
 .poweredbysi{
-	padding: 60px;
+	padding: 40px;
+	background-color: #fbc94a;
+	height: 50vh;
+}
+#si-logo{
+	width: 200px;
 }
 .poweredbysi img{
 	width: 200px; margin-left: auto; margin-right: auto; display: block;
@@ -911,7 +930,7 @@ button.close{
 .download{
 	position: fixed;
 	top: 0px;
-	left: 106px;
+	left: 56px;
 	background-color: #fbc94a;
 	z-index: 600;
 }
@@ -932,7 +951,7 @@ button.close{
 .custom-register{
 	position: fixed;
 	top: 0px;
-	left: 206px;
+	left: 157px;
 	background-color: #fbc94a;
 	z-index: 601;
 }
@@ -940,11 +959,29 @@ button.close{
 	border-radius: 0;
 	height: 52px;
 	background-color: #fbc94a;
-	padding: 0px 25px;
+	padding: 0px 8px;
 	border-left: 1px solid rgba(0,0,0,0.1)
 
 }
 .custom-register button:focus{
+	outline: 0;
+}
+.custom-login{
+	position: fixed;
+	top: 0px;
+	left: 283px;
+	background-color: #fbc94a;
+	z-index: 601;
+}
+.custom-login button{
+	border-radius: 0;
+	height: 52px;
+	background-color: #fbc94a;
+	padding: 0px 10px;
+	border-left: 1px solid rgba(0,0,0,0.1)
+
+}
+.custom-login button:focus{
 	outline: 0;
 }
 #mob-topic p{
@@ -966,9 +1003,55 @@ button.close{
 	background-color: #fbc94a;
 	color: #fff;
 }
-#drop-date-panel{
-	
-}
-#drop-date-panel:hover, #drop-date-panel:focus, #drop-date-panel:active{
 
+
+/*button*/
+.btn-warning{background: #eb9909;color: #000;}
+.btn-warning:hover,.btn-warning:focus,.btn-warning:active{color: #333;}
+/*button*/
+
+.form-control{border:none;border-radius: 0;}
+
+.ab-wrap{display: table;height: 100%;width: 100%;}
+.ab-center{display: table-cell;vertical-align: middle;}
+
+
+
+/*banner*/
+.carousel{background-color: #000;z-index: 1000;}
+.carousel-inner > .item{text-align: right;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{display: inline;}
+.carousel-control{background: none !important;width: 7%;}
+.carousel-control i{top: 50%;position: absolute;margin-top: -30px;color: #999;text-shadow: none;}
+.next-prev{position: absolute;bottom: 0;right: 0;}
+.next-prev a{color: #000;background: #eb9909;width: 50px; height: 50px;display: inline-block;float: left;text-align: center;line-height: 50px;margin-left: 1px;}
+/*banner*/
+
+/*intro*/
+.caption{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+.caption .top-information{width: 550px;margin-left: 50px;}
+.caption .top-information p{margin:30px 0;line-height: 1.5em;font-size: 1.05em;color: #999;padding-left: 110px; color: #fff;}
+.caption .top-information .btn{margin-left: 110px;}
+/*intro*/
+
+.fa-3x{
+	font-size: 2em !important;
+	padding: 2vh !important;
+}
+.carousel{
+	position: static!important;
+}
+#intro-head{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 72px;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+#intro-para{
+	display: block;
+	padding:0px !important;
+}
+#intro-para span{
+	font-size: 25px;
 }
