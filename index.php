@@ -118,14 +118,14 @@
           <!-- slider -->
       <div id="carousel-banner" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="item active"><img src="asset/images/s1.jpg" class="img-responsive">
+          <div class="item active"><img src="asset/images/s1.jpg" class="img-responsive" style="width: 100%;">
               <div class="caption">
                 <h1>Hello SOftware Incubator</h1>
                 <p>yasgfdiashca89sychgasjch7aiu</p>
               </div>
           </div>
-          <div class="item"><img src="asset/images/s2.jpg" class="img-responsive"><h1 style="font-size: 60px; color: #fff;"></h1></div>
-          <div class="item"><img src="asset/images/s3.jpg" class="img-responsive">5gerg34gvsz</div>        
+          <div class="item"><img src="asset/images/s2.jpg" class="img-responsive" style="width: 100%;"><h1 style="font-size: 60px; color: #fff;"></h1></div>
+          <div class="item"><img src="asset/images/s3.jpg" class="img-responsive" style="width: 100%;">5gerg34gvsz</div>        
         </div>    
         <!-- caption -->
         <div class="caption">
