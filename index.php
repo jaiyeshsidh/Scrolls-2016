@@ -195,16 +195,16 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3 col-sm-3 col-xs-3">
-				<img src="asset/images/ia.svg" class="img-responsive about-img">
+				<img src="asset/images/ia.png" class="img-responsive about-img">
 			</div>
 			<div class="col-lg-3 col-sm-3 col-xs-3">
-				<img src="asset/images/ib.svg" class="img-responsive about-img">
+				<img src="asset/images/ib.png" class="img-responsive about-img">
 			</div>
 			<div class="col-lg-3 col-sm-3 col-xs-3">
-				<img src="asset/images/ic.svg" class="img-responsive about-img">
+				<img src="asset/images/ic.png" class="img-responsive about-img">
 			</div>
 			<div class="col-lg-3 col-sm-3 col-xs-3">
-				<img src="asset/images/id.svg" class="img-responsive about-img">
+				<img src="asset/images/id.png" class="img-responsive about-img">
 			</div>
 		</div>
 	</div>
