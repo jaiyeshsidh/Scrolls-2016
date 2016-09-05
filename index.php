@@ -3,6 +3,18 @@
 <head>
 	<!-- Title Page -->
 	<title>Scrolls | 2016</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="scrolls,scrolls16,scrolls 2016,gma,ghaziabad,akgec,ajay kumar garg engineering college,ghaziabad management association, akgec scrolls,national level technincal paper presentation,paper presentation, technical paper presentaion, national level competition,software incubator,Software development centre,SDC ,SI,SDC-SI,ghaziabad,">
+  <meta name="description" content="Scrolls is an anually held national level technical paper presentation competition held at Ajay Kumar Garg Engineering College(AKGEC), Ghaziabad in association with Ghaziabad Management Association(G.M.A).">
+  <meta name="author" content="Software Incubator">
+  <meta property="og:title" content="Scrolls 2016 | Ajay Kumar Garg Engineering College">
+  <meta property="og:url" content="http://www.akgec-scrolls.com">
+  <meta property="og:image" content="http://www.akgec-scrolls.com/asset/images/whiteboard.png">
+  <meta property="og:site_name" content="Scrolls 2016">
+
+
   <link rel="icon" href="asset/images/fav.png">
 	<!-- Meta Tags -->
 	<meta charset="utf-8"> 
@@ -32,12 +44,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <!-- <script type="text/javascript" src="asset/js/bootstrap.js"></script> -->
-
 </head>
 <body>
 
-<!-- <div class="se-pre-con"></div> -->
+<div class="se-pre-con"></div>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Section Landing Page (Parallex.js) -->
@@ -124,7 +134,7 @@
       <li class="layer l1" data-depth="0.00"><p>Ajay Kumar Garg Engineering College</p><h1>Scrolls 2016</h1><h6>In Association with <span>GMA</span></h6></li>
       <li class="layer l2" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
       <li class="layer l3" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
-      <li class="layer l4" data-depth="0.10" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
+      <li class="layer l4" data-depth="0.9 0" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
       <li class="layer l5" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
       <li class="layer l6" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
       <li class="layer l7" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
@@ -188,38 +198,7 @@
 		</div>
 	</div>
 </section>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- <section class="logo-section">
-	<div class="container-fluid gap-off">
-		<div class="col-lg-6 gap-off ">
-			
-		</div>
-		<div class="col-lg-6 gap-off">
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off " style="background-color: #fbc94a;">
-					<div class="logo-sec-text">
-						<img src="asset/images/b.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
-					</div>
-				</div>
-				<div class="col-lg-6 gap-off " style="background-image: url(asset/images/f.jpg); background-size: cover;">
-					
-				</div>
-			</div>
-			<div class="row row-off">
-				<div class="col-lg-6 gap-off " style="background-image: url(asset/images/j.jpg); background-size: cover;">
 
-				</div>
-				<div class="col-lg-6 gap-off " style="background-color: #fbc94a;">
-					<div class="logo-sec-text">
-						<img src="asset/images/b.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet commodo mauris. </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <section class="topics" id="topics">
 	<div class="container-fluid gap-off display-web">
@@ -228,19 +207,19 @@
             <div class="row row-off">
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Computer Science And Engineering</h3>
                     <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Electrical And Electronics Technologies</h3>
                     <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Electronics And Communication</h3>
                     <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
                   </div>  
               </div>
@@ -267,13 +246,13 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Civil Engineering</h3>
                     <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Electronics And Communication</h3>
                     <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
                   </div>  
               </div>
@@ -307,132 +286,134 @@
 					</div>
 					<div id="see-1" class="tab-pane fade in">
 						<ol style="padding: 20px;">
-							<li>Application of Nano technology in health monitor treatment.</li>
-							<li>Power Generation using Nano-carbon tubes.</li>
-							<li>Cryogenic Engines.</li>
-							<li>Application of CAD software (Catia, ProE) and designing software’s.</li>
-							<li>Automatic Transmission in Automobiles.</li>
-							<li>Hydraulic and pneumatic actuators.</li>
-							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
-							<li>Improvisation during the last two decades in passenger cars.</li>
-							<li>Advanced radiator concepts and smart materials.</li>
-							<li>Recent trends in Mechanical Engineering.</li>
-							<li>Kinematics/dynamics of Robotic Manipulators.</li>
-							<li>Robotic Applications: Present & Future.</li>
-						</ol>
-					</div>
-					<div id="see-2" class="tab-pane fade in">
-						<ol style="padding: 20px;">
 							<li>Embedded Systems.</li>
 							<li>Augmented Reality.</li>
 							<li>Natural Language Processing.</li>
 							<li>Genetic Algorithms.</li>
 							<li>Cloud Computing.</li>
-							<li>Bio-Inspired Computing.</li>
 							<li>Semantic Web.</li>
 							<li>Mobile Computing and Data Intensive Computing.</li>
 							<li>Soft Computing including multi-criteria Analysis.</li>
-							<li>Artificial Intelligence.</li>
+              <li>Cybernetics.</li>
+							<li>Nano Computing</li>
+              <li>Quantum Computing.</li>
 							<li>Big Data Analytics.</li>
-						</ol>
+ 						</ol>
 					</div>
+          <div id="see-4" class="tab-pane fade in">
+            <ol style="padding: 20px;">
+              <li>Intelligence Substation.</li>
+              <li>Smart Electrical Energy Metering. </li>
+              <li>User Authentication using Biometrics.</li>
+              <li>MRI Technology.</li>
+              <li>Humanoid Robotics.</li>
+              <li>Bluetooth Technology.</li>
+              <li>Night Vision Technology.</li>
+              <li>Power Quality Issues with Grid Connected Wind Energy Systems</li>
+              <li>Renewable Energy &amp; Environment Protection.</li>
+              <li>Smart Grid Technology</li>
+              <li>Super Conducting Rotating Machines.</li>
+              </ol>
+          </div>
 					<div id="see-3" class="tab-pane fade in">
 						<ol style="padding: 20px;">
 							<li>4G Technology.</li>
 							<li>Mobile Satellite Communication.</li>
-							<li>Future of Mobile Technology.</li>
-							<li>Optoelectronics.</li>
+							<li>Opto Electronics.</li>
 							<li>Nanotechnology.</li>
 							<li>VLSI.</li>
-							
-						</ol>
+              <li>Neural Network.</li>
+              <li>Electronics Counter Measures in Defense Syastem.</li>
+              <li>IFF Technology.</li>
+              <li>Speech Processing.</li>
+              <li> Antenna Design and Radar Technology.</li>
+            	</ol>
 					</div>
-					<div id="see-4" class="tab-pane fade in">
-						<ol style="padding: 20px;">
-							<li>Artificial Intelligence in Substation Control.</li>
-							<li>Automated Energy Meter Reading for Billing Purpose. </li>
-							<li>I-Series Processor.</li>
-							<li>Electromagnetic Bomb.</li>
-							<li>Humanoid Robotics.</li>
-							<li>Hydraulic and pneumatic actuators.</li>
-							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
-							<li>Improvisation during the last two decades in passenger cars.</li>
-							<li>Advanced radiator concepts and smart materials.</li>
-							<li>Recent trends in Mechanical Engineering.</li>
-							<li>Kinematics/dynamics of Robotic Manipulators.</li>
-							<li>Robotic Applications: Present & Future.</li>
-						</ol>
-					</div>
+					
 					<div id="see-5" class="tab-pane fade in">
 						<ol style="padding: 20px;">
-							<li>Application of Nano technology in health monitor treatment.</li>
 							<li>Power Generation using Nano-carbon tubes.</li>
 							<li>Cryogenic Engines.</li>
 							<li>Application of CAD software (Catia, ProE) and designing software’s.</li>
 							<li>Automatic Transmission in Automobiles.</li>
 							<li>Hydraulic and pneumatic actuators.</li>
-							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
 							<li>Improvisation during the last two decades in passenger cars.</li>
-							<li>Advanced radiator concepts and smart materials.</li>
+              <li>Nanotechnology.</li>
 							<li>Recent trends in Mechanical Engineering.</li>
 							<li>Kinematics/dynamics of Robotic Manipulators.</li>
-							<li>Robotic Applications: Present & Future.</li>
-						</ol>
+							<li>Robotic Applications: Present &amp; Future.</li>
+              <li>Additive Manufacturing.</li>
+              <li>TQM concepts for zero rejection</li>
+              </ol>
 					</div>
 					<div id="see-6" class="tab-pane fade in">
 						<ol style="padding: 20px;">
-							<li>Earthquake Engineering - Seismic risk reduction in NCR region.</li>
-							<li>Water Supply & Sanitation under Swachh Bharat Abhiyan.</li>
-							<li>Evolution of Skyscrapers.</li>
+							<li>Indian Railways: Ensuring last mile connectivity</li>
+							<li>Infrastructure: Key to development of north-east</li>
+							<li>Earthquake Engineering - seismic risk reduction in NCR region.</li>
+							<li>Smart housing for smart cities.</li>
+							<li>Sanitation and solid waste management through ICT.</li>
+							<li>DMIC (Delhi-Mumbai Industrial Corridor) road to Development.</li>
+							<li>Storage Dams: Need for flood management.</li>
+							<li>Water scarcity and public investment in irrigation.</li>
+							<li>Creating water abundance through conservation.</li>
+							<li>Cleaning and rejuvenating Ganga and its prospects lying ahead.</li>
+							<li>Equity and global climate agreement - A step towards a clean earth.</li>
 							<li>Application of remote Sensing and GIS techniques.</li>
-							<li>Automatic Transmission in Automobiles.</li>
-							<li>Hydraulic and pneumatic actuators.</li>
-							<li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
-							<li>Improvisation during the last two decades in passenger cars.</li>
-							<li>Advanced radiator concepts and smart materials.</li>
-							<li>Recent trends in Mechanical Engineering.</li>
-							<li>Kinematics/dynamics of Robotic Manipulators.</li>
-							<li>Robotic Applications: Present & Future.</li>
-						</ol>
+	            </ol>
 					</div>
-  	
+          <div id="see-1" class="tab-pane fade in">
+            <ol style="padding: 20px;">
+              <li>BREXIT: Impact on Indian Economy.</li>
+              <li>Role of Skill Development in winning the war against unemployment.</li>
+              <li>Social Networking is the prime catalyst in shaping the actions of Indian Youths.</li>
+              <li>India is the new China: A Distant Dream.</li>
+              <li>The Glass Ceiling: Reality or Myth?</li>
+              <li>Poverty in Third World Countries is due to Prosperity in First World Countries.</li>
+              <li>Steal a Few Lakh and you’re a Criminal; Steal a Few hundred Crore and you become an Industrialist.</li>
+              <li>100% FDI in Indian Defense Sector: Boon or Bane.</li>
+              <li>Rural Development is the right answer to our unemployment problem..</li>
+              <li>Robotic Applications: Present &amp; Future.</li>
+              <li>Ethics in business: An integral part or a passing fad?</li>
+              </ol>
+          </div>  	
 				</div>
 			</div>
 		</div>
 	</div>
 	
-
-
+<!-- Mobile View -->
+ 
 <div class="container-fluid gap-off display-mob" style="color: #fff;">
     <div class="row row-off">
       <div style="margin-top:50px;" id="mob-topic"> 
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Computasfaer Science And Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Electrical And Electronics Technologies</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Electronics And Communication</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Mechanical Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Civil Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
-        <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+        <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
+            <h4>Managment Sciences</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
@@ -675,29 +656,44 @@
       <div class="modal-body gap-off" id="dev-team-body">
           <div class="container-fluid gap-off" >
             <div class="row">
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si1.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;"> 
           <p class="web-team-name">Game of thrones</p>
         </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si2.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si3.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
       </div>
         <div class="row">
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si4.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si5.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
+          <img src="asset/images/si6.jpg" class="img-responsive about-img">
+          <p class="web-team-name">Game of thrones</p>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
+          <img src="asset/images/si4.jpg" class="img-responsive about-img">
+          <p class="web-team-name">Game of thrones</p>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
+          <img src="asset/images/si5.jpg" class="img-responsive about-img">
+          <p class="web-team-name">Game of thrones</p>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-4 gap-off">
           <img src="asset/images/si6.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
@@ -973,7 +969,7 @@
 
 <script >
 $(document).ready(function(){
-   console.log("HIIIII");
+   
     $('#form-member-container-3').hide();
 	$('#team-leader-container-3').hide();
 	$('#form-studentId').hide();
@@ -1030,7 +1026,7 @@ $('#form-college').change(function(){
 	        section : ".landing, .about, .wrapper, .logo-section, .topics, .rules, .team",
 	        interstitialSection : "",
 	        easing: "easeOutExpo",
-	        scrollSpeed: 800,
+	        scrollSpeed: 2000,
 	        offset : 0,
 	        scrollbars: false,
 	        standardScrollElements: "",
@@ -1282,7 +1278,6 @@ $('.carousel').swipe( {
      },
      allowPageScroll: 'vertical'
  });
-  };
 </script>
 
 
