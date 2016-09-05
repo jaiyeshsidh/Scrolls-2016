@@ -962,9 +962,9 @@ button.close{
 	border-left: 1px solid rgba(0,0,0,0.1)
 
 }
-.modal-open .modal {
+/*.modal-open .modal {
 	overflow-y: hidden;
-}
+}*/
 .custom-register button:focus{
 	outline: 0;
 }
@@ -1239,4 +1239,9 @@ button.close{
   		padding: 50vh;
   	}
 
+}
+
+body .modal-open {
+position:fixed;
+overflow: hidden;
 }
