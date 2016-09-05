@@ -4,11 +4,11 @@ ini_set('max_execution_time', 30000);
 if(isset($_POST['submit']))
 {
 	$participant= curl_init();
-	$participant_url="http://localhost:8080/api/Participants/CreateParticipant";
+	$participant_url="http://akgec-scrolls.com/rest/api/Participants/CreateParticipant";
 	if($_POST['college']=="")
 	{	$college=curl_init();
 		$college_array=array("CollegeName"=>$_POST['college_name']);
-		$college_url="http://localhost:8080/api/Colleges/CreateCollege";
+		$college_url="http://akgec-scrolls.com/rest/api/Colleges/CreateCollege";
 			curl_setopt_array($college, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 							CURLOPT_RETURNTRANSFER => 1,
 							CURLOPT_POST => 1, 
@@ -42,9 +42,10 @@ if(isset($_POST['submit']))
 	$participant_sucess=json_decode($participant_sucess);
 	curl_close($participant);
 	$participant_sucess=(array)$participant_sucess;
-		if(isset($participant_sucess["Message"]))
+	// var_dump($participant_sucess);
+		if(isset($participant_sucess[0]))
 		{
-			echo "<script language='javascript'>alert('".$participant_sucess["Message"]."'); location.href='index.php'; </script>"; 
+			echo "<script language='javascript'>alert('".$participant_sucess[0]."'); location.href='index.php'; </script>"; 
 		}
 		else
 		{

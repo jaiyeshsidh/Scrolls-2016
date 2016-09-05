@@ -22,7 +22,7 @@ if(isset($_POST["submit"]))
 					  "Source"=>'web');
 
 	$team= curl_init();
-	$team_url="http://localhost:8080/api/Teams/CreateTeam";
+	$team_url="http://akgec-scrolls.com/rest/api/Teams/CreateTeam";
 	curl_setopt_array($team, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 									CURLOPT_RETURNTRANSFER => 1,
 									CURLOPT_POST => 1, 

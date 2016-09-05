@@ -5,17 +5,17 @@
 	<title>Scrolls | 2016</title>
 	<!-- Meta Tags -->
 	<meta charset="utf-8"> 
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Jquery Lib -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" href="">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Bootstrap Javascript-->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- User Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="asset/css/index.css">
-  <!-- parallax stylesheet -->
-  <link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
 	<!-- User Javascript -->
 	<script src="asset/js/index.js"></script>
 	<!-- Scrollify Javascript -->
@@ -28,17 +28,19 @@
   <!--Google Map-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTPWN__X_moAy4Nty0TgEJKMkynbw-n6U&callback=initMap" async defer></script>
 	<!-- Behavioral Meta Data -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <script type="text/javascript" src="asset/js/bootstrap.js"></script>
+
+
 
 </head>
 <body>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Section Landing Page (Parallex.js) -->
-
+<section class="landing" id="landing" style="overflow: hidden;">
 
 	<!-- Main Menu Back Panel -->
     <div id="menu-back"> 
@@ -68,17 +70,20 @@
                         <div id="dates" class="panel-collapse drop-date-panel collapse">
                               <ul class="list-group">
                                 <li class="list-group-item">
-                                  10th October, 2015
+                                  04th October, 2016
                                   <p style="font-size: 11px; margin-top: -5px; margin-bottom: 0px; line-height: 12px;">Last Date for Registration and Submission of Synopsis</p>
                                 </li>
                                 <li class="list-group-item">
-                                  16th October, 2015
+                                  08th October, 2016
+                                  <p style="font-size: 11px; margin-top: -5px; margin-bottom: 0px; line-height: 12px;">Notification of Synopsis Selection</p>
                                 </li>
                                 <li class="list-group-item">
-                                  19th October, 2015
+                                  18th October, 2016
+                                  <p style="font-size: 11px; margin-top: -5px; margin-bottom: 0px; line-height: 12px;">Last Date for Submission ofFinal Paper</p>
                                 </li>
                                 <li class="list-group-item">
-                                  23rd October, 2015
+                                  21th October, 2016
+                                  <p style="font-size: 11px; margin-top: -5px; margin-bottom: 0px; line-height: 12px;">Main Event</p>
                                 </li>
                               </ul>
                         </div>
@@ -111,33 +116,44 @@
         <a data-toggle="modal" data-target="#form-modal-login"><button class="btn"><span style="color: #424242; font-size: 12px;">Login</span></button></a>
     </div>
 
-<section class="landing" style="background-image: url('asset/images/audi-made-2.jpg'); background-size: cover; background-repeat: no-repeat; overflow:hidden;">
+
+    <!-- Landing Section Starts Here -->
+
+
+      <div id="carousel-banner" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active"><img src="asset/images/sl1.jpg" style="height: 100vh; width: auto;">
+              <div class="caption">
+              </div>
+          </div>
+          <div class="item"><img src="asset/images/sl2.jpg" style="height: 100%;"><h1 style="font-size: 60px; color: #fff;"></h1></div>
+          <div class="item"><img src="asset/images/sl3.jpg" style="height: 100%;">5gerg34gvsz</div>        
+        </div>    
+        <div class="caption">
+          <div class="ab-wrap">
+          <div class="ab-center">
+            <div class="top-information">          
+            <h1 id="intro-head">Scrolls 2016</h1>
+            <p id="intro-para">Conducted At <span style="display: block;">Ajay Kaumar Garg Engineering College</span>
+            </p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="next-prev">
+        <a class="left" href="#carousel-banner" role="button" data-slide="prev"><i class="fa fa-3x fa-angle-left"></i></a>
+        <a class="right" href="#carousel-banner" role="button" data-slide="next"><i class="fa fa-3x fa-angle-right"></i></a>
+        </div>
+        </div>
+        
+   
 
 
 
+	
 
-    <!-- parallax window -->
-    <ul id="scene" class="scene" style="overflow:hidden; z-index:99999; height: 100vh;">
-      <li class="layer" data-depth="0.00"><img src=""></li>
-      <li class="layer" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
-      <li class="layer" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
-      <li class="layer" data-depth="0.10" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
-      <li class="layer" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
-      <li class="layer" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
-      <li class="layer" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
-
-    </ul>
-
-    <!-- parallax window end -->
-
-
-
+	     
 </section>
-<script src="asset/js/parallax.js"></script>
-<script>
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
-  </script>
 
 
 
@@ -405,32 +421,32 @@
     <div class="row row-off">
       <div style="margin-top:50px;" id="mob-topic"> 
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical Engineering</h3>
+            <h4>Electrical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
@@ -501,27 +517,26 @@
 	<div class="conatiner-fluid gap-off ">
 		 <div class="row row-off">
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off" id="rules-head">
-          <p>Rules <br>and <br>Regultions</p>
+          <p>Rules <br>and <br>Regulations</p>
           <h5>Rules and Regulations</h5>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>1. The competition will be open to all bonafide students of Engineering and Management Colleges.<span class="fa fa-graduation-cap"> </span>
-          </p>
+          <p>1. The competition will be open to all bonafide students of Engineering and Management Colleges.</p><span>1.</span>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>2. Maximum of 3 and minimum of 2 authors per paper.<span class="fa fa-users"> </span></p>
+          <p>2. Maximum of 3 and minimum of 2 authors per paper.</p><span>2.</span>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>3. Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation. <span id="rules-span-1">1000 <br>Words</span></p>
+          <p>3. Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation.</p><span>3.</span>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>4. For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.<span class="fa fa-hourglass-o"> </span></p>
+          <p>4. For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.</p><span>4.</span>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>5. A soft copy of the final paper is to be sent before the designated date.<span class="fa fa-paperclip"> </span></p>
+          <p>5. A soft copy of the final paper is to be sent before the designated date.</p><span>5.</span>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>6. The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.<span class="fa fa-files-o"> </span></p>
+          <p>6. The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.</p><span>6.</span>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
           
@@ -538,9 +553,6 @@
           <p>Contact <br>Us</p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 gap-off">
-          <div class="container-fluid" style="padding: 0;">
-              <div id="map"></div>
-          </div>
         </div>  
         <a data-toggle="modal" data-target="#query"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div"><!-- Query Up -->
             <h3>Query Us.</h3>
@@ -558,8 +570,11 @@
             <div class="col-sm-6  poweredbysi">
                 <p style="font-weight: 700;">Proudly Powered By- </p>
                 <h1 style="text-transform: uppercase; margin: 0px;">Software <span style="display: block;">Incubator</span></h1>
-                <img src="asset/images/silogo.svg" id="si-logo-mob" class="center-block" >
+                <img src="asset/images/silogo.svg" id="si-logo" class="center-block" >
             </div>
+          <div class="container-fluid" style="padding: 0;">
+              <div id="map"></div>
+          </div>
             <div class="col-sm-6">
                 <!-- <img src="asset/images/silogo.svg" id="si-logo" class="center-block"> -->
             </div>
@@ -586,7 +601,7 @@
             </div>
             <div class="form-group">
               <!-- <label for="Description">Query Description</label> -->
-              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 92%;"></textarea>
+              <textarea class="textbox" placeholder="Write Your Query here" rows="5"></textarea>
             </div>
             <button type="submit" class="btn btn-send" data-dismiss="modal">Send</button>
           </form>
@@ -598,14 +613,33 @@
 <!-- Scroll Team Modal -->
 <div class="modal fade" id="scroll-team" role="dialog">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content" style="background-color:rgba(0,0,0,0.0);">
+      <div class="modal-header" style="background-color:rgba(0,0,0,0.0);">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">Scroll Team</h4>
       </div>
       <div class="modal-body gap-off" style="padding: 0px!important;">
           <div class="container-fluid gap-off">
-              
+          <div class="row row-off">
+              <div class="col-sm-6 col-sm-offset-3 gap-off">
+                 <img src="asset/images/t.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+          </div>
+          <div class="row row-off">
+              <div class="col-sm-4">
+                <img src="asset/images/st1.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+              <div class="col-sm-4">
+                <img src="asset/images/st2.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+              <div class="col-sm-4">
+                <img src="asset/images/st3.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+          </div>
           </div>
       </div>
     </div>
@@ -624,48 +658,34 @@
           <div class="container-fluid gap-off" >
             <div class="row">
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;"> 
+          <img src="asset/images/si1.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;"> 
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
+          <img src="asset/images/si2.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
+          <img src="asset/images/si3.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
       </div>
         <div class="row">
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si4.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si5.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si6.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
 
       </div>
-        <div class="row">
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-
-      </div>
+        
           </div>
       </div>
     </div>
@@ -673,7 +693,7 @@
 </div>
 
 <!-- Modal -->
-	<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="padding-left: 0px;">
 	  <div class="modal-dialog" role="document" >
 	    <div class="modal-content" >
 	      <div class="modal-header">
@@ -682,7 +702,7 @@
 	        </button>
 	        <h4 class="modal-title" id="myModalLabel">REGISTER AS</h4>
 	      </div>
-	      <div class="modal-body" style="overflow-y:scroll; height:540px;">
+	      <div class="modal-body">
 
 	<!-- tab content -->
 
@@ -695,163 +715,186 @@
 			  <div class="tab-content">
 			    <div id="home" class="tab-pane fade in active">
 					<form method="POST" action="registerParticipant.php" >
-					    <div class="form-group" style="margin-top: 3%;">
-					    	<label>Name</label>
-					       <input type="text" class="textbox" id="form-name" name="name" placeholder="Enter your name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
-					    </div>
-					    <?php
-					$courses= curl_init();
-					$courses_url="http://localhost:8080/api/Domains/GetCourses";
-					curl_setopt_array($courses, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => $courses_url,
+              <div class="form-group" style="margin-top: 3%;">
+                <label>Name</label>
+                 <input type="text" class="textbox" id="form-name" name="name" placeholder="Enter your name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
+              </div>
+              <?php
+          $courses= curl_init();
+          $courses_url="http://akgec-scrolls.com/rest/api/Domains/GetCourses";
+          curl_setopt_array($courses, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                      CURLOPT_RETURNTRANSFER => 1,
+                      CURLOPT_URL => $courses_url,
 
-										));
+                    ));
 
-					$courses= curl_exec($courses);
-					$courses=json_decode($courses);
-					?>
-					    <div class="form-group">
-						  <label for="sel1">Course </label>
-						  <select class="textbox" id="form-course" name="course" data-validation="required">
-						    <?php foreach ($courses as $course) {
-					   ?>
-					    <option value="<?php echo $course->CourseId; ?>" ><?php echo $course->CourseName; ?></option>
-					   <?php } ?>
-						  </select>
-						</div>
-						<div class="form-group">
-						  <label for="sel1">Year </label>
-						  <select class="textbox" id="form-year" name="year" data-validation="required">
-						    <option value="1">1</option>
-						    <option value="2">2</option>
-						    <option value="3">3</option>
-						    <option value="4">4</option>
-						  </select>
-						</div>
-						<?php
-					$colleges= curl_init();
-					$colleges_url="http://localhost:8080/api/Colleges/GetColleges";
-					curl_setopt_array($colleges, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => $colleges_url,
+          $courses= curl_exec($courses);
+          $courses=json_decode($courses);
+          ?>
+              <div class="form-group col-sm-4">
+              <label for="sel1">Course </label>
+              <select class="textbox" id="form-course" name="course" data-validation="required">
+                <?php foreach ($courses as $course) {
+             ?>
+              <option value="<?php echo $course->CourseId; ?>" ><?php echo $course->CourseName; ?></option>
+             <?php } ?>
+              </select>
+            </div>
+            <div class="col-sm-4">
+            <div class="form-group">
+              <label for="sel1">Year </label>
+              <select class="textbox" id="form-year" name="year" data-validation="required">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            </div>
+            <?php
+          $colleges= curl_init();
+          $colleges_url="http://akgec-scrolls.com/rest/api/Colleges/GetColleges";
+          curl_setopt_array($colleges, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                      CURLOPT_RETURNTRANSFER => 1,
+                      CURLOPT_URL => $colleges_url,
 
-										));
+                    ));
 
-					$colleges= curl_exec($colleges);
-					$colleges=json_decode($colleges);
-					?>
-					<div class="form-group">
-						  <label for="sel1">College</label>
-						  <select class="textbox" id="form-college" name="college">
-						    <option value="">Others</option>
-						  <?php foreach ($colleges as $college) {
-							   ?>
-					    <option value="<?php echo $college->CollegeId; ?>" ><?php echo $college->CollegeName; ?></option>
-					   <?php } ?></select>
-						</div>
-					    <div class="form-group">
-					       <input type="text" class="textbox" id="form-college-name" name="college_name" placeholder="Enter your College Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
-					    </div>
-						<div class="form-group">
-							<input type="text" class="textbox"  id="form-studentId" name="studentId" placeholder="Student ID" data-validation="custom" data-validation-regexp="^\d{7}[Dd]{0,1}$">
-						</div>
-						<div class="form-group">
+          $colleges= curl_exec($colleges);
+          $colleges=json_decode($colleges);
+          ?>
+          <div class="form-group col-sm-4">
+              <label for="sel1">College</label>
+              <select class="textbox" id="form-college" name="college">
+                <option value="">Others</option>
+              <?php foreach ($colleges as $college) {
+                 ?>
+              <option value="<?php echo $college->CollegeId; ?>" ><?php echo $college->CollegeName; ?></option>
+             <?php } ?></select>
+            </div>
+              <div class="form-group">
+                 <input type="text" class="textbox" id="form-college-name" name="college_name" placeholder="Enter your College Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
+              </div>
+            <div class="form-group">
+              <input type="text" class="textbox"  id="form-studentId" name="studentId" placeholder="Student ID" data-validation="custom" data-validation-regexp="^\d{7}[Dd]{0,1}$">
+            </div>
+            <div class="form-group">
 
-						  <input type="text" class="textbox" id="form-number" name="number" placeholder="Contact Number" data-validation="number length" data-validation-length="10">
-						</div>
-						<div class="form-group">
+              <input type="text" class="textbox" id="form-number" name="number" placeholder="Contact Number" data-validation="number length" data-validation-length="10">
+            </div>
+            <div class="form-group">
 
-						  <input type="text" class="textbox" id="form-email" name="email" placeholder="Email" data-validation="required email">
-						</div>
+              <input type="text" class="textbox" id="form-email" name="email" placeholder="Email" data-validation="required email">
+            </div>
 
-						<p>Accomodation</p>
-							<label class="radio-inline"><input type="radio" id="accomodation" name="accomodation" value="false" checked>No</label>
-							<label class="radio-inline"><input type="radio" id="form-accomodation" value="true" name="accomodation">Yes</label>
-							<br>
+            <p>Accomodation</p>
+              <label class="radio-inline"><input type="radio" id="accomodation" name="accomodation" value="false" checked>No</label>
+              <label class="radio-inline"><input type="radio" id="form-accomodation" value="true" name="accomodation">Yes</label>
+              <br>
 
- 						<input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 20px;">
- 					</form>
-
+            <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 20px;">
+          </form>
 			    </div>
 			    <div id="menu1" class="tab-pane fade">
-			   	    <form method="POST" action="RegisterTeam.php">
-			   	    <div class="form-group" style="margin-top: 3%;">
-					       <input type="text" class="textbox" id="form-team-name" name="team_name" placeholder="Enter team name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" >
-					</div>
+              <form method="POST" action="RegisterTeam.php">
+              <div class="form-group" style="margin-top: 3%;">
+                 <input type="text" class="textbox" id="form-team-name" name="team_name" placeholder="Enter team name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" >
+          </div>
+          <div class="form-group">
+          <label class="radio-inline"><input type="radio" class="form-no-of-participants" id="form-no-of-participants"  name="number_of_participants" value="2" checked> 2 members</label>
+          <label class="radio-inline"><input type="radio"  class="form-no-of-participants" id="form-no-of-participants" name="number_of_participants" value="3"> 3 members</label>
+          </div>
+          
+          
+          <label>Member 1</label>
+          <div class="row">
+              <div class="form-group col-sm-6 col-xs-6" >
+             <input type="text" class="textbox" id="form-member-1" name="member1_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
+          </div>
+          <div class="form-group col-sm-6 col-xs-6">     
+             <input type="text" class="textbox" id="form-member-1-name" name="member1_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
+          </div>
+          </div>
+          
+          <label>Member 2</label>
+          <div class="row">
+            <div class="form-group col-sm-6  col-xs-6">
+               <input type="text" class="textbox" id="form-member-2" name="member2_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
+            </div>
+            <div class="form-group col-sm-6 col-xs-6">   
+               <input type="text" class="textbox" id="form-member-2-name" name="member2_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
+            </div>   
+          </div>
+          
+          <div id="form-member-container-3">
+          <label>Member 3</label>
+          <div class="row">
+              <div class="form-group col-sm-6 col-xs-6">
+               <input type="text" class="textbox" id="form-member-3" name="member3_id" value="" placeholder="Scroll ID" data-validation="custom" data-validation-regexp="^(AKG \d\d\d\d)?$">
+            </div>  
+            <div class="form-group col-sm-6 col-xs-6"> 
+                <input type="text" class="textbox" id="form-member-3-name" name="member3_name" placeholder="Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
+            </div>    
+          </div>
+          </div>
+              <label>
+              Select the team leader
+              </label>
+              <br>    
+              <div class="col-sm-4 col-xs-4 gap-off"><label class="radio-inline"><input type="radio" id="form-team-leader-1" name="team_leader" value="1" checked>Member 1</label></div>
+              <div class="col-sm-4 col-xs-4 gap-off"><label class="radio-inline"><input type="radio" id="form-team-leader-2" name="team_leader" value="2">Member 2</label></div>
+            <div id="team-leader-container-3">
+              <div class="col-sm-4 col-xs-4 gap-off"><label class="radio-inline"><input type="radio" id="form-team-leader-3" name="team_leader" value="3">Member 3</label></div>
+            </div>
+              <br>
+              <?php
+          $domains= curl_init();
+          $domains_url="http://akgec-scrolls.com/rest/api/Domains/GetDomains";
+          curl_setopt_array($domains, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                      CURLOPT_RETURNTRANSFER => 1,
+                      CURLOPT_URL => $domains_url,
+                    ));
 
-					<label class="radio-inline"><input type="radio" class="form-no-of-participants" id="form-no-of-participants"  name="number_of_participants" value="2" checked> 2 members</label>
-					<label class="radio-inline"><input type="radio"  class="form-no-of-participants" id="form-no-of-participants" name="number_of_participants" value="3"> 3 members</label>
-					<br>
+          $domains= curl_exec($domains);
+          $domains=json_decode($domains);
 
-					<label>Member 1</label>
-						 <input type="text" class="textbox" id="form-member-1" name="member1_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
-						 <input type="text" class="textbox" id="form-member-1-name" name="member1_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
-					<label>Member 2</label>
-						 <input type="text" class="textbox" id="form-member-2" name="member2_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
-						 <input type="text" class="textbox" id="form-member-2-name" name="member2_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
-					<div id="form-member-container-3">
-					<label>Member 3</label>
-						 <input type="text" class="textbox" id="form-member-3" name="member3_id" value="" placeholder="Scroll ID" data-validation="custom" data-validation-regexp="^(AKG \d\d\d\d)?$">
-						  <input type="text" class="textbox" id="form-member-3-name" name="member3_name" placeholder="Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
-					</div>
-							<label>
-							Select the team leader
-							</label><br>
-							<label class="radio-inline"><input type="radio" id="form-team-leader-1" name="team_leader" value="1" checked>Member 1</label>
-							<label class="radio-inline"><input type="radio" id="form-team-leader-2" name="team_leader" value="2">Member 2</label>
-						<div id="team-leader-container-3">
-							<label class="radio-inline"><input type="radio" id="form-team-leader-3" name="team_leader" value="3">Member 3</label>
-						</div>
-							<br>
-							<?php
-					$domains= curl_init();
-					$domains_url="http://localhost:8080/api/Domains/GetDomains";
-					curl_setopt_array($domains, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => $domains_url,
-										));
+          ?>
 
-					$domains= curl_exec($domains);
-					$domains=json_decode($domains);
+            <label style="margin-top: 10px; display: block;">Domain</label>
+            <select class="textbox" id="form-domains" name="domains" data-validation="required">
+               <?php foreach ($domains as $domain) {
+                 ?>
+              <option value="<?php echo $domain->DomainId; ?>" ><?php echo $domain->DomainName; ?></option>
+                <?php } ?>
+                </select>
 
-					?>
+          <?php
+          $topics= curl_init();
+          $topics_url="http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=1";
+          curl_setopt_array($topics, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                      CURLOPT_RETURNTRANSFER => 1,
+                      CURLOPT_URL => $topics_url,
 
-						<label>Domain</label>
-						<select class="textbox" id="form-domains" name="domains" data-validation="required">
-						   <?php foreach ($domains as $domain) {
-					   	   ?>
-					    <option value="<?php echo $domain->DomainId; ?>" ><?php echo $domain->DomainName; ?></option>
-					   		<?php } ?>
-								</select>
+                    ));
 
-					<?php
-					$topics= curl_init();
-					$topics_url="http://localhost:8080/api/Domains/GetTopics?domainId=1";
-					curl_setopt_array($topics, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => $topics_url,
+          $topics= curl_exec($topics);
+          $topics=json_decode($topics);
 
-										));
+          ?>
+            <label style="margin-top: 10px;">Topic</label>
+             <select class="textbox" id="form-topics" name="topics" data-validation="required">
+             <?php foreach ($topics as $topic) {
+                ?>
+              <option value="<?php echo $topic->TopicId; ?>" ><?php echo $topic->TopicName; ?></option>
+                <?php } ?>
+               </select>
+                <div class="form-group">
+                  <label for="pwd" style="margin-top: 10px;">Password</label>
+                  <input type="password" class="textbox" id="form-password" name="password" placeholder="Enter password" data-validation="required">
+                </div>
+                <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
 
-					$topics= curl_exec($topics);
-					$topics=json_decode($topics);
-
-					?>
-						<label>Topic</label>
-						 <select class="textbox" id="form-topics" name="topics" data-validation="required">
-						 <?php foreach ($topics as $topic) {
-					   	  ?>
-					    <option value="<?php echo $topic->TopicId; ?>" ><?php echo $topic->TopicName; ?></option>
-					   	  <?php } ?>
-					   	 </select>
-						    <div class="form-group">
-						      <label for="pwd">Password:</label>
-						      <input type="password" class="textbox" id="form-password" name="password" placeholder="Enter password" data-validation="required">
-						    </div>
-						    <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
-
-					</form>
+          </form>
 				</div>
 			</div>
 <!-- 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
@@ -911,7 +954,7 @@
 
 <script >
 $(document).ready(function(){
-   console.log("HIIIII");
+
     $('#form-member-container-3').hide();
 	$('#team-leader-container-3').hide();
 	$('#form-studentId').hide();
@@ -932,7 +975,7 @@ $(document).ready(function(){
 
 	$('#form-domains').change(function(){
 		$('#form-topics').children().remove();
-		 $.get("http://localhost:8080/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
+		 $.get("http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
 		 		//console.log(data);
 		 		for(var i=0;i<data.length;i++) {
 		 			$('#form-topics').append($('<option>', {

@@ -21,17 +21,8 @@ h1,h2,h3,h4,h5,h6{
 .sec-2-padding{
 	padding: 60px;
 }
-/*.half{
-	min-height: 324px;
-}
-.full{
-	height: 645px;
-	max-height: 100%;
-	min-height: 100%;
-}*/
+
 .landing{
-	background-color: #424242;
-	z-index: 1;
 }
 .about{
 	padding: 30px 0;
@@ -74,8 +65,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .web-team-name{
-	margin-left:5%;
-	margin-right:auto;
+	text-align: center;
 	padding-top: 5%;
 	color:#fff;
 	font-size:13px;
@@ -129,7 +119,7 @@ h1,h2,h3,h4,h5,h6{
 .textbox {
     background: url(asset/images/d.png) no-repeat 245px 0 #424242;
     height: 25px;
-    width: 275px;
+    width: 100%;
     background-color: transparent;  
     border-style: solid;  
     border-width: 0px 0px 1px 0px;  
@@ -143,6 +133,7 @@ h1,h2,h3,h4,h5,h6{
   	font-size: 11px;
   	color: #424242;
 }
+
 .search input { 
 	text-indent: 0px; 
 	letter-spacing: 1px;
@@ -680,11 +671,11 @@ h1,h2,h3,h4,h5,h6{
 	display: none;
 }
 .rules span{
-    font-size: 93px;
+    font-size: 80px;
     padding: 30px;
     display: block;
     float: right;
-    color: #ffffff;
+    color: #424242;
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -847,7 +838,7 @@ button.close{
 	padding: 30px;
 }
 .btn-send{
-	width: 200px;
+	width: 100%;
 	text-align: center;
 	color: #424242/;
 	background-color: #fbc94a;
@@ -877,7 +868,7 @@ button.close{
 	height: 50vh;
 }
 #si-logo{
-	width: 200px;
+	width: 150px;
 }
 .poweredbysi img{
 	width: 200px; margin-left: auto; margin-right: auto; display: block;
@@ -885,9 +876,12 @@ button.close{
 @media(max-width: 786px){
 	.poweredbysi{
 		padding: 10px;
-		background-color: #fff;
+		
 		height: 25vh;
 	}	
+	div#form-modal.modal.fade.in {
+		padding-left: 0px !important;
+	}
 	.poweredbysi h1{
 		font-size: 14px;
 		margin: 0;
@@ -954,7 +948,8 @@ button.close{
 	outline: 0;
 }
 .custom-register-text{
-	color: #424242; font-size: 12px;
+	color: #424242;
+	 font-size: 12px;
 }
 .custom-login{
 	position: fixed;
@@ -1047,7 +1042,7 @@ button.close{
 	font-size: 25px;
 }
 
-@media(max-height: 786px){
+@media(max-width: : 786px){
 	.about p {
 		font-size: 11px;
 	}
@@ -1104,3 +1099,52 @@ button.close{
 	    background-color: #fbc94a;
 	}
 }
+.nav-tabs{
+	padding: 0px;
+}
+.nav-tabs li{
+	width: 50%;
+}
+.nav-tabs li a{
+	background-color: #424242;
+	color: #fbc94a;
+}
+.nav-tabs li.active a{
+	background-color: #fbc94a;
+	color: #424242;
+}
+.nav-tabs li a:active{
+	background-color: #424242;
+}
+.nav-tabs li.active a:active{
+	background-color: #fbc94a;
+}
+.nav-tabs li a:focus{
+	background-color: #424242;
+}
+.nav-tabs li.active a:focus{
+	background-color: #fbc94a;
+}
+.nav-tabs li a:hover{
+	background-color: #424242;
+}
+.nav-tabs li.active a:hover{
+	background-color: #fbc94a;
+}
+@media(max-width: 320px){
+	.custom-register-text{
+		display: none;
+	}
+	.custom-login{
+		left: 206px;
+	}
+	#mob-topic p{
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.rule-div{font-size: 11.5px;}
+	.about p{
+		font-size: 11px;
+	}
+}
+

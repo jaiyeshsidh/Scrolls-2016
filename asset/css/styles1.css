@@ -1,13 +1,38 @@
+body {
 
-.scene img {
+  margin: 0;
+
+}
+
+img {
   display: block;
   width: 100%;
 }
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+
+input[type=checkbox]:checked + label:before {
+  background: #00FFAA;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  padding: 0px;
+}
+
+
+
 .scene {
   padding: 0;
   margin: 0;
 }
-.fill { /*What is Fill ????*/
+
+.fill {
   position: absolute;
   bottom: 5%;
   right: 5%;
@@ -27,9 +52,10 @@
   opacity: 0.2;
 }
 
-
 .layer:nth-child(1) {
   opacity: 1;
+  background-size: cover;
+  height:100%;
   
 }
 .layer:nth-child(1) button {
@@ -38,25 +64,13 @@
 
 .layer:nth-child(2) {
   opacity: 1;
-  width:55%;
-  background-size: contain;
-  margin-top:5%;
-  margin-left:21%;
-  
-}
-.layer:nth-child(2) button {
-  -webkit-transform: rotate(150deg);
-}
-
-.layer:nth-child(3) {
-  opacity: 1;
   width
 }
-.layer:nth-child(3) button {
+.layer:nth-child(2) button {
   -webkit-transform: rotate(120deg);
 }
 
-.layer:nth-child(4) {
+.layer:nth-child(3) {
   opacity: 1;
   margin-left: 68%;
 
@@ -64,45 +78,38 @@
   width:185px;
 
 }
-.layer:nth-child(4) button {
+.layer:nth-child(3) button {
   -webkit-transform: rotate(90deg);
 }
 
-.layer:nth-child(5) {
+.layer:nth-child(4) {
   opacity: 1;
-  left:-220px !important;
+  left:-200px !important;
   width:140%;
   background-size:contain;
 }
-.layer:nth-child(5) button {
+.layer:nth-child(4) button {
   -webkit-transform: rotate(60deg);
 }
 
-.layer:nth-child(6) {
+.layer:nth-child(5) {
   opacity: 1;
   left:-120px !important;
   width:175%;
   background-size:contain;
 }
-.layer:nth-child(6) button {
+.layer:nth-child(5) button {
   -webkit-transform: rotate(30deg);
 }
 
-.layer:nth-child(7) {
+.layer:nth-child(6) {
   opacity: 1;
   left:-240px !important;
   width:180%;
   background-size:contain;
 }
-.layer:nth-child(7) button {
+.layer:nth-child(6) button {
 }
-
-#akg-head{
-font-family: "Oswald",sans-serif;
-font-size: 24px;
-letter-spacing: 4px;
-}
-
 
 
 /*=========================== image upload page ==========================================*/
