@@ -1223,3 +1223,20 @@ button.close{
 		height: 40vh;
 	}
 }
+#landscape{
+	display: none;
+}
+@media(max-width: 768px) and (max-height: 400px) and (orientation: landscape){
+	#nav-top{
+  		display: none;
+  	}
+  	.landing, .about, .wrapper, .logo-section, .topics, .rules, .team{
+  		display: none;
+  	}
+  	#landscape{
+  		display: block;
+  		text-align: center;
+  		padding: 50vh;
+  	}
+
+}

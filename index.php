@@ -52,7 +52,7 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Section Landing Page (Parallex.js) -->
 
-<div style="z-index: 9999 !important;">
+<div style="z-index: 9999 !important;" id="nav-top">
 	<!-- Main Menu Back Panel -->
     <div id="menu-back"> 
     </div>
@@ -706,6 +706,9 @@
   </div>
 </div>
 
+<section  id="landscape">
+  <p>Change your Device Orientation to Portrait</p> 
+</section>
 
 <!-- Modal -->
   <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="padding-left: 0px;">
