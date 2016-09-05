@@ -104,7 +104,7 @@
     </div>
     <!-- Download Button for Synopsis download -->	
     <div class="download">
-        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Download"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Download Sample Synopsis"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Awards"><button class="btn"><span class="fa fa-trophy" style="font-size: 25px;  padding"></span></button></a>
     </div>
     <!-- Registration Button for Registration of New user -->

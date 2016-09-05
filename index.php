@@ -37,7 +37,7 @@
 </head>
 <body>
 
-<div class="se-pre-con"></div>
+<!-- <div class="se-pre-con"></div> -->
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Section Landing Page (Parallex.js) -->
@@ -121,14 +121,13 @@
 
     <!-- parallax window -->
     <ul id="scene" class="scene" style="overflow:hidden; z-index:; height: 100vh;">
-      <li class="layer" data-depth="0.00"><img src=""></li>
-      <li class="layer" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
-      <li class="layer" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
-      <li class="layer" data-depth="0.10" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
-      <li class="layer" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
-      <li class="layer" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
-      <li class="layer" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
-
+      <li class="layer l1" data-depth="0.00"><p>Ajay Kumar Garg Engineering College</p><h1>Scrolls 2016</h1><h6>In Association with <span>GMA</span></h6></li>
+      <li class="layer l2" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
+      <li class="layer l3" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
+      <li class="layer l4" data-depth="0.10" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
+      <li class="layer l5" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
+      <li class="layer l6" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
+      <li class="layer l7" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
     </ul>
 
     <!-- parallax window end -->
@@ -504,27 +503,27 @@
 	<div class="conatiner-fluid gap-off ">
 		 <div class="row row-off">
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off" id="rules-head">
-          <p>Rules <br>and <br>Regultions</p>
+          <p>Rules <br>and <br>Regulations</p>
           <h5>Rules and Regulations</h5>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>1. The competition will be open to all bonafide students of Engineering and Management Colleges.<h2>1.</h2><span class="fa fa-graduation-cap"> </span>
+          <p>The competition will be open to all bonafide students of Engineering and Management Colleges.<span>1. </span>
           </p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>2. Maximum of 3 and minimum of 2 authors per paper.<h2>2.</h2><span class="fa fa-users"> </span></p>
+          <p>Maximum of 3 and minimum of 2 authors per paper.<span> 2.</span></p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>3. Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation. <h2>3.</h2><span id="rules-span-1">1000 <br>Words</span></p>
+          <p>Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation. <span >3.</span></p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>4. For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.<h2>4.</h2><span class="fa fa-hourglass-o"> </span></p>
+          <p>For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.<span> 4.</span></p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>5. A soft copy of the final paper is to be sent before the designated date.<h2>5.</h2><span class="fa fa-paperclip"> </span></p>
+          <p>A soft copy of the final paper is to be sent before the designated date.<span>5. </span></p>
         </div>  
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          <p>6. The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.<h2>6.</h2><span class="fa fa-files-o"> </span></p>
+          <p>The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.<span > 6.</span></p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
           
@@ -536,7 +535,7 @@
 
 <section class="team" id="contact">
   <div class="conatiner-fluid gap-off ">
-     <div class="row row-off">
+     <div class="row row-off display-mob">
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off" id="team-head">
           <p>Contact <br>Us</p>
         </div>  
@@ -561,12 +560,43 @@
             <div class="col-sm-6  poweredbysi">
                 <p style="font-weight: 700;">Proudly Powered By- </p>
                 <h1 style="text-transform: uppercase; margin: 0px;">Software <span style="display: block;">Incubator</span></h1>
-                <img src="asset/images/silogo.svg" id="si-logo-mob" class="center-block" >
+                <img src="asset/images/silogo.svg" id="si-logo" class="center-block" >
             </div>
             <div class="col-sm-6">
                 <!-- <img src="asset/images/silogo.svg" id="si-logo" class="center-block"> -->
             </div>
         </div>  
+     </div>
+     <div class="row row-off display-web">
+            <div class="col-sm-3 gap-off" id="team-head">
+                <p>Contact <br>Us</p>
+            </div>
+            <div class="col-sm-9 gap-off">
+              <div class="container-fluid" style="padding: 0;">
+              <div id="map"></div>
+              </div>
+            </div>
+     </div>
+     <div class="row row-off display-web">
+          <a data-toggle="modal" data-target="#query"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div"><!-- Query Up -->
+              <h3>Query Us.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
+          </div></a>
+          <a data-toggle="modal" data-target="#scroll-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
+            <h3>Meet Our Scrolls Team.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
+          </div></a>
+          <a data-toggle="modal" data-target="#dev-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
+            <h3 style="line-height: 30px;">Meet Our Designer and Developer Team.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
+          </div></a> 
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">
+            <div class="poweredbysi">
+                <p style="font-weight: 700;">Proudly Powered By- </p>
+                <h1 style="text-transform: uppercase; margin: 0px;">Software <span style="display: block;">Incubator</span></h1>
+                <img src="asset/images/silogo.svg" id="si-logo" class="center-block" >
+            </div>
+        </div>   
      </div>
   </div>
 </section>
@@ -601,14 +631,33 @@
 <!-- Scroll Team Modal -->
 <div class="modal fade" id="scroll-team" role="dialog">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content" style="background-color:rgba(0,0,0,0.0);">
+      <div class="modal-header" style="background-color:rgba(0,0,0,0.0);">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">Scroll Team</h4>
       </div>
       <div class="modal-body gap-off" style="padding: 0px!important;">
           <div class="container-fluid gap-off">
-              
+          <div class="row row-off">
+              <div class="col-sm-6 col-sm-offset-3 gap-off">
+                 <img src="asset/images/t.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+          </div>
+          <div class="row row-off">
+              <div class="col-sm-4 col-xs-4">
+                <img src="asset/images/st1.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+              <div class="col-sm-4 col-xs-4">
+                <img src="asset/images/st2.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+              <div class="col-sm-4 col-xs-4">
+                <img src="asset/images/st3.jpg" class="img-responsive center-block">
+                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+              </div>
+          </div>
           </div>
       </div>
     </div>
@@ -627,48 +676,34 @@
           <div class="container-fluid gap-off" >
             <div class="row">
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;"> 
+          <img src="asset/images/si1.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;"> 
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
+          <img src="asset/images/si2.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
+          <img src="asset/images/si3.jpg" class="img-responsive about-img team-img-1" style=" padding-top:5% !important;">
           <p class="web-team-name">Game of thrones</p>
         </div>
       </div>
         <div class="row">
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si4.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si5.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
+          <img src="asset/images/si6.jpg" class="img-responsive about-img">
           <p class="web-team-name">Game of thrones</p>
         </div>
 
       </div>
-        <div class="row">
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-xs-4">
-          <img src="asset/images/got.jpg" class="img-responsive about-img">
-          <p class="web-team-name">Game of thrones</p>
-        </div>
-
-      </div>
+        
           </div>
       </div>
     </div>

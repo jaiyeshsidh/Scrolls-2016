@@ -29,8 +29,40 @@
 
 
 .layer:nth-child(1) {
-  opacity: 1;
+      opacity: 1;
+    /* width: 55%; */
+    background-size: contain;
+    margin-top: 24%;
+    /* margin-left: 21%; */
+    margin-bottom: -151px;
+    text-align: center;
   
+}
+.layer:nth-child(1) h1 {
+  color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #fbc94a;
+}
+.layer:nth-child(1) p {
+  color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: -21px;
+}
+.layer:nth-child(1) h6 {
+  color: #fff;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -10px;
+}
+.layer:nth-child(1) span {
+  color: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -10px;
 }
 .layer:nth-child(1) button {
   -webkit-transform: rotate(150deg);

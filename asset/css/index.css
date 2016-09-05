@@ -675,9 +675,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 60px;
     padding: 30px;
     display: block;
-    float: right;
-    color: #fff;
-    display: none;
+    float: right;;
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -742,6 +740,9 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
 @media(max-width: 991px){
+	.custom-register-text{
+		display: none;
+	}
 	.team-div p {
 		padding: 10px 20px;
 		margin: 0px;
@@ -907,7 +908,8 @@ button.close{
 		display: block!important;
 	}
 	#si-logo{
-		display: none;
+		display: block;
+		width: 100px;
 	}
 }
 #si-logo-mob{
@@ -1167,4 +1169,17 @@ button.close{
   background: url(../images/index.svg) center no-repeat #fff;
 
 
+}
+
+@media(max-width: 768px){
+	.layer:nth-child(2) img, .layer:nth-child(5) img, .layer:nth-child(6) img, .layer:nth-child(7) img{
+		display: none;
+	}
+	.layer:nth-child(4){
+		margin: auto !important;
+		position: relative !important;
+	}
+	.layer:nth-child(1){
+		
+	}
 }
