@@ -44,6 +44,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+  <style>
+    
+  </style>
+
 </head>
 <body>
 
@@ -229,10 +233,10 @@
                   <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+                  <a data-toggle="pill" href="#see-2" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+                  <a data-toggle="pill" href="#see-3" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
             </div>
         </div>
@@ -259,13 +263,13 @@
             </div>
             <div class="row row-off">
                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+                  <a data-toggle="pill" href="#see-4" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+                  <a data-toggle="pill" href="#see-5" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a data-toggle="pill" href="#see-1" class="btn btn-topic hvr-icon-forward">See Inside</a>
+                  <a data-toggle="pill" href="#see-6" class="btn btn-topic hvr-icon-forward">See Inside</a>
                </div> 
             </div>
         </div>
@@ -300,7 +304,7 @@
 							<li>Big Data Analytics.</li>
  						</ol>
 					</div>
-          <div id="see-4" class="tab-pane fade in">
+          <div id="see-2" class="tab-pane fade in">
             <ol style="padding: 20px;">
               <li>Intelligence Substation.</li>
               <li>Smart Electrical Energy Metering. </li>
@@ -330,7 +334,7 @@
             	</ol>
 					</div>
 					
-					<div id="see-5" class="tab-pane fade in">
+					<div id="see-4" class="tab-pane fade in">
 						<ol style="padding: 20px;">
 							<li>Power Generation using Nano-carbon tubes.</li>
 							<li>Cryogenic Engines.</li>
@@ -346,7 +350,7 @@
               <li>TQM concepts for zero rejection</li>
               </ol>
 					</div>
-					<div id="see-6" class="tab-pane fade in">
+					<div id="see-5" class="tab-pane fade in">
 						<ol style="padding: 20px;">
 							<li>Indian Railways: Ensuring last mile connectivity</li>
 							<li>Infrastructure: Key to development of north-east</li>
@@ -362,7 +366,7 @@
 							<li>Application of remote Sensing and GIS techniques.</li>
 	            </ol>
 					</div>
-          <div id="see-1" class="tab-pane fade in">
+          <div id="see-6" class="tab-pane fade in">
             <ol style="padding: 20px;">
               <li>BREXIT: Impact on Indian Economy.</li>
               <li>Role of Skill Development in winning the war against unemployment.</li>
@@ -388,9 +392,9 @@
     <div class="row row-off">
       <div style="margin-top:50px;" id="mob-topic"> 
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Computasfaer Science And Engineering</h3>
+            <h4>Computer Science And Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-            <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
+            <a data-toggle="modal" data-target="#cs"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Electrical And Electronics Technologies</h3>
@@ -400,22 +404,22 @@
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Electronics And Communication</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-            <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
+            <a data-toggle="modal" data-target="#ec"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Mechanical Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-            <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
+            <a data-toggle="modal" data-target="#me"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Civil Engineering</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-            <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
+            <a data-toggle="modal" data-target="#ce"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Managment Sciences</h3>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
-            <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
+            <a data-toggle="modal" data-target="#ms"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
     </div>
 </div>
@@ -424,7 +428,116 @@
 
 
 <!-- Mobile Topics Modal -->
+<div class="modal fade" id="cs" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Computer Science </h4>
+      </div>
+      <div class="modal-body gap-off" style="padding: 10px!important;">
+          <div class="container-fluid gap-off">
+              <ol class="modal-list">
+                <li>Embedded Systems.</li>
+                <li>Augmented Reality.</li>
+                <li>Natural Language Processing.</li>
+                <li>Genetic Algorithms.</li>
+                <li>Cloud Computing.</li>
+                <li>Semantic Web.</li>
+                <li>Mobile Computing and Data Intensive Computing.</li>
+                <li>Soft Computing including multi-criteria Analysis.</li>
+                <li>Cybernetics.</li>
+                <li>Nano Computing</li>
+                <li>Quantum Computing.</li>
+                <li>Big Data Analytics.</li>
+            </ol>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="modal fade" id="ee" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Electrical Engineering</h4>
+      </div>
+      <div class="modal-body gap-off" style="padding: 10px!important;">
+          <div class="container-fluid gap-off">
+              <ol class="modal-list">
+                <li>Intelligence Substation.</li>
+              <li>Smart Electrical Energy Metering. </li>
+              <li>User Authentication using Biometrics.</li>
+              <li>MRI Technology.</li>
+              <li>Humanoid Robotics.</li>
+              <li>Bluetooth Technology.</li>
+              <li>Night Vision Technology.</li>
+              <li>Power Quality Issues with Grid Connected Wind Energy Systems</li>
+              <li>Renewable Energy &amp; Environment Protection.</li>
+              <li>Smart Grid Technology</li>
+              <li>Super Conducting Rotating Machines.</li>
+              </ol>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="ec" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Electrical Engineering</h4>
+      </div>
+      <div class="modal-body gap-off" style="padding: 10px!important;">
+          <div class="container-fluid gap-off">
+              <ol class="modal-list">
+                <li>4G Technology.</li>
+              <li>Mobile Satellite Communication.</li>
+              <li>Opto Electronics.</li>
+              <li>Nanotechnology.</li>
+              <li>VLSI.</li>
+              <li>Neural Network.</li>
+              <li>Electronics Counter Measures in Defense Syastem.</li>
+              <li>IFF Technology.</li>
+              <li>Speech Processing.</li>
+              <li> Antenna Design and Radar Technology.</li>
+              </ol>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="me" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Electrical Engineering</h4>
+      </div>
+      <div class="modal-body gap-off" style="padding: 10px!important;">
+          <div class="container-fluid gap-off">
+              <ol class="modal-list">
+                <li>Indian Railways: Ensuring last mile connectivity</li>
+              <li>Infrastructure: Key to development of north-east</li>
+              <li>Earthquake Engineering - seismic risk reduction in NCR region.</li>
+              <li>Smart housing for smart cities.</li>
+              <li>Sanitation and solid waste management through ICT.</li>
+              <li>DMIC (Delhi-Mumbai Industrial Corridor) road to Development.</li>
+              <li>Storage Dams: Need for flood management.</li>
+              <li>Water scarcity and public investment in irrigation.</li>
+              <li>Creating water abundance through conservation.</li>
+              <li>Cleaning and rejuvenating Ganga and its prospects lying ahead.</li>
+              <li>Equity and global climate agreement - A step towards a clean earth.</li>
+              <li>Application of remote Sensing and GIS techniques.</li>
+              </ol>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="ce" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -446,6 +559,33 @@
                 <li>Recent trends in Mechanical Engineering.</li>
                 <li>Kinematics/dynamics of Robotic Manipulators.</li>
                 <li>Robotic Applications: Present & Future.</li>
+              </ol>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="ms" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Electrical Engineering</h4>
+      </div>
+      <div class="modal-body gap-off" style="padding: 10px!important;">
+          <div class="container-fluid gap-off">
+              <ol class="modal-list">
+                <li>BREXIT: Impact on Indian Economy.</li>
+              <li>Role of Skill Development in winning the war against unemployment.</li>
+              <li>Social Networking is the prime catalyst in shaping the actions of Indian Youths.</li>
+              <li>India is the new China: A Distant Dream.</li>
+              <li>The Glass Ceiling: Reality or Myth?</li>
+              <li>Poverty in Third World Countries is due to Prosperity in First World Countries.</li>
+              <li>Steal a Few Lakh and you’re a Criminal; Steal a Few hundred Crore and you become an Industrialist.</li>
+              <li>100% FDI in Indian Defense Sector: Boon or Bane.</li>
+              <li>Rural Development is the right answer to our unemployment problem..</li>
+              <li>Robotic Applications: Present &amp; Future.</li>
+              <li>Ethics in business: An integral part or a passing fad?</li>
               </ol>
           </div>
       </div>
@@ -507,7 +647,7 @@
           <p>The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.<span > 6.</span></p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-          
+          <p>First page to include Title, Name(s) of authors, their college name, telephone number as well as e-mail addresses. This information to be included with extended abstract also.
         </div>  
      </div>
 	</div>
@@ -622,21 +762,21 @@
           <div class="row row-off">
               <div class="col-sm-6 col-sm-offset-3 gap-off">
                  <img src="asset/images/t.jpg" class="img-responsive center-block">
-                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+                 <p class="web-team-name">Prof. V. K. PARASHAR <span style="display: block; font-size: 10px;">DWS, AKGEC</span></p>
               </div>
           </div>
           <div class="row row-off">
               <div class="col-sm-4 col-xs-4">
                 <img src="asset/images/st1.jpg" class="img-responsive center-block">
-                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+                 <p class="web-team-name">SANDEEP GUPTA<span style="display: block; font-size: 10px;">8802119708</span></p>
               </div>
               <div class="col-sm-4 col-xs-4">
                 <img src="asset/images/st2.jpg" class="img-responsive center-block">
-                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+                 <p class="web-team-name">MAYANK BAHADUR<span style="display: block; font-size: 10px;">8745982117</span></p>
               </div>
               <div class="col-sm-4 col-xs-4">
                 <img src="asset/images/st3.jpg" class="img-responsive center-block">
-                 <p class="web-team-name">Prof. V. K. PARASHAR</p>
+                 <p class="web-team-name">SUHANI SINGH</p>
               </div>
           </div>
           </div>
@@ -955,7 +1095,6 @@
             </form>
              </div>
           </div>
-<!--          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
           <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
           <script>
             $.validate({
@@ -1268,21 +1407,6 @@ $(document).ready(function(){
 
     }
 </script>
-
-<!-- ++++++++++++++++ Carousel Script +++++++++++++++++-->
-<script type="text/javascript">
-  
-$('.carousel').swipe( {
-     swipeLeft: function() {
-         $(this).carousel('next');
-     },
-     swipeRight: function() {
-         $(this).carousel('prev');
-     },
-     allowPageScroll: 'vertical'
- });
-</script>
-
 
 <!-- ++++++++++++++++ loader Script +++++++++++++++++-->
 <script>
