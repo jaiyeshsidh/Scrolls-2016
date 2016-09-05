@@ -589,6 +589,7 @@
 <!-- Query Modal -->
 <div class="modal fade" id="query" role="dialog">
   <div class="modal-dialog">
+
     <div class="modal-content modal-content-query">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
