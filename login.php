@@ -6,19 +6,19 @@
 							"Password" =>$_POST['password']); 
 	curl_setopt_array($loginCurl, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => 'http://akgec-scrolls/rest/api/Teams/IsTeamValid',
-											CURLOPT_POST => 1
+											CURLOPT_URL => 'http://akgec-scrolls.com/rest/api/Teams/IsTeamValid',
+											CURLOPT_POST => 1 ,
 											CURLOPT_POSTFIELDS => json_encode($postLoginData),
 										));
 
 	 $success = curl_exec($loginCurl);
 	 $success=json_decode($success);
 	 $success=(array)$success;
-	 $teamIds=$success["TeamId"];
+	 $teamIds=substr(trim($_POST['teamId']),7);
 		curl_close($loginCurl);
 	//print_r(json_encode($postLoginData));
 	$scrollsIdCurl= curl_init();
-	$url= "http://akgec-scrolls/rest/api/Teams/GetTeam?teamId=".trim($teamIds);
+	$url= "http://akgec-scrolls.com/rest/api/Teams/GetTeam?teamId=".trim($teamIds);
 	//echo $url
 	curl_setopt_array($scrollsIdCurl, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
@@ -30,8 +30,10 @@
 	curl_close($scrollsIdCurl);
 	  //var_dump($scrollIdResponse);
 	$scrollIdResponse=(array)$scrollIdResponse;
-	  //var_dump($success);
-	  //var_dump($scrollIdResponse);
+	  // echo $teamIds;
+	  // var_dump($_POST);
+	  // var_dump($success);
+	  // var_dump($scrollIdResponse);
 	if (isset($success) && isset($scrollIdResponse)) 
 	{
 		

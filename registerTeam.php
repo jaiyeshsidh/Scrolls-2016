@@ -40,6 +40,6 @@ if(isset($_POST["submit"]))
 		}
 		else
 		{
-			echo "<script language='javascript'>alert('Individual Registration Completed.'); location.href='index.php'; </script>";
+			echo "<script language='javascript'>alert('Team Registration Complete. Proceed to Login.'); location.href='index.php'; </script>";
 		}
 }		

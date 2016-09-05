@@ -674,6 +674,8 @@
     </div>
   </div>
 </div>
+
+
 <!-- Modal -->
   <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="padding-left: 0px;">
     <div class="modal-dialog" role="document" >
@@ -778,7 +780,7 @@
           </form>
           </div>
           <div id="menu1" class="tab-pane fade">
-              <form method="POST" action="RegisterTeam.php">
+              <form method="POST" action="registerTeam.php">
               <div class="form-group" style="margin-top: 3%;">
                  <input type="text" class="textbox" id="form-team-name" name="team_name" placeholder="Enter team name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" >
           </div>
