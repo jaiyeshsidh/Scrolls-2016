@@ -435,11 +435,13 @@ h1,h2,h3,h4,h5,h6{
     background-color: #fbc94a;   
 }
 .sidebar-nav li:nth-child(3):before {
-	color: #000;
+	color: #fff;
     background-color: #fbc94a;   
 }
+.
 .sidebar-nav li:nth-child(4):before {
     background-color: #fbc94a;   
+    color: #fff;
 }
 .sidebar-nav li:nth-child(5):before {
     background-color: #fbc94a;   
@@ -496,6 +498,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
     border-radius: 0;
     border: none;
+    color: #fff;
     background-color: #222;
     box-shadow: none;
 }
@@ -975,7 +978,7 @@ button.close{
 .custom-login{
 	position: fixed;
 	top: 0px;
-	left: 20px;
+	left: 205px;
 	background-color: #fbc94a;
 	z-index: 601;
 }
@@ -1008,9 +1011,13 @@ button.close{
 	padding: 30px;
 }
 .list-group{margin-bottom: 0px;}
-#drop-date:focus, #drop-date:active, #drop-date:hover{
-	background-color: #fbc94a;
+#drop-date:focus, #drop-date:hover{
 	color: #fff;
+	background-color: transparent;
+}
+#drop-date:active{
+	background-color: transparent;
+	color: #fbc94a !important;
 }
 
 
@@ -1226,6 +1233,9 @@ button.close{
 #landscape{
 	display: none;
 }
+#ipad{
+	display: none;
+}
 @media(max-width: 768px) and (max-height: 400px) and (orientation: landscape){
 	#nav-top{
   		display: none;
@@ -1238,16 +1248,30 @@ button.close{
   		text-align: center;
   		padding: 50vh;
   	}
+  	#ipad{
+  		display: none;
+  	}
 
 }
 
-body .modal-open {
-position:fixed;
-overflow: hidden;
+@media(width: 768px) and (height: 1024px){
+	#nav-top{
+  		display: none;
+  	}
+  	.landing, .about, .wrapper, .logo-section, .topics, .rules, .team{
+  		display: none;
+  	}
+  	#landscape{
+  		display: none;
+  	}
+  	#ipad{
+  		display: block;
+  		padding: 10vh;
+  		text-align: center;
+  	}
+
 }
-.modal-title{
-	text-align: center;
-}
+
 #anchorsi{
 	text-decoration: none;
 	color: #424242;
@@ -1256,3 +1280,6 @@ overflow: hidden;
 	text-decoration: none;
 	color: #424242;
 } 
+.hover-fix:hover{
+	background-color: transparent !important;
+}

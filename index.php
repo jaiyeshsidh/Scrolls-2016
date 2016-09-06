@@ -74,7 +74,8 @@
                 </li>
                 <li>
                     <a href="#dates" data-toggle="collapse" id="drop-date">Important Dates</a>
-                        <div id="dates" class="panel-collapse drop-date-panel collapse">
+                </li>
+                        <div id="dates" class="panel-collapse drop-date-panel collapse hover-fix" >
                               <ul class="list-group">
                                 <li class="list-group-item">
                                   4th October, 2016
@@ -94,7 +95,6 @@
                                 </li>
                               </ul>
                         </div>
-                </li>
                 <li>
                     <a href="#topics" type="button" class="ham is-closed" data-toggle="offcanvas">Topics</a>
                 </li>
@@ -139,10 +139,10 @@
       <li class="layer l1" data-depth="0.00"><p>Ajay Kumar Garg Engineering College</p><h1>Scrolls 2016</h1><h6>In Association with <span>GMA</span></h6></li>
       <li class="layer l2" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
       <li class="layer l3" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
-      <li class="layer l4" data-depth="0.20" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
-      <li class="layer l5" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
-      <li class="layer l6" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
-      <li class="layer l7" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
+      <li class="layer l4" data-depth="0.20" style="margin-top: 280px ;"><img src="asset/images/podium.png"></li>
+      <li class="layer l5" data-depth="0.30" style="margin-top: 500px ;"><img src="asset/images/chair-row-1.png"></li>
+      <li class="layer l6" data-depth="0.40" style="margin-top: 510px ;"><img src="asset/images/chair-row-2.png"></li>
+      <li class="layer l7" data-depth="0.60" style="margin-top: 530px ;"><img src="asset/images/chair-row-3.png"></li>
     </ul>
 
     <!-- parallax window end -->
@@ -741,7 +741,7 @@
             </div>
             <div class="form-group">
               <!-- <label for="Description">Query Description</label> -->
-              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 92%;"></textarea>
+              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 100%; resize: vertical;"></textarea>
             </div>
             <button type="submit" class="btn btn-send" data-dismiss="modal">Send</button>
           </form>
@@ -816,13 +816,14 @@
             <p class="web-team-name">Siddhant S Goral</p>
           </div>
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
-            <img src="asset/images/dt5.jpg" class="img-responsive">
-            <p class="web-team-name">Rajat Sharma</p>
-          </div>
-          <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt6.jpg" class="img-responsive">
             <p class="web-team-name">Kunal Chaudhary</p>
           </div>
+          <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
+            <img src="asset/images/dt5.png" class="img-responsive">
+            <p class="web-team-name">Rajat Sharma</p>
+          </div>
+
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt7.jpg" class="img-responsive">
             <p class="web-team-name">Deepak Singh</p>
@@ -853,6 +854,7 @@
 <section  id="landscape">
   <p>Change your Device Orientation to Portrait</p> 
 </section>
+  <p id="ipad">Unsupported Device</p>
 
 <!-- Modal -->
   <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="padding-left: 0px;">
@@ -1113,6 +1115,7 @@
 
 <!-- ++++++++++++++++ Insheet Script +++++++++++++++++-->
 
+
 <script >
 $(document).ready(function(){
    
@@ -1175,7 +1178,7 @@ $('#form-college').change(function(){
 	        scrollSpeed: 2000,
 	        offset : 0,
 	        scrollbars: false,
-	        standardScrollElements: "",
+	        standardScrollElements: ".modal",
 	        setHeights: true,
 	        overflowScroll: true,
 	    });
