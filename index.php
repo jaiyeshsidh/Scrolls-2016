@@ -395,32 +395,32 @@
     <div class="row row-off">
       <div style="margin-top:50px;" id="mob-topic"> 
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Computer Science And Engineering</h3>
+            <h4>Computer Science And Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#cs"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electrical And Electronics Technologies</h3>
+            <h4>Electrical And Electronics Technologies</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Electronics And Communication</h3>
+            <h4>Electronics And Communication</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ec"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Mechanical Engineering</h3>
+            <h4>Mechanical Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#me"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Civil Engineering</h3>
+            <h4>Civil Engineering</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ce"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
-            <h4>Managment Sciences</h3>
+            <h4>Managment Sciences</h4>
             <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
             <a data-toggle="modal" data-target="#ms"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
@@ -878,7 +878,7 @@
 
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
-          <form method="POST" action="registerParticipant.php" >
+          <form method="POST" action="registerParticipant.php" autocomplete="off">
               <div class="form-group" style="margin-top: 3%;">
                 <label>Name</label>
                  <input type="text" class="textbox" id="form-name" name="name" placeholder="Enter your name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
@@ -930,11 +930,15 @@
           <div class="form-group col-sm-4 col-xs-4 gap-off">
               <label for="sel1">College</label>
               <select class="textbox" id="form-college" name="college">
-                <option value="">Others</option>
-              <?php foreach ($colleges as $college) {
+                  <option value="4">AJAY KUMAR GARG ENGINEERING COLLEGE</option>
+                  <?php foreach ($colleges as $college) {
+                        if($college->CollegeId!=4)
+                        {
                  ?>
               <option value="<?php echo $college->CollegeId; ?>" ><?php echo $college->CollegeName; ?></option>
-             <?php } ?></select>
+             <?php }} ?>
+                  <option value="">Others</option>
+              </select>
             </div>
               <div class="form-group">
                  <input type="text" class="textbox" id="form-college-name" name="college_name" placeholder="Enter your College Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
@@ -960,7 +964,7 @@
           </form>
           </div>
           <div id="menu1" class="tab-pane fade">
-              <form method="POST" action="registerTeam.php">
+              <form method="POST" action="registerTeam.php" autocomplete="off">
               <div class="form-group" style="margin-top: 3%;">
                  <input type="text" class="textbox" id="form-team-name" name="team_name" placeholder="Enter team name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" >
           </div>
@@ -973,7 +977,7 @@
           <label>Member 1</label>
           <div class="row">
               <div class="form-group col-sm-6 col-xs-6" >
-             <input type="text" class="textbox" id="form-member-1" name="member1_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
+             <input type="text" class="textbox" id="form-member-1" name="member1_id" placeholder="Scrolls ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$" data-validation-help="Eg AKG 1234" data-sanitize="trim upper">
           </div>
           <div class="form-group col-sm-6 col-xs-6">     
              <input type="text" class="textbox" id="form-member-1-name" name="member1_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
@@ -983,10 +987,10 @@
           <label>Member 2</label>
           <div class="row">
             <div class="form-group col-sm-6  col-xs-6">
-               <input type="text" class="textbox" id="form-member-2" name="member2_id" placeholder="Scroll ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$">
+               <input type="text" class="textbox" id="form-member-2" name="member2_id" placeholder="Scrolls ID" data-validation="custom required" data-validation-regexp="^(AKG \d\d\d\d)?$" data-validation-help="Eg AKG 1234" data-sanitize="trim upper">
             </div>
             <div class="form-group col-sm-6 col-xs-6">   
-               <input type="text" class="textbox" id="form-member-2-name" name="member2_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
+               <input type="text" class="textbox" id="form-member-2-name" name="member2_name" placeholder="Name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$" autocomplete="off">
             </div>   
           </div>
           
@@ -994,7 +998,7 @@
           <label>Member 3</label>
           <div class="row">
               <div class="form-group col-sm-6 col-xs-6">
-               <input type="text" class="textbox" id="form-member-3" name="member3_id" value="" placeholder="Scroll ID" data-validation="custom" data-validation-regexp="^(AKG \d\d\d\d)?$">
+               <input type="text" class="textbox" id="form-member-3" name="member3_id" value="" placeholder="Scrolls ID" data-validation="custom" data-validation-regexp="^(AKG \d\d\d\d)?$" data-validation-help="Eg AKG 1234" data-sanitize="trim upper" autocomplete="off">
             </div>  
             <div class="form-group col-sm-6 col-xs-6"> 
                 <input type="text" class="textbox" id="form-member-3-name" name="member3_name" placeholder="Name" data-validation="custom" data-validation-regexp="^([a-zA-Z ]*)$">
@@ -1054,7 +1058,7 @@
                </select>
                 <div class="form-group">
                   <label for="pwd" style="margin-top: 10px;">Password</label>
-                  <input type="password" class="textbox" id="form-password" name="password" placeholder="Enter password" data-validation="required">
+                  <input type="password" class="textbox" id="form-password" name="password" placeholder="Enter password" data-validation="required" autocomplete="off">
                 </div>
                 <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
 
@@ -1065,7 +1069,8 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
       <script>
         $.validate({
-          lang: 'en'
+          lang: 'en',
+            modules: 'sanitize'
         });
       </script>
     </div>
@@ -1087,14 +1092,14 @@
                 <h4 class="modal-title" id="myModalLabel">LOG IN</h4>
              </div>
              <div class="modal-body">
-            <form method="POST" action="login.php">
+            <form method="POST" action="login.php" autocomplete="off">
               <div class="form-group">
                 <label for="teamName">Team ID:</label>
-                <input type="text" id="teamName" name="teamId" class="textbox" data-validation="required custom" data-validation-regexp="^(SCROLLS \d\d\d\d)?$">
+                <input type="text" id="teamName" name="teamId" class="textbox" data-validation="required custom" data-validation-regexp="^(SCROLLS \d\d\d\d)?$" data-validation-help="Eg SCROLLS 1234" data-sanitize="trim upper" autocomplete="off">
               </div>
               <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" name="password" class="textbox" id="password" data-validation="required">
+                <input type="password" name="password" class="textbox" id="password" data-validation="required" autocomplete="off">
               </div>
 
               <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
@@ -1104,7 +1109,8 @@
           <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
           <script>
             $.validate({
-              lang: 'en'
+              lang: 'en',
+              modules : 'sanitize'
             });
           </script>
         </div>
@@ -1120,7 +1126,8 @@ $(document).ready(function(){
    
     $('#form-member-container-3').hide();
 	$('#team-leader-container-3').hide();
-	$('#form-studentId').hide();
+	//$('#form-studentId').hide();
+    $('#form-college-name').hide();
 
      $('.form-no-of-participants').click(function(){
 				console.log("hi");
@@ -1138,7 +1145,7 @@ $(document).ready(function(){
 
 	$('#form-domains').change(function(){
 		$('#form-topics').children().remove();
-		 $.get("http://localhost:8080/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
+		 $.get("http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId="+$(this).val(),function(data,status){
 		 		//console.log(data);
 		 		for(var i=0;i<data.length;i++) {
 		 			$('#form-topics').append($('<option>', {
@@ -1159,7 +1166,7 @@ $('#form-college').change(function(){
 	});
 $('#form-college').change(function(){
 		//console.log($(this).val());
-		if($(this).val()==1)
+		if($(this).val()==4)
 			$('#form-studentId').show();
 		else
 			$('#form-studentId').hide();

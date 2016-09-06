@@ -1,7 +1,7 @@
 <?php
 session_start();
 $data=file_get_contents( $_FILES['uploadedfile']['tmp_name']);
-$target_file = $target_dir . basename($_FILES["uploadedfile"]["name"]);
+$target_file = basename($_FILES["uploadedfile"]["name"]);
 $pdfFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 
 if ($_FILES["uploadedfile"]["size"] > 2726297) {
@@ -32,7 +32,7 @@ print(" ");
 
 	curl_setopt_array($createCollegeCurl, array( CURLOPT_HTTPHEADER =>array('Content-Type: application/json'),
 											CURLOPT_RETURNTRANSFER => 1,
-											CURLOPT_URL => 'http://localhost:8080/api/Teams/UploadFile',
+											CURLOPT_URL => 'http://akgec-scrolls.com/rest/api/Teams/UploadFile',
 											CURLOPT_POST => 1,
 											CURLOPT_POSTFIELDS => json_encode($postCollegeData),
 										));

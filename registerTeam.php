@@ -34,12 +34,14 @@ if(isset($_POST["submit"]))
 			$team_sucess=json_decode($team_sucess);
 			curl_close($team);
 		$team_sucess=(array)$team_sucess;
+//		var_dump($team_sucess);
 		if(isset($team_sucess["Message"]))
 		{
-			echo "<script language='javascript'>alert('".$team_sucess["Message"]."'); location.href='index.php'; </script>"; 
+			echo "<script language='javascript'>alert('".$team_sucess["Message"]."'); location.href='index.php'; </script>";
 		}
 		else
 		{
-			echo "<script language='javascript'>alert('Team Registration Complete. Proceed to Login.'); location.href='index.php'; </script>";
+//		    var_dump($team_sucess);
+			echo "<script language='javascript'>alert(' Your Team ID is SCROLLS ".$team_sucess["TeamId"].".\\n Your Details have also been sent to you by email.\\n Proceed to Login .'); location.href='index.php'; </script>";
 		}
 }		

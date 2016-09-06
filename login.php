@@ -30,27 +30,27 @@
 	curl_close($scrollsIdCurl);
 	  //var_dump($scrollIdResponse);
 	$scrollIdResponse=(array)$scrollIdResponse;
-	  // echo $teamIds;
-	  // var_dump($_POST);
-	  // var_dump($success);
-	  // var_dump($scrollIdResponse);
-	if (isset($success) && isset($scrollIdResponse)) 
+	   echo $teamIds;
+	   var_dump($_POST);
+	   var_dump($success);
+	   var_dump($scrollIdResponse);
+	if (!(empty($success)) && isset($scrollIdResponse))
 	{
-		
-		
+
+
 		session_start();
 		$_SESSION["TeamId"] =$_POST['teamId'];
 		$_SESSION["DomainName"]=$success["DomainName"];
 		$_SESSION["TopicName"]=$success["TopicName"];
 		$_SESSION["TeamName"]=$scrollIdResponse["TeamName"];
 		$_SESSION["SynopsisAvailable"]=$scrollIdResponse["SynopsisAvailable"];
-
+//		var_dump($_SESSION);
 		header("location: home.php");
 	}
 	else
 	{
-		echo "<script language='javascript'>alert('Invalid Credentials'); location.href='index.php'; </script>"; 
-	    
+		echo "<script language='javascript'>alert('Invalid Credentials'); location.href='index.php'; </script>";
+
 	}
 
 ?>

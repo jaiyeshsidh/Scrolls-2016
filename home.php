@@ -1,6 +1,10 @@
 <?php
     session_start();
-     $TopicName= $_SESSION["TopicName"]; 
+if (!isset($_SESSION))
+{
+    header("location: index.php");
+}
+$TopicName= $_SESSION["TopicName"];
      $DomainName= $_SESSION["DomainName"];
      $TeamName=$_SESSION["TeamName"];
      $TeamId=$_SESSION["TeamId"];
