@@ -25,10 +25,11 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Bootstrap Javascript-->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- parallax stylesheet -->
+    <link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
 	<!-- User Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="asset/css/index.css">
-  <!-- parallax stylesheet -->
-  <link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
+
 	<!-- User Javascript -->
 	<script src="asset/js/index.js"></script>
 	<!-- Scrollify Javascript -->
@@ -117,7 +118,7 @@
     </div>
     <!-- Download Button for Synopsis download -->	
     <div class="download">
-        <a href="asset/Synopsis.pdf" data-toggle="tooltip" data-placement="bottom" title="Sample Synopsis"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
+        <a href="asset/Synopsis.pdf"  data-toggle="tooltip" data-placement="bottom" title="Sample Synopsis"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
         <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Awards"><button class="btn"><span class="fa fa-trophy" style="font-size: 25px;  padding"></span></button></a> -->
     </div>
     <!-- Registration Button for Registration of New user -->
@@ -213,19 +214,21 @@
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Computer Science And Engineering</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>
+                      <p>Meet us at the intersection of technology and innovation.</p>
+                      </p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Electrical And Electronics Technologies</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>Illuminating ideas beyond convention.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Electronics And Communication</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>IC the world embedded in us.</p>
                   </div>  
               </div>
             </div>
@@ -246,19 +249,19 @@
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Mechanical Engineering</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>Let machines serve the mankind.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Civil Engineering</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>Building future on foundation of excellence.</p>
                   </div>  
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                   <div class=" shade">
                     <h3>Electronics And Communication</h3>
-                    <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+                    <p>Leading the next big change.</p>
                   </div>  
               </div>
             </div>
@@ -287,7 +290,8 @@
 				<h1>Topics</h1>
 				<div class="tab-content">
 					<div id="see-0" class="tab-pane fade in active">
-						<p>asskjfjhasfkgiul</p>
+                        <p>A better world is constructed by unification of significant domains. We constructed, we automated, we embeddded a brighter future by our own minds. Sprawling and enticing every realm of human life, these domains have enhanced simplicity. In an effort towards endless revolution, let's walk a little further and create new benchmarks.<p>
+                            <br/><p>Along side mentioned the topics under various domains for Scrolls 2016.</p>
 					</div>
 					<div id="see-1" class="tab-pane fade in">
 						<ol style="padding: 20px;">
@@ -299,9 +303,9 @@
 							<li>Semantic Web.</li>
 							<li>Mobile Computing and Data Intensive Computing.</li>
 							<li>Soft Computing including multi-criteria Analysis.</li>
-              <li>Cybernetics.</li>
+                            <li>Cybernetics.</li>
 							<li>Nano Computing</li>
-              <li>Quantum Computing.</li>
+                            <li>Quantum Computing.</li>
 							<li>Big Data Analytics.</li>
  						</ol>
 					</div>
@@ -327,11 +331,11 @@
 							<li>Opto Electronics.</li>
 							<li>Nanotechnology.</li>
 							<li>VLSI.</li>
-              <li>Neural Network.</li>
-              <li>Electronics Counter Measures in Defense Syastem.</li>
-              <li>IFF Technology.</li>
-              <li>Speech Processing.</li>
-              <li> Antenna Design and Radar Technology.</li>
+                          <li>Neural Network.</li>
+                          <li>Electronics Counter Measures in Defense Syastem.</li>
+                          <li>IFF Technology.</li>
+                          <li>Speech Processing.</li>
+                          <li> Antenna Design and Radar Technology.</li>
             	</ol>
 					</div>
 					
@@ -343,7 +347,7 @@
 							<li>Automatic Transmission in Automobiles.</li>
 							<li>Hydraulic and pneumatic actuators.</li>
 							<li>Improvisation during the last two decades in passenger cars.</li>
-              <li>Nanotechnology.</li>
+                            <li>Nanotechnology.</li>
 							<li>Recent trends in Mechanical Engineering.</li>
 							<li>Kinematics/dynamics of Robotic Manipulators.</li>
 							<li>Robotic Applications: Present &amp; Future.</li>
@@ -394,32 +398,32 @@
       <div style="margin-top:50px;" id="mob-topic"> 
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Computer Science And Engineering</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>Meet us at the intersection of technology and innovation.</p>
             <a data-toggle="modal" data-target="#cs"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Electrical And Electronics Technologies</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>Illuminating ideas beyond convention.</p>
             <a data-toggle="modal" data-target="#ee"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Electronics And Communication</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>IC the world embedded in us.</p>
             <a data-toggle="modal" data-target="#ec"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Mechanical Engineering</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>Let machines serve the mankind.</p>
             <a data-toggle="modal" data-target="#me"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Civil Engineering</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>Building future on foundation of excellence.</p>
             <a data-toggle="modal" data-target="#ce"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
         <div class="col-xs-6 gap-off mob-topic-text" style="height: 31vh; background-color: #424242; border:1px solid rgba(0,0,0,0.1); padding: 10px;">
             <h4>Managment Sciences</h4>
-            <p>The branch of engineering dealing with the design, construction, and use of machines.</p>
+            <p>Leading the next big change.</p>
             <a data-toggle="modal" data-target="#ms"><span class="fa fa-arrow-circle-right"></span></a>
         </div>
     </div>
@@ -657,29 +661,27 @@
 
 <section class="team" id="contact">
   <div class="conatiner-fluid gap-off ">
-     <div class="row row-off display-mob">
+     <div class="row row-off">
         <div class="col-lg-3 col-md-3 col-sm-3 gap-off" id="team-head">
           <p>Contact <br>Us</p>
         </div>  
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 gap-off">
+        <div class="col-lg-9 col-md-9 col-sm-3 col-xs-12 gap-off">
           <div class="container-fluid" style="padding: 0;">
               <div id="map"></div>
           </div>
         </div>  
         <a data-toggle="modal" data-target="#query"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div"><!-- Query Up -->
             <h3>Query Us.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
-        </div></a>
+           </div></a>
         <a data-toggle="modal" data-target="#scroll-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
           <h3>Meet Our Scrolls Team.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
+          <p>Meet the people who are at the center of it all</p>
         </div></a>
         <a data-toggle="modal" data-target="#dev-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
           <h3 style="line-height: 30px;">Meet Our Designer and Developer Team.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
-        </div></a>  
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 gap-off">
-            <a href="http://www.silive.in" id="anchorsi"><div class="col-sm-6  poweredbysi">
+          </div></a>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 gap-off">
+            <a href="http://www.silive.in" id="anchorsi"><div class="col-sm-12  poweredbysi">
                 <p style="font-weight: 700;">Proudly Powered By- </p>
                 <h1 style="text-transform: uppercase; margin: 0px;">Software <span style="display: block;">Incubator</span></h1>
                 <img src="asset/images/silogo.svg" id="si-logo" class="center-block" >
@@ -702,16 +704,14 @@
      <div class="row row-off display-web">
           <a data-toggle="modal" data-target="#query"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div"><!-- Query Up -->
               <h3>Query Us.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
-          </div></a>
+              </div></a>
           <a data-toggle="modal" data-target="#scroll-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
             <h3>Meet Our Scrolls Team.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
-          </div></a>
+            </div></a>
           <a data-toggle="modal" data-target="#dev-team"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
             <h3 style="line-height: 30px;">Meet Our Designer and Developer Team.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a aliquam est, sit amet iaculis libero.</p>
-          </div></a> 
+            <p>Meet the people who are at the center of it all</p>
+            </div></a>
           <a href="http://www.silive.in" id="anchorsi"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">
             <div class="poweredbysi">
                 <p style="font-weight: 700;">Proudly Powered By- </p>
@@ -735,15 +735,15 @@
         <h4 class="modal-title">Ask Us Questions ?</h4>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="RegisterQuery.php" method="POST" >
             <div class="form-group">
-              <input type="email" class="textbox" placeholder="Enter Email Address">
+              <input type="email" class="textbox" placeholder="Enter Email Address" name="email">
             </div>
             <div class="form-group">
               <!-- <label for="Description">Query Description</label> -->
-              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 100%; resize: vertical;"></textarea>
+              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 100%; resize: vertical;" name="body"></textarea>
             </div>
-            <button type="submit" class="btn btn-send" data-dismiss="modal">Send</button>
+            <input type="submit" class="btn btn-send" value="Send" name="submit" >
           </form>
       </div>
     </div>
@@ -937,7 +937,7 @@
                  ?>
               <option value="<?php echo $college->CollegeId; ?>" ><?php echo $college->CollegeName; ?></option>
              <?php }} ?>
-                  <option value="">Others</option>
+                  <option value="">OTHERS</option>
               </select>
             </div>
               <div class="form-group">
@@ -960,7 +960,7 @@
               <label class="radio-inline"><input type="radio" id="form-accomodation" value="true" name="accomodation">Yes</label>
               <br>
 
-            <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 20px;">
+            <input type="submit" name="submit" value="Submit" class="btn btn-send" style="margin-top: 20px;">
           </form>
           </div>
           <div id="menu1" class="tab-pane fade">
@@ -1060,7 +1060,7 @@
                   <label for="pwd" style="margin-top: 10px;">Password</label>
                   <input type="password" class="textbox" id="form-password" name="password" placeholder="Enter password" data-validation="required" autocomplete="off">
                 </div>
-                <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
+                <input type="submit" name="submit" value="Submit" class="btn btn-send" style="margin-top: 10px;">
 
           </form>
         </div>
@@ -1102,7 +1102,7 @@
                 <input type="password" name="password" class="textbox" id="password" data-validation="required" autocomplete="off">
               </div>
 
-              <input type="submit" name="submit" value="submit" class="btn btn-send" style="margin-top: 10px;">
+              <input type="submit" name="submit" value="Submit" class="btn btn-send" style="margin-top: 10px;">
             </form>
              </div>
           </div>

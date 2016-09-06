@@ -30,14 +30,15 @@
 	curl_close($scrollsIdCurl);
 	  //var_dump($scrollIdResponse);
 	$scrollIdResponse=(array)$scrollIdResponse;
-	   echo $teamIds;
-	   var_dump($_POST);
-	   var_dump($success);
-	   var_dump($scrollIdResponse);
+//	   echo $teamIds;
+//	   var_dump($_POST);
+//	   var_dump($success);
+//	   var_dump($scrollIdResponse);
+//var_dump($success);
 	if (!(empty($success)) && isset($scrollIdResponse))
 	{
-
-
+		if(isset($success["Message"]))
+			echo "<script language='javascript'>alert('Our Servers are  busy right now . \\n Please try again later .'); location.href='index.php'; </script>";
 		session_start();
 		$_SESSION["TeamId"] =$_POST['teamId'];
 		$_SESSION["DomainName"]=$success["DomainName"];

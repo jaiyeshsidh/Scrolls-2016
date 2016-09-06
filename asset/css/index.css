@@ -847,7 +847,7 @@ button.close{
 .btn-send{
 	width: 100%;
 	text-align: center;
-	color: #424242/;
+	color: #424242;
 	background-color: #fbc94a;
 	border-radius: 0px;
 }
@@ -1072,7 +1072,7 @@ button.close{
 	font-size: 25px;
 }
 
-@media(max-width: : 768px){
+@media(max-width:  768px){
 	.about p {
 		font-size: 11px;
 	}
@@ -1106,7 +1106,7 @@ button.close{
 	}
 }
 .tooltip{
-	background-color: #424242s;
+	background-color: #424242;
 	z-index: 2000;
 	opacity: 1;
 	margin-top: 30px; 
@@ -1198,7 +1198,8 @@ button.close{
 		display: none;
 	}
 	.layer:nth-child(4){
-		margin: auto !important;
+		margin-left: 20%;
+		margin-top: 212px !important;
 		position: relative !important;
 	}
 	.layer:nth-child(1){
@@ -1206,6 +1207,13 @@ button.close{
 	}
 }
 @media(max-width: 365px),(max-height: 545px){
+	#dev-team .modal-title{
+		font-size: 15px;
+	}
+	.web-team-name {
+
+		font-size: 10.5px;
+	}
 	.about p{
 		font-size: 11px;
 	}

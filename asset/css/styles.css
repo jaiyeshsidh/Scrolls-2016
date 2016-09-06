@@ -14,7 +14,21 @@
   left: 5%;
   top: 5%;
 }
-
+@media(max-width: 768px){
+  #head-name{
+    font-size: 64px !important;
+  }
+}
+#logout-btn{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+  background-color: #fbc94a;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
 .expand-width {
   width: 100%;
 }
@@ -139,7 +153,7 @@ letter-spacing: 4px;
 /*=========================== image upload page ==========================================*/
 
 #image-upload{
-  margin-bottom:2%;
+  margin-bottom:6%;
 }
 
 #js-upload-submit{
@@ -152,8 +166,30 @@ letter-spacing: 4px;
   background-color:#fbc94a;
   color:#fff;
   letter-spacing:1px;
-  padding:5px 4%;
 }
+.btn-send{
+  text-align: center;
+  color: #424242 !important;
+  background-color: #fbc94a !important;
+  border-radius: 0px;
+}
+.btn-send:hover{
+  background-color: #424242 !important;
+  color: #fbc94a !important;
+}
+.btn-send:focus{
+  outline: 0;
+}
+#main-head h3{
+  font-size: 40px;
+}
+#topic-name{
+  font-size: 25px;
+}
+#domain-name{
+  font-size: 25px;
+}
+
 
 @media (max-width: 2560px) and (min-width:1400px) {
 .layer:nth-child(1) {
