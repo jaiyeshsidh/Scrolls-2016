@@ -950,7 +950,7 @@ button.close{
 .custom-register{
 	position: fixed;
 	top: 0px;
-	left: 157px;
+	left: 103px;
 	background-color: #fbc94a;
 	z-index: 601;
 }
@@ -975,7 +975,7 @@ button.close{
 .custom-login{
 	position: fixed;
 	top: 0px;
-	left: 249px;
+	left: 20px;
 	background-color: #fbc94a;
 	z-index: 601;
 }
@@ -1255,4 +1255,4 @@ overflow: hidden;
 #anchorsi:hover{
 	text-decoration: none;
 	color: #424242;
-}
+} 
