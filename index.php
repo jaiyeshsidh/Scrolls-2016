@@ -25,6 +25,10 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Bootstrap Javascript-->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- User Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="asset/css/index.css">
+  <!-- parallax stylesheet -->
+  <link rel="stylesheet" type="text/css" href="asset/css/styles.css"/>
 	<!-- User Javascript -->
 	<script src="asset/js/index.js"></script>
 	<!-- Scrollify Javascript -->
@@ -40,13 +44,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <style>
-  /*index.css*/
-  .about h1,.about h4{text-align:center;font-weight:bolder}#about-detail h2,#about-quote,.about h1,.about h4{font-weight:bolder}#about-block-1,#about-block-2{background-color:#fbc94a}.btn-send:focus,.btn-topic,.btn-topic:focus,.btn-topic:hover,.btn:active:focus,.btn:focus,.custom-login button:focus,.custom-register button:focus,.download button:focus,.hamburger:active,.hamburger:focus,.hamburger:hover,.textbox{outline:0}body{letter-spacing:.75px;font-size:12px;font-family:'Open Sans',sans-serif;overflow-y:hidden}h1,h2,h3,h4,h5,h6{font-family:Merriweather,serif}.gap-off{padding-left:0;padding-right:0}.row-off{margin-left:0;margin-right:0}.sec-2-padding{padding:60px}.about{padding:30px 0;overflow:hidden}.about h4{line-height:27px}.about p{text-align:justify}@media(max-width:768px){.about{padding:50px 0}.about h1{font-size:22px}.about h4,.about p{font-size:12px}.about h4{line-height:15px}.about-img{padding-top:10px}.dev-team-body{padding:10px}}.team-image-1{padding-top:5%!important}.web-team-name{text-align:center;padding-top:5%;color:#fff;font-size:13px;padding-left:15px}.fa,.search,.subscribe p{color:#424242}.modal-backdrop{opacity:.8!important}.about-img{padding-top:20%;width:100px;height:auto;display:block;margin-left:auto;margin-right:auto}#about-detail{text-align:justify;background-color:#ffcf00}#about-quote{font-size:24px}#about-block-1{padding:60px}#about-block-1 img,#about-block-2 img{width:50px;height:50px}#about-block-1 p,#about-block-2 p{padding:20px 0}.textbox{background:url(asset/images/d.png) 245px 0 no-repeat;height:25px;width:100%;border-style:solid;border-width:0 0 1px;border-color:#7d7d7d}.search{top:2px;position:relative;font-size:11px}.search input{text-indent:0;letter-spacing:1px}.search .fa-long-arrow-right{position:absolute;top:6px;left:255px}::-webkit-input-placeholder{color:#424242;letter-spacing:1px}.subscribe{padding:20px 50px;vertical-align:bottom;background-color:#fbc94a}.subscribe p{margin-top:8px;letter-spacing:1px;display:inline-block}.scroll-btn,.video-btn{margin-top:15%;text-align:center}.video-btn span{font-size:68px;color:#fff;transition:all .1s}.video-btn span:hover{color:#fbc94a;text-shadow:1px 1px 2px rgba(0,0,0,.3)}.scroll-btn{-webkit-animation:sliver .2s infinite alternate;animation:sliver .2s infinite alternate}.scroll-btn span{font-size:22px;color:#fff;transition:all .1s}.scroll-btn p{font-size:10px;margin-bottom:-1px;color:#fff}.scroll-btn a,.scroll-btn:hover{text-decoration:none}.menu-fixed{position:fixed;left:0;top:0;z-index:99;color:#fff}.menu-fixed span{padding:20px;color:#fff;background-color:#424242;font-size:20px;z-index:100}.menu-fixed span:hover{background-color:#fbc94a;color:#000}.arrow-fixed{position:fixed;left:0;top:45%;z-index:99}.arrow-fixed span{color:#fff;background-color:#424242;font-size:20px;display:block}.arrow-fixed span:nth-child(1){padding:25px 25px 0}.arrow-fixed span:nth-child(2){padding:0 25px 25px}.arrow-fixed span:hover{background-color:#fbc94a;color:#000}.logo-sec-text{padding:60px;background-color:#fbc94a;max-height:100%}.logo-sec-text img{width:50px;height:50px}.topic-main{padding:60px 40px;height:100vh;color:#424242!important}.shade{padding:20px 60px;transition-duration:.4s}.display-mob{display:none}.topics{background-color:#424242;color:#fff!important}@media(max-width:1200px){.shade{padding:20px}}@media(max-width:991px){.topic-main ol{font-size:11px}.btn{text-align:left}}@media(max-width:768px){.display-web{display:none}.display-mob{display:block}}.nav{padding-top:5%}#display-pc{display:none}.btn-topic{width:100%;border-radius:0;background-color:#fbc94a;color:#424242}.hvr-icon-forward{display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;position:relative;-webkit-transition-duration:.3s;transition-duration:.3s}.hvr-icon-forward:before{content:"\f138";position:absolute;right:2em;padding:0 1px;font-family:FontAwesome;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}.hvr-icon-forward:active:before,.hvr-icon-forward:focus:before,.hvr-icon-forward:hover:before{-webkit-transform:translateX(10px);transform:translateX(10px)}.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:transparent}#wrapper{padding-left:0;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease}#wrapper.toggled{padding-left:320px}#sidebar-wrapper{z-index:1000;left:320px;width:0;height:100%;margin-left:-320px;overflow-y:auto;overflow-x:hidden;background:#424242;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease}#sidebar-wrapper::-webkit-scrollbar{display:none}#wrapper.toggled #sidebar-wrapper{width:320px}#page-content-wrapper{width:100%}#wrapper.toggled #page-content-wrapper{position:absolute;margin-right:-320px}.sidebar-nav{position:absolute;top:0;width:320px;margin:0;padding:0;list-style:none}.sidebar-nav li{position:relative;line-height:30px;display:inline-block;width:100%}.sidebar-nav li:before{content:'';position:absolute;top:0;left:0;z-index:-1;height:100%;background-color:transparent;-webkit-transition:width .2s ease-in;-moz-transition:width .2s ease-in;-ms-transition:width .2s ease-in;transition:width .2s ease-in}.sidebar-nav li:first-child a{color:#fff;background-color:#424242}.sidebar-nav li:nth-child(2):before{color:#fff;background-color:#fbc94a}.sidebar-nav li:nth-child(3):before{color:#000;background-color:#fbc94a}.sidebar-nav li:nth-child(4):before,.sidebar-nav li:nth-child(5):before,.sidebar-nav li:nth-child(6):before,.sidebar-nav li:nth-child(7):before,.sidebar-nav li:nth-child(8):before,.sidebar-nav li:nth-child(9):before{background-color:#fbc94a}.sidebar-nav li.open:hover:before,.sidebar-nav li:hover:before{width:100%;-webkit-transition:width .2s ease-in;-moz-transition:width .2s ease-in;-ms-transition:width .2s ease-in;transition:width .2s ease-in}.sidebar-nav li a{display:block;color:#fbc94a;text-decoration:none;padding:10px 15px 10px 30px}.sidebar-nav li a:active,.sidebar-nav li a:focus,.sidebar-nav li a:hover,.sidebar-nav li.open a:active,.sidebar-nav li.open a:focus,.sidebar-nav li.open a:hover{color:#fff;text-decoration:none;background-color:transparent}.sidebar-nav>.sidebar-brand{height:65px;font-size:20px;line-height:44px}.hamburger.is-closed:before,.hamburger.is-open:before{content:'';font-size:14px;color:#fff;line-height:32px;text-align:center}.sidebar-nav .dropdown-menu{position:relative;width:100%;padding:0;margin:0;border-radius:0;border:none;background-color:#222;box-shadow:none}.hamburger{position:fixed;top:10px;z-index:998;display:block;width:32px;height:32px;margin-left:10px;background:0 0;border:none}.hamburger.is-closed .hamb-bottom,.hamburger.is-closed .hamb-middle,.hamburger.is-closed .hamb-top,.hamburger.is-open .hamb-bottom,.hamburger.is-open .hamb-middle,.hamburger.is-open .hamb-top{background-color:#1a1a1a}.hamburger.is-closed:before{display:block;width:100px;opacity:0;-webkit-transform:translate3d(0,0,0);-webkit-transition:all .35s ease-in-out}.hamburger.is-closed:hover:before{opacity:1;display:block;-webkit-transform:translate3d(-100px,0,0);-webkit-transition:all .35s ease-in-out}.hamburger.is-closed .hamb-bottom,.hamburger.is-closed .hamb-middle,.hamburger.is-closed .hamb-top,.hamburger.is-open .hamb-bottom,.hamburger.is-open .hamb-middle,.hamburger.is-open .hamb-top{position:absolute;left:0;height:4px;width:100%}.hamburger.is-closed .hamb-top{top:5px;-webkit-transition:all .35s ease-in-out}.hamburger.is-closed .hamb-middle{top:50%;margin-top:-2px}.hamburger.is-closed .hamb-bottom{bottom:5px;-webkit-transition:all .35s ease-in-out}.hamburger.is-closed:hover .hamb-top{top:4px;-webkit-transition:all .15s ease-in-out}.hamburger.is-closed:hover .hamb-bottom{bottom:4px;-webkit-transition:all .15s ease-in-out}.hamburger.is-open .hamb-bottom,.hamburger.is-open .hamb-top{-webkit-transition:-webkit-transform .2s cubic-bezier(.73,1,.28,.08)}.hamburger.is-open .hamb-bottom,.hamburger.is-open .hamb-top{top:50%;margin-top:-2px}.hamburger.is-open .hamb-top{-webkit-transform:rotate(45deg)}.hamburger.is-open .hamb-middle{display:none}.hamburger.is-open .hamb-bottom{-webkit-transform:rotate(-45deg)}.menu-text{padding-left:40px}.hamburger.is-open:before{display:block;width:100px;opacity:0;-webkit-transform:translate3d(0,0,0);-webkit-transition:all .35s ease-in-out}.hamburger.is-open:hover:before{opacity:1;display:block;-webkit-transform:translate3d(-100px,0,0);-webkit-transition:all .35s ease-in-out}.overlay,.rules h5{display:none}.rule-div,.team-div{border-right:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1);transition:.2s}.overlay{position:fixed;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(250,250,250,.8);z-index:998}.rule-div{background-color:#fbc94a;height:50vh;color:#424224}.rule-div:hover{background-color:#424242;color:#fbc94a}.rule-div p{padding:60px}@media(max-width:991px){.rule-div p{padding:10px 20px;margin:0}#rules-head p{font-size:48px}}#rules-head{height:50vh;padding:110px 0 0 20px;line-height:46px}#rules-head p{font-size:55px;font-weight:700}.rules span{font-size:60px;padding:30px;display:block;float:right;position:absolute;right:0;bottom:0}#menu-back,.download{position:fixed;top:0}.rules span:hover{color:#fbc94a;display:block}@media(max-width:768px){#rules-head,.rule-div{height:auto}#rules-head p,.rules span{display:none}.rules{background-color:#fbc94a}#rules-head{padding:0}.rules h5{display:block;font-size:18px;margin-top:52px;padding:20px;background-color:#424242;color:#fff;margin-bottom:0}}#rules-span-1{font-size:60px!important;line-height:50px;text-align:right}.team-div{height:50vh;padding:60px;cursor:pointer;background-color:#fbc94a;color:#424224}.team-div-star,.team-div:hover{background-color:#424242;color:#fbc94a}.team-div-star:hover{background-color:#fbc94a;color:#424224}.team-div h3{margin:0}@media(max-width:991px){.team-div p{padding:10px 20px;margin:0}#team-head p{font-size:55px}.team-div{padding:20px;cursor:pointer}.poweredbysi h1{font-size:20px}}#team-head{height:50vh;padding:87px 0 0 20px;line-height:46px}#team-head p{font-size:60px;font-weight:700;line-height:50px}.team h5{display:none}@media(max-width:768px){.team-div{padding:10px;height:25vh}#team-head{display:none}.team-div h3{font-size:15px;line-height:18px!important}.team-div p{font-size:10px;padding:5px 0}}#menu-back{left:0;width:56px;height:52px;background-color:rgba(251,201,74,1);z-index:602}.close:hover,.modal-header{background-color:#424242;color:#fbc94a}#map{width:100%;height:50vh}.modal-content{box-shadow:none;border:0;border-radius:0}.modal-header{padding:15px;border-bottom:none}@media (min-width:768px){.modal-content{-webkit-box-shadow:none;box-shadow:none}}.close{text-shadow:none;opacity:1}.close:hover{opacity:1;outline:0}.btn-send,button.close{background-color:#fbc94a}button.close{margin:-15px!important;padding:18px}.modal-body{padding:30px}.btn-send{width:100%;text-align:center;color:#424242/;border-radius:0}.btn-send:hover{background-color:#424242;color:#fbc94a}.download,.poweredbysi{background-color:#fbc94a}@-webkit-keyframes sliver{from{margin-top:17%}to{margin-top:17.5%}}@keyframes sliver{from{margin-top:17%}to{margin-top:17.5%}}.poweredbysi{padding:40px;height:50vh}#si-logo{width:150px}.poweredbysi img{width:200px;margin-left:auto;margin-right:auto;display:block}@media(max-width:786px){#si-logo,.poweredbysi img{width:100px}#display-pc{display:block}.custom-register-text{display:none}.custom-register{border-right:1px solid rgba(0,0,0,.1)}.custom-login{right:0!important;left:auto!important}.poweredbysi{padding:10px;height:25vh}div#form-modal.modal.fade.in{padding-left:0!important}.poweredbysi h1{font-size:14px;margin:0;display:none}.poweredbysi p{margin:0}#menu-back{width:100%;z-index:2}#si-logo-mob{display:block!important}#si-logo{display:block}}#si-logo-mob{display:none;height:90%}.custom-login button,.custom-register button,.download button{border-radius:0;height:52px;border-left:1px solid rgba(0,0,0,.1)}.download{left:56px;z-index:602}.custom-login,.custom-register{position:fixed;top:0;z-index:601;background-color:#fbc94a}.download button{background-color:#fbc94a}.btn:active:focus,.btn:focus{outline-offset:0}.custom-register{left:157px}.custom-register button{background-color:#fbc94a;padding:0 12px}.custom-register-text{color:#424242;font-size:12px}.custom-login{left:249px}.custom-login button{background-color:#fbc94a;padding:0 14px;border-right:1px solid rgba(0,0,0,.1)}#mob-topic p{color:#fbc94a}#mob-topic span{font-size:20px;color:#fbc94a;cursor:pointer;position:absolute;bottom:25px;right:10px;z-index:10}.caption,.next-prev{position:absolute;right:0;bottom:0}.modal-list{color:#424242;padding:30px}.list-group{margin-bottom:0}#drop-date:active,#drop-date:focus,#drop-date:hover{background-color:#fbc94a;color:#fff}.btn-warning{background:#eb9909;color:#000}.btn-warning:active,.btn-warning:focus,.btn-warning:hover{color:#333}.form-control{border:none;border-radius:0}.ab-wrap{display:table;height:100%;width:100%}.ab-center{display:table-cell;vertical-align:middle}.carousel{background-color:#000;z-index:1000}.carousel-inner>.item{text-align:right}.modal-title,.next-prev a{text-align:center}.carousel-inner>.item>a>img,.carousel-inner>.item>img{display:inline}.carousel-control{background:0 0!important;width:7%}.carousel-control i{top:50%;position:absolute;margin-top:-30px;color:#999;text-shadow:none}.next-prev a{color:#000;background:#eb9909;width:50px;height:50px;display:inline-block;float:left;line-height:50px;margin-left:1px}.caption{top:0;left:0}.caption .top-information{width:550px;margin-left:50px}.caption .top-information p{margin:30px 0;line-height:1.5em;font-size:1.05em;padding-left:110px;color:#fff}.caption .top-information .btn{margin-left:110px}.fa-3x{font-size:2em!important;padding:2vh!important}.carousel{position:static!important}#intro-head{font-family:Lato,sans-serif;color:#fbc94a;font-size:72px;font-weight:900;letter-spacing:5px}#intro-para{display:block;padding:0!important}.no-js #loader,.tooltip-arrow{display:none}#intro-para span{font-size:25px}@media(max-width::768px){#mob-topic p,.about p,.rule-div p{font-size:11px}#mob-topic span{margin-top:-9px}.team-div p{font-size:9px}.custom-register-text{display:none}.custom-login{left:206px}}@media(min-height:667px){.rule-div p{font-size:14px}}@media(min-width:768px),(min-height:1024px){#mob-topic p{font-size:16px}}.tooltip{background-color:#424242s;z-index:2000;opacity:1;margin-top:30px}.tooltip-inner{background-color:#424242}@media(max-width:768px){.hamburger.is-open{top:20px;margin-left:-60px;z-index:1010}.hamburger.is-open .hamb-bottom,.hamburger.is-open .hamb-middle,.hamburger.is-open .hamb-top{background-color:#fbc94a}}.nav-tabs{padding:0}.nav-tabs li{width:50%}.nav-tabs li a{background-color:#424242;color:#fbc94a}.nav-tabs li.active a{background-color:#fbc94a;color:#424242}.nav-tabs li a:active{background-color:#424242}.nav-tabs li.active a:active{background-color:#fbc94a}.nav-tabs li a:focus{background-color:#424242}.nav-tabs li.active a:focus{background-color:#fbc94a}.nav-tabs li a:hover{background-color:#424242}.nav-tabs li.active a:hover{background-color:#fbc94a}@media(max-width:320px){.custom-register-text{display:none}.custom-login{left:206px}#mob-topic p{font-size:10px;line-height:16px}.rule-div{font-size:11.5px}.about p{font-size:11px}}.js #loader{display:block;position:absolute;left:100px;top:0}.se-pre-con{position:fixed;left:0;top:0;width:100%;height:100%;z-index:999999;background:url(../images/loader.gif) center no-repeat #fff}@media(max-width:768px){.layer:nth-child(2) img,.layer:nth-child(5) img,.layer:nth-child(6) img,.layer:nth-child(7) img{display:none}.layer:nth-child(4){margin:auto!important;position:relative!important}}@media(max-width:365px),(max-height:545px){.about p{font-size:11px}.mob-topic-text h4{font-size:16px}.mob-topic-text p{font-size:10px;padding:0;margin:0}.rule-div p{font-size:11px}.poweredbysi,.team-div{height:30vh}#map{height:40vh}}#landscape{display:none}@media(max-width:768px) and (max-height:400px) and (orientation:landscape){#nav-top,.about,.landing,.logo-section,.rules,.team,.topics,.wrapper{display:none}#landscape{display:block;text-align:center;padding:50vh}}body .modal-open{position:fixed;overflow:hidden}#anchorsi,#anchorsi:hover{text-decoration:none;color:#424242}
-
-    /*stylesheet*/
-      .expand-width,.scene img{width:100%}.layer:nth-child(1) button,.layer:nth-child(2) button{-webkit-transform:rotate(150deg)}#js-home-submit,#js-upload-submit{background-color:#fbc94a;letter-spacing:1px}.scene img{display:block}.scene{padding:0;margin:0}.fill{position:absolute;bottom:5%;right:5%;left:5%;top:5%}.border{border:2px dashed #0FA}.aspect{opacity:.2}.layer:nth-child(1){opacity:1;background-size:contain;margin-top:24%;margin-bottom:-151px;text-align:center}.layer:nth-child(1) h6,.layer:nth-child(1) span{font-family:Lato,sans-serif;margin-top:-10px}.layer:nth-child(1) h1{font-size:55px;font-weight:700;font-family:Lato,sans-serif;color:#fbc94a}.layer:nth-child(1) p{color:#fff;font-size:16px;font-weight:700;font-family:Lato,sans-serif;margin-bottom:-21px}.layer:nth-child(1) h6{color:#fff;font-size:12px}.layer:nth-child(1) span{color:#fff;font-size:14px}.layer:nth-child(2){opacity:1;width:55%;background-size:contain;margin-top:5%;margin-left:21%}.layer:nth-child(3){opacity:1}.layer:nth-child(3) button{-webkit-transform:rotate(120deg)}.layer:nth-child(4){opacity:1;margin-left:68%;height:350px;width:185px}.layer:nth-child(4) button{-webkit-transform:rotate(90deg)}.layer:nth-child(5){opacity:1;left:-220px!important;width:140%;background-size:contain}.layer:nth-child(5) button{-webkit-transform:rotate(60deg)}.layer:nth-child(6){opacity:1;left:-120px!important;width:175%;background-size:contain}.layer:nth-child(6) button{-webkit-transform:rotate(30deg)}.layer:nth-child(7){opacity:1;left:-240px!important;width:180%;background-size:contain}#akg-head{font-family:Oswald,sans-serif;font-size:24px;letter-spacing:4px}#image-upload{margin-bottom:2%}#js-upload-submit{color:#fff}#js-home-submit{color:#fff;padding:5px 4%}    
-  </style>
+  
 
 </head>
 <body>
@@ -68,21 +66,16 @@
                 <li class="sidebar-brand">
                     <a href="#">Navigation</a>
                 </li>
-                <li>
-                    <a href="#landing" type="button" class="ham is-closed" data-toggle="offcanvas">Home</a>
-                </li>
+                <!-- <li>
+                    <a href="#" type="button" class="ham is-closed" data-toggle="offcanvas">Home</a>
+                </li> -->
                 <li>
                     <a href="#about" type="button" class="ham is-closed" data-toggle="offcanvas">About Scrolls</a>
                 </li>
                 <li>
-                    <a href="#topics" type="button" class="ham is-closed" data-toggle="offcanvas">Topics</a>
-                </li>
-                <li>
-                    <a href="#rules" type="button" class="ham is-closed" data-toggle="offcanvas">Rules and Regulations</a>
-                </li>
-                <li>
                     <a href="#dates" data-toggle="collapse" id="drop-date">Important Dates</a>
-                        <div id="dates" class="panel-collapse drop-date-panel collapse">
+                </li>
+                        <div id="dates" class="panel-collapse drop-date-panel collapse hover-fix" >
                               <ul class="list-group">
                                 <li class="list-group-item">
                                   4th October, 2016
@@ -102,6 +95,11 @@
                                 </li>
                               </ul>
                         </div>
+                <li>
+                    <a href="#topics" type="button" class="ham is-closed" data-toggle="offcanvas">Topics</a>
+                </li>
+                <li>
+                    <a href="#rules" type="button" class="ham is-closed" data-toggle="offcanvas">Rules and Regulations</a>
                 </li>
                 <li>
                     <a href="#contact" type="button" class="ham is-closed" data-toggle="offcanvas">Contact Us</a>
@@ -119,8 +117,8 @@
     </div>
     <!-- Download Button for Synopsis download -->	
     <div class="download">
-        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Download"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
-        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Awards"><button class="btn"><span class="fa fa-trophy" style="font-size: 25px;  padding"></span></button></a>
+        <a href="asset/Synopsis.pdf" data-toggle="tooltip" data-placement="bottom" title="Sample Synopsis"><button class="btn"><span class="fa fa-file-text" style="font-size: 25px;  padding"></span></button></a>
+        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Awards"><button class="btn"><span class="fa fa-trophy" style="font-size: 25px;  padding"></span></button></a> -->
     </div>
     <!-- Registration Button for Registration of New user -->
     <div class="custom-register">
@@ -131,7 +129,7 @@
         <a data-toggle="modal" data-target="#form-modal-login"><button class="btn"><span style="color: #424242; font-size: 12px;">Login</span></button></a>
     </div>
 </div>
-<section class="landing" style="background-image: url('asset/images/audi-made-2.jpg'); background-size: cover; background-repeat: no-repeat; overflow:hidden;">
+<section class="landing" id="#landing" style="background-image: url('asset/images/audi-made-2.jpg'); background-size: cover; background-repeat: no-repeat; overflow:hidden;">
 
 
 
@@ -141,10 +139,10 @@
       <li class="layer l1" data-depth="0.00"><p>Ajay Kumar Garg Engineering College</p><h1>Scrolls 2016</h1><h6>In Association with <span>GMA</span></h6></li>
       <li class="layer l2" data-depth="0.00"><img src="asset/images/whiteboard.png"></li>
       <li class="layer l3" data-depth="0.00" style="margin-top:8%; margin-left:24%;"></li>
-      <li class="layer l4" data-depth="0.20" style="margin-top: 280px !important;"><img src="asset/images/podium.png"></li>
-      <li class="layer l5" data-depth="0.30" style="margin-top: 500px !important;"><img src="asset/images/chair-row-1.png"></li>
-      <li class="layer l6" data-depth="0.40" style="margin-top: 510px !important;"><img src="asset/images/chair-row-2.png"></li>
-      <li class="layer l7" data-depth="0.60" style="margin-top: 530px !important;"><img src="asset/images/chair-row-3.png"></li>
+      <li class="layer l4" data-depth="0.20" style="margin-top: 280px ;"><img src="asset/images/podium.png"></li>
+      <li class="layer l5" data-depth="0.30" style="margin-top: 500px ;"><img src="asset/images/chair-row-1.png"></li>
+      <li class="layer l6" data-depth="0.40" style="margin-top: 510px ;"><img src="asset/images/chair-row-2.png"></li>
+      <li class="layer l7" data-depth="0.60" style="margin-top: 530px ;"><img src="asset/images/chair-row-3.png"></li>
     </ul>
 
     <!-- parallax window end -->
@@ -185,8 +183,8 @@
 			<div class="col-lg-12">
 				<h1>About Scrolls</h1>
 				<h4>“ Reasons will take you from A to B but imagination will take you everywhere.”<br>- Albert Einstein</h4>
-        <p>A national level technical paper presentation contest that provides a pedestal to unleash the talent of budding technocrats, SCROLLS-2016 deals with the most thriving and progressive fields of technology and management, bringing Computing, Information Technology, Mechanical Engineering, Electrical Engineering, Electronics &amp; Communication Technologies and Civil Engineering along with major developmental leaps in management and leadership in its fold.The crystal clarity and insight of the unique topics will not only transcend the contestant to glory but will also add to the technological advancement of the era. The share you transcribe to evacuate the sub fusc of unawareness will be in your own hands. Melt the dusk and evolve into the new dawn of prestige with utter confidence and perseverance.</p>
-        <p class="display-web">We believe that the real conflux to innovation and creativity is imagination, power to think beyond the stereotype and conventions.The unfaltering will and determination to conquer your dreams and the knowledge of the path is what makes an individual rise to the unsurpassable summits. Be as bold as the strokes of a Maestro and leave an untarnished hue on the world.Keeping the above in mind, we at AKGEC organize an annual National Level Technical Paper Presentation event called SCROLLS (Student Creative Oratory Learning Skills) which aspires to amplify excellence in the sphere of technology and management to promote the technocrats and entrepreneurs of tomorrow. This event provides a prominent rostrum to the evolving professionals who can channelize their talent into creativity and give their imagination cutting edge.Innovation being the key to the treasurable ability of wrapping the abstracts into actions and words is our motto to the magnificent event. If you can imagine it, you can achieve it and if you can achieve it the perks are all yours. We invite budding pioneers from Management and various Engineering domains to this event. It is an honest effort to widen the horizon of the technophiles to partake their knowledge for a better future.Let us unite together and explore all the new dimensions in this large world of science, surmounting the peak of engineering and management, giving ourselves a chance for the best future we can hope of.</p>
+        <p>A national level technical paper presentation contest that provides a pedestal to unleash the talent of budding technocrats, SCROLLS-2016 deals with the most thriving and progressive fields of technology and management, bringing Computing, Information Technology, Mechanical Engineering, Electrical Engineering, Electronics &amp; Communication Technologies and Civil Engineering along with major developmental leaps in management and leadership in its fold. The crystal clarity and insight of the unique topics will not only transcend the contestant to glory but will also add to the technological advancement of the era. The share you transcribe to evacuate the sub fusc of unawareness will be in your own hands. Melt the dusk and evolve into the new dawn of prestige with utter confidence and perseverance.</p>
+        <p class="display-web">We believe that the real conflux to innovation and creativity is imagination, power to think beyond the stereotype and conventions.The unfaltering will and determination to conquer your dreams and the knowledge of the path is what makes an individual rise to the unsurpassable summits. Be as bold as the strokes of a Maestro and leave an untarnished hue on the world. Keeping the above in mind, we at AKGEC organize an annual National Level Technical Paper Presentation event called SCROLLS (Student Creative Oratory Learning Skills) which aspires to amplify excellence in the sphere of technology and management to promote the technocrats and entrepreneurs of tomorrow. This event provides a prominent rostrum to the evolving professionals who can channelize their talent into creativity and give their imagination cutting edge.Innovation being the key to the treasurable ability of wrapping the abstracts into actions and words is our motto to the magnificent event. If you can imagine it, you can achieve it and if you can achieve it the perks are all yours. We invite budding pioneers from Management and various Engineering domains to this event. It is an honest effort to widen the horizon of the technophiles to partake their knowledge for a better future.Let us unite together and explore all the new dimensions in this large world of science, surmounting the peak of engineering and management, giving ourselves a chance for the best future we can hope of.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -743,7 +741,7 @@
             </div>
             <div class="form-group">
               <!-- <label for="Description">Query Description</label> -->
-              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 92%;"></textarea>
+              <textarea class="textbox" placeholder="Write Your Query here" rows="5" style="width: 100%; resize: vertical;"></textarea>
             </div>
             <button type="submit" class="btn btn-send" data-dismiss="modal">Send</button>
           </form>
@@ -805,7 +803,7 @@
           </div>
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt2.jpg" class="img-responsive team-img-1" style=" padding-top:5% !important;">
-            <p class="web-team-name">Ankit Yadav</p>
+            <p class="web-team-name">Gaurav Arora</p>
           </div>
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt3.jpg" class="img-responsive team-img-1" style=" padding-top:5% !important;">
@@ -818,13 +816,14 @@
             <p class="web-team-name">Siddhant S Goral</p>
           </div>
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
-            <img src="asset/images/dt5.jpg" class="img-responsive">
-            <p class="web-team-name">Rajat Sharma</p>
-          </div>
-          <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt6.jpg" class="img-responsive">
             <p class="web-team-name">Kunal Chaudhary</p>
           </div>
+          <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
+            <img src="asset/images/dt5.png" class="img-responsive">
+            <p class="web-team-name">Rajat Sharma</p>
+          </div>
+
           <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
             <img src="asset/images/dt7.jpg" class="img-responsive">
             <p class="web-team-name">Deepak Singh</p>
@@ -855,6 +854,7 @@
 <section  id="landscape">
   <p>Change your Device Orientation to Portrait</p> 
 </section>
+  <p id="ipad">Unsupported Device</p>
 
 <!-- Modal -->
   <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="padding-left: 0px;">
@@ -1121,6 +1121,7 @@
 
 <!-- ++++++++++++++++ Insheet Script +++++++++++++++++-->
 
+
 <script >
 $(document).ready(function(){
    
@@ -1184,7 +1185,7 @@ $('#form-college').change(function(){
 	        scrollSpeed: 2000,
 	        offset : 0,
 	        scrollbars: false,
-	        standardScrollElements: "",
+	        standardScrollElements: ".modal",
 	        setHeights: true,
 	        overflowScroll: true,
 	    });
