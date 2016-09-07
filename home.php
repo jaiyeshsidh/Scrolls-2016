@@ -1,6 +1,6 @@
 <?php
     session_start();
-if(!isset($_SEssion))
+    if(!isset($_SESSION))
     header("location:index.php");
      $TopicName= $_SESSION["TopicName"]; 
      $DomainName= $_SESSION["DomainName"];

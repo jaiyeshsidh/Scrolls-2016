@@ -1127,7 +1127,7 @@
 
 <script >
 $(document).ready(function(){
-   
+
     $('#form-member-container-3').hide();
 	$('#team-leader-container-3').hide();
 	//$('#form-studentId').hide();
@@ -1136,7 +1136,15 @@ $(document).ready(function(){
      $('.form-no-of-participants').click(function(){
 				console.log("hi");
 		 if($(this).attr("value")=="2"){
-		    $('#form-member-container-3').hide();
+            $('#form-member-3').val("");
+            $('#form-member-3-name').val("");
+            $('input[type="radio"][name="team_leader"]').first().prop('checked', true);
+
+//             jQuery(function() {
+//                 RadionButtonSelectedValueSet('team_leader', '1');
+//             }
+//
+            $('#form-member-container-3').hide();
 			$('#team-leader-container-3').hide();
 
 		}
@@ -1162,18 +1170,24 @@ $(document).ready(function(){
 
 $('#form-college').change(function(){
 		//console.log($(this).val());
-		if($(this).val()=="")
-			$('#form-college-name').show();
-		else
-			$('#form-college-name').hide();
-
+		if($(this).val()=="") {
+            $('#form-studentId').val("");
+            $('#form-college-name').show();
+        }
+		else {
+            $('#form-studentId').val("");
+            $('#form-college-name').hide();
+        }
 	});
 $('#form-college').change(function(){
 		//console.log($(this).val());
-		if($(this).val()==4)
-			$('#form-studentId').show();
-		else
-			$('#form-studentId').hide();
+		if($(this).val()==4) {
+            $('#form-studentId').show();
+            $('#form-college-name').val("");
+        }else {
+            $('#form-studentId').hide();
+            $('#form-college-name').val("");
+        }
 	});
 });
 </script>
