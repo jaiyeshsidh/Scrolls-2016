@@ -1,6 +1,6 @@
 <?php
 //var_dump($_POST);
-if(isset($_POST["submit"])) {
+
 //	var_dump($_POST);
     $query = curl_init();
     $query_url = "http://akgec-scrolls.com/rest/api/Queries/RegisterQuery";
@@ -18,4 +18,4 @@ if(isset($_POST["submit"])) {
         curl_close($query);
 //return $query;
         echo("<script language='javascript'>alert('Your Query has been registered with us. \\n We will reply you soon.'); location.href='index.php'; </script>");
-}
+
