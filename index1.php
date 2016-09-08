@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                         <div class=shade>
-                            <h3>Electronics And Communication</h3>
+                            <h3>Management Sciences</h3>
                             <p>Leading the next big change.</p>
                         </div>
                     </div>

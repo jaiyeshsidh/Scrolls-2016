@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee786d4d-7a93-4f89-8e0c-debd4505a123" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.php" afterPath="$PROJECT_DIR$/index1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
     </list>
     <ignored path="Scrolls-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +45,8 @@
       <file leaf-file-name="index1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="955" column="6" selection-start-line="955" selection-start-column="6" selection-end-line="955" selection-end-column="6" />
+            <state relative-caret-position="-225">
+              <caret line="162" column="48" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -100,9 +97,9 @@
         <option value="$PROJECT_DIR$/asset/css/index.css" />
         <option value="$PROJECT_DIR$/RegisterQuery.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/index1.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/index1.php" />
       </list>
     </option>
   </component>
@@ -239,12 +236,12 @@
       <workItem from="1473100026186" duration="19273000" />
       <workItem from="1473176971131" duration="10970000" />
       <workItem from="1473196330113" duration="1284000" />
-      <workItem from="1473219646334" duration="10022000" />
+      <workItem from="1473219646334" duration="11220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41549000" />
+    <option name="totallyTimeSpent" value="42747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="955" column="6" selection-start-line="955" selection-start-column="6" selection-end-line="955" selection-end-column="6" />
+        <state relative-caret-position="-225">
+          <caret line="162" column="48" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="48" />
           <folding />
         </state>
       </provider>
