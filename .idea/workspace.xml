@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee786d4d-7a93-4f89-8e0c-debd4505a123" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asset/images/find-us-on-facebook-YELLOW.png" afterPath="$PROJECT_DIR$/asset/images/find-us-on-facebook-YELLOW.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asset/images/find-us-on-facebook-blaCK.png" afterPath="$PROJECT_DIR$/asset/images/find-us-on-facebook-blaCK.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="Scrolls-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="7845">
               <caret line="543" column="73" selection-start-line="543" selection-start-column="73" selection-end-line="543" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#li#6;n#ul#0;n#nav#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -198,12 +199,12 @@
       <workItem from="1473219646334" duration="22736000" />
       <workItem from="1473361089451" duration="2859000" />
       <workItem from="1473939761973" duration="15162000" />
-      <workItem from="1473967658116" duration="4148000" />
+      <workItem from="1473967658116" duration="5482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76432000" />
+    <option name="totallyTimeSpent" value="77766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,7 +217,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19726859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,7 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="7845">
           <caret line="543" column="73" selection-start-line="543" selection-start-column="73" selection-end-line="543" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#li#6;n#ul#0;n#nav#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
