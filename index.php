@@ -89,6 +89,9 @@
                 <li>
                     <a href=#contact type=button class="ham is-closed" data-toggle=offcanvas>Contact Us</a>
                 </li>
+                <li style="margin-bottom: 10px; margin-left: 10px; position: absolute;" id="findusonfb">
+                    <a href="https://www.facebook.com/akgecscrolls16/" target="_blank" type=button class="ham is-closed " data-toggle=offcanvas><img src="asset/images/find-us-on-facebook-YELLOW.png" style="width: 80%; height: auto;" id="fb-img"></a>
+                </li>
             </ul>
         </nav>
         <div id=page-content-wrapper>
@@ -566,16 +569,9 @@
                     <div id=map></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off">
-                <div class="row row-off">
-                    <a data-toggle=modal data-target=#query><div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 gap-off team-div" style="height: 25vh;">
-                            <h3>Query Us.</h3>
+            <a data-toggle=modal data-target=#query><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
+                        <h3>Query Us.</h3>
                         </div></a>
-                    <a><div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 gap-off team-div" id="findusonfb" style="height: 25vh;">
-                            <img src="asset/images/find-us-on-facebook-blaCK.png" class="img-responsive" id="fb-img">
-                        </div></a>
-                </div>
-            </div>
             <a data-toggle=modal data-target=#scroll-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
                     <h3>Meet Our Scrolls Team.</h3>
                     <p>Meet the people who are at the center of it all</p>
@@ -1005,10 +1001,11 @@
 <script>$(document).ready(function(){
         $("#findusonfb").on({
         "mouseover" : function() {
-            $("#fb-img")[0].src= 'asset/images/find-us-on-facebook-YELLOW.png';
+
+            $("#fb-img")[0].src='asset/images/find-us-on-facebook-blaCK.png';
         },
         "mouseout" : function() {
-            $("#fb-img")[0].src='asset/images/find-us-on-facebook-blaCK.png';
+            $("#fb-img")[0].src= 'asset/images/find-us-on-facebook-YELLOW.png';
         }
     });
 
