@@ -544,12 +544,13 @@
                 <p>For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.<span> 4.</span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>A soft copy of the final paper is to be sent before the designated date.<span>5. </span></p>
+                <p>A soft copy of the final paper is to be sent via e-mail before the designated date.<span>5. </span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.<span> 6.</span></p>
+                <p>The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.A sample synopsis for reference is available.<span> 6.</span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
+                <p>First page to include Title,Name(s) of authors,their college name,telephone numbers as well as e-mail addresses. This information to be included with extended abstract also.<span> 7.</span></p>
             </div>
         </div>
     </div>
@@ -574,9 +575,10 @@
                 </div></a>
             <a data-toggle=modal data-target=#dev-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
                     <h3 style=line-height:30px>Meet Our Designer and Developer Team.</h3>
+
                 </div></a>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 gap-off">
-                <a href=http://www.silive.in id=anchorsi><div class="col-sm-12 poweredbysi">
+                <a href=http://www.silive.in target="_blank" id=anchorsi><div class="col-sm-12 poweredbysi">
                         <p style=font-weight:700>Proudly Powered By- </p>
                         <h1 style=text-transform:uppercase;margin:0;font-size:30px;>Software <span style=display:block>Incubator</span></h1>
                         <img src=asset/images/silogo.svg id=si-logo class=center-block>
@@ -601,12 +603,12 @@
                 </div></a>
             <a data-toggle=modal data-target=#scroll-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
                     <h3>Meet Our Scrolls Team.</h3>
+                    <p>Meet the people who are at the center of it all</p>
                 </div></a>
             <a data-toggle=modal data-target=#dev-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
                     <h3 style=line-height:30px>Meet Our Designer and Developer Team.</h3>
-                    <p>Meet the people who are at the center of it all</p>
                 </div></a>
-            <a href=http://www.silive.in id=anchorsi><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">
+            <a href=http://www.silive.in target="_blank" id=anchorsi><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">
                     <div class=poweredbysi>
                         <p style=font-weight:700>Proudly Powered By- </p>
                         <h1 style=text-transform:uppercase;margin:0>Software <span style=display:block>Incubator</span></h1>
@@ -681,13 +683,18 @@
             <div class="modal-body gap-off" id=dev-team-body>
                 <div class="container-fluid gap-off">
                     <div class=row>
-                        <div class="col-lg-3 col-sm-3 col-xs-3 col-sm-offset-1 col-xs-offset-1 gap-off">
+                        <div class="col-lg-3 col-sm-3 col-xs-3  gap-off">
                             <img src=asset/images/dt1.jpg class="img-responsive team-img-1" style=padding-top:5%!important>
                             <p class=web-team-name>Pranav Chaudhary</p>
                         </div>
                         <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
                             <img src=asset/images/dt2.jpg class="img-responsive team-img-1" style=padding-top:5%!important>
                             <p class=web-team-name>Gaurav Arora</p>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
+                            <img src=asset/images/dt11.jpg class="img-responsive team-img-1" style=padding-top:5%!important>
+                            <p class=web-team-name>Ankit Yadav</p>
                         </div>
                         <div class="col-lg-3 col-sm-3 col-xs-3 gap-off">
                             <img src=asset/images/dt3.jpg class="img-responsive team-img-1" style=padding-top:5%!important>
