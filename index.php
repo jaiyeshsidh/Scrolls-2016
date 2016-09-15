@@ -538,10 +538,10 @@
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>Maximum of 3 and minimum of 2 authors per paper.<span> 2.</span></p>
+                <p>A maximum of 3 and a minimum of 2 authors per paper are allowed.<span> 2.</span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>Synopsis of maximum 1000 words to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation. <span>3.</span></p>
+                <p>A synopsis of maximum 1000 words is to be sent by the specified date. Based on the synopsis, an expert committee will select the papers for inclusion in the final paper presentation. <span>3.</span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
                 <p>For presentation, a time slot of 7 minutes + 3 minutes (for Q&amp;A) will be given to each team.<span> 4.</span></p>
@@ -550,10 +550,10 @@
                 <p>A soft copy of the final paper is to be sent via e-mail before the designated date.<span>5. </span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>The paper to be typed in single space, double column format, using Times New Roman font and size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.A sample synopsis for reference is available.<span> 6.</span></p>
+                <p>The paper should be typed in single space, double column format, using Times New Roman font and size 12. The max. number of pages should be 10 and the page should have no numbers. A margin of 1’’ should be left all around .A sample synopsis for reference is available.<span> 6.</span></p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 gap-off rule-div">
-                <p>First page to include Title,Name(s) of authors,their college name,telephone numbers as well as e-mail addresses. This information to be included with extended abstract also.<span> 7.</span></p>
+                <p>The first page should include Title,Name(s) of authors,their college name,telephone numbers as well as their e-mail addresses. This information is to be included with extended abstract .<span> 7.</span></p>
             </div>
         </div>
     </div>
