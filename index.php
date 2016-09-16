@@ -767,17 +767,18 @@
                                 <input type=text class=textbox id=form-name name=name placeholder="Enter your name" data-validation="custom required" data-validation-regexp="^([a-zA-Z ]*)$">
                             </div>
                             <?php
-                            $courses= curl_init();
+
+                            $courses_ch= curl_init();
                             $courses_url="http://akgec-scrolls.com/rest/api/Domains/GetCourses";
-                            curl_setopt_array($courses, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+
+                            curl_setopt_array($courses_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
                                 CURLOPT_RETURNTRANSFER => 1,
                                 CURLOPT_URL => $courses_url,
-
+                                CURLOPT_ENCODING => '',
                             ));
-                            $courses_exec=$courses;
-                            $courses= curl_exec($courses);
+                            $courses= curl_exec($courses_ch);
                             $courses=json_decode($courses);
-                            curl_close($courses_exec);
+                            curl_close($courses_ch);
                             ?>
                             <div class="form-group col-sm-4 col-xs-4 gap-off">
                                 <label for=sel1>Course </label>
@@ -800,17 +801,16 @@
                                 </div>
                             </div>
                             <?php
-                            $colleges= curl_init();
+                            $colleges_ch= curl_init();
                             $colleges_url="http://akgec-scrolls.com/rest/api/Colleges/GetColleges";
-                            curl_setopt_array($colleges, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            curl_setopt_array($colleges_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
                                 CURLOPT_RETURNTRANSFER => 1,
                                 CURLOPT_URL => $colleges_url,
 
                             ));
-                            $colleges_exec=$colleges;
-                            $colleges= curl_exec($colleges);
+                            $colleges= curl_exec($colleges_ch);
                             $colleges=json_decode($colleges);
-                            curl_close($colleges_exec);
+                            curl_close($colleges_ch);
                             ?>
                             <div class="form-group col-sm-4 col-xs-4 gap-off">
                                 <label for=sel1>College</label>
@@ -893,16 +893,16 @@
                             </div>
                             <br>
                             <?php
-                            $domains= curl_init();
+                            $domains_ch= curl_init();
                             $domains_url="http://akgec-scrolls.com/rest/api/Domains/GetDomains";
-                            curl_setopt_array($domains, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            curl_setopt_array($domains_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
                                 CURLOPT_RETURNTRANSFER => 1,
                                 CURLOPT_URL => $domains_url,
                             ));
-                            $domains_exec=$domains;
-                            $domains= curl_exec($domains);
+
+                            $domains= curl_exec($domains_ch);
                             $domains=json_decode($domains);
-                            curl_close($domains_exec);
+                            curl_close($domains_ch);
 
                             ?>
                             <label style=margin-top:20px;display:block>Domain</label>
@@ -913,17 +913,16 @@
                                 <?php } ?>
                             </select>
                             <?php
-                            $topics= curl_init();
+                            $topics_ch= curl_init();
                             $topics_url="http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=6";
-                            curl_setopt_array($topics, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            curl_setopt_array($topics_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
                                 CURLOPT_RETURNTRANSFER => 1,
                                 CURLOPT_URL => $topics_url,
 
                             ));
-                            $topics_exec=$topics;
-                            $topics= curl_exec($topics);
+                            $topics= curl_exec($topics_ch);
                             $topics=json_decode($topics);
-                            curl_close($topics_exec);
+                            curl_close($topics_ch);
                             ?>
                             <label style=margin-top:10px>Topic</label>
                             <select class=textbox id=form-topics name=topics data-validation=required>
