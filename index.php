@@ -129,7 +129,7 @@
         <div class=row>
             <div class=col-lg-12>
                 <h1>About Scrolls</h1>
-                <h4>“ Reasons will take you from A to B but imagination will take you everywhere.”<br>- Albert Einstein</h4>
+                <h4>“ Logics will take you from A to B but imagination will take you everywhere.”<br>- Albert Einstein</h4>
                 <p>A national level technical paper presentation contest that provides a pedestal to unleash the talent of budding technocrats, SCROLLS-2016 deals with the most thriving and progressive fields of technology and management, bringing Computing, Information Technology, Mechanical Engineering, Electrical Engineering, Electronics &amp; Communication Technologies and Civil Engineering along with major developmental leaps in management and leadership in its fold. The crystal clarity and insight of the unique topics will not only transcend the contestant to glory but will also add to the technological advancement of the era. The share you transcribe to evacuate the sub fusc of unawareness will be in your own hands. Melt the dusk and evolve into the new dawn of prestige with utter confidence and perseverance.</p>
                 <p class=display-web>We believe that the real conflux to innovation and creativity is imagination, power to think beyond the stereotype and conventions.The unfaltering will and determination to conquer your dreams and the knowledge of the path is what makes an individual rise to the unsurpassable summits. Be as bold as the strokes of a Maestro and leave an untarnished hue on the world. Keeping the above in mind, we at AKGEC organize an annual National Level Technical Paper Presentation event called SCROLLS (Student Creative Oratory Learning Skills) which aspires to amplify excellence in the sphere of technology and management to promote the technocrats and entrepreneurs of tomorrow. This event provides a prominent rostrum to the evolving professionals who can channelize their talent into creativity and give their imagination cutting edge.Innovation being the key to the treasurable ability of wrapping the abstracts into actions and words is our motto to the magnificent event. If you can imagine it, you can achieve it and if you can achieve it the perks are all yours. We invite budding pioneers from Management and various Engineering domains to this event. It is an honest effort to widen the horizon of the technophiles to partake their knowledge for a better future.Let us unite together and explore all the new dimensions in this large world of science, surmounting the peak of engineering and management, giving ourselves a chance for the best future we can hope of.</p>
             </div>
@@ -235,7 +235,7 @@
                             <li>Embedded Systems.</li>
                             <li>Augmented Reality.</li>
                             <li>Natural Language Processing.</li>
-                            <li>Genetic Algorithms.</li>
+                            <li>Genetic Algorithms and Bio-inspired Computing.</li>
                             <li>Cloud Computing.</li>
                             <li>Semantic Web.</li>
                             <li>Mobile Computing and Data Intensive Computing.</li>
@@ -266,7 +266,7 @@
                             <li>4G Technology.</li>
                             <li>Mobile Satellite Communication.</li>
                             <li>Opto Electronics.</li>
-                            <li>Nanotechnology.</li>
+                            <li>Nano Technology.</li>
                             <li>VLSI.</li>
                             <li>Neural Network.</li>
                             <li>Electronics Counter Measures in Defense Syastem.</li>
@@ -283,7 +283,7 @@
                             <li>Automatic Transmission in Automobiles.</li>
                             <li>Hydraulic and pneumatic actuators.</li>
                             <li>Improvisation during the last two decades in passenger cars.</li>
-                            <li>Nanotechnology.</li>
+                            <li>Advanced radiator concepts and smart materials.</li>
                             <li>Recent trends in Mechanical Engineering.</li>
                             <li>Kinematics/dynamics of Robotic Manipulators.</li>
                             <li>Robotic Applications: Present &amp; Future.</li>
@@ -317,8 +317,7 @@
                             <li>Poverty in Third World Countries is due to Prosperity in First World Countries.</li>
                             <li>Steal a Few Lakh and you’re a Criminal; Steal a Few hundred Crore and you become an Industrialist.</li>
                             <li>100% FDI in Indian Defense Sector: Boon or Bane.</li>
-                            <li>Rural Development is the right answer to our unemployment problem..</li>
-                            <li>Robotic Applications: Present &amp; Future.</li>
+                            <li>Rural Development is the right answer to our unemployment problem.</li>
                             <li>Ethics in business: An integral part or a passing fad?</li>
                         </ol>
                     </div>
@@ -480,18 +479,18 @@
                     <div class="modal-body gap-off" style=padding:10px!important>
                         <div class="container-fluid gap-off">
                             <ol class=modal-list>
-                                <li>Application of Nano technology in health monitor treatment.</li>
                                 <li>Power Generation using Nano-carbon tubes.</li>
                                 <li>Cryogenic Engines.</li>
                                 <li>Application of CAD software (Catia, ProE) and designing software’s.</li>
                                 <li>Automatic Transmission in Automobiles.</li>
                                 <li>Hydraulic and pneumatic actuators.</li>
-                                <li>Gear Fault detection in gear box using oil conditioning monitoring.</li>
                                 <li>Improvisation during the last two decades in passenger cars.</li>
                                 <li>Advanced radiator concepts and smart materials.</li>
                                 <li>Recent trends in Mechanical Engineering.</li>
                                 <li>Kinematics/dynamics of Robotic Manipulators.</li>
                                 <li>Robotic Applications: Present & Future.</li>
+                                <li>Additive Manufacturing</li>
+                                <li>TQM cocepts for zero rejection</li>
                             </ol>
                         </div>
                     </div>
@@ -517,7 +516,6 @@
                                 <li>Steal a Few Lakh and you’re a Criminal; Steal a Few hundred Crore and you become an Industrialist.</li>
                                 <li>100% FDI in Indian Defense Sector: Boon or Bane.</li>
                                 <li>Rural Development is the right answer to our unemployment problem..</li>
-                                <li>Robotic Applications: Present &amp; Future.</li>
                                 <li>Ethics in business: An integral part or a passing fad?</li>
                             </ol>
                         </div>
