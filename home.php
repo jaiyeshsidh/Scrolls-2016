@@ -87,13 +87,13 @@
                   if($SynopsisAvailable)
                         {
                   ?>  
-                        <h4>It seems you have submitted your final paper. </br> We will respond soon !</h4>
+                        <h4>It seems you have submitted your Synopsis. </br> We will respond soon !</h4>
                   <?php
                         }
                   else {
 
                   ?>
-                        <h4>It seems you havent submitted your final paper.</h4>
+                        <h4>It seems you havent submitted your Synopsis.</h4>
                   <?php
                       }
                   ?>
