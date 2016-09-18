@@ -93,7 +93,7 @@
                   else {
 
                   ?>
-                        <h4>It seems you havent submitted your Synopsis.</h4>
+                        <h4>It seems you haven't submitted your Synopsis.</h4>
                   <?php
                       }
                   ?>
@@ -110,7 +110,7 @@
                             <input type="file" name="uploadedfile" accept="application/pdf" id="js-upload-files" multiple>
                           </div>
                         </div>
-                          <input type="submit" class="btn btn-send" id="js-upload-submit" value="Submit Your Final Paper" style=" border-radius:0px;">
+                          <input type="submit" class="btn btn-send" id="js-upload-submit" value="Submit Your Synopsis" style=" border-radius:0px;">
                       </form>
                       
                       <!-- Drop Zone -->
