@@ -24,9 +24,9 @@
     <style>!function(){$("#menuToggle, .menu-close").on("click",function(){$("#menuToggle").toggleClass("active"),$("body").toggleClass("body-push-toleft"),$("#theMenu").toggleClass("menu-open")})}(jQuery);</style>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <style>@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EK-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EJX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4ED0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nrPaLDTSXeXFRL0dx0NiHII.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6ntkZ6ofoXFVR94fBb90XSvU.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nuIaMZP5eRGvEWe_CNIU_oY.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nnNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:Merriweather;font-style:normal;font-weight:900;src:local('Merriweather Black'),local('Merriweather-Black'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6npRmMktGnN9fECZcESJ2wdY.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Merriweather;font-style:normal;font-weight:900;src:local('Merriweather Black'),local('Merriweather-Black'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nhYk6kXjxbl9hCl_j54B6tY.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:normal;font-weight:900;src:local('Merriweather Black'),local('Merriweather-Black'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nu8B3NNHiE7lEpFTE0KxUWk.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:normal;font-weight:900;src:local('Merriweather Black'),local('Merriweather-Black'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6ntDLwwZd-mS_8JqJ_KGXwxs.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSq-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSqaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}</style>
-<!--    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:400,600" rel="stylesheet">-->
-   <style>@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:Lato;font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}</style>
-<!--    <link href="https://fonts.googleapis.com/css?family=Lato:700,900" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:400,600" rel="stylesheet">-->
+    <style>@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:Lato;font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}</style>
+    <!--    <link href="https://fonts.googleapis.com/css?family=Lato:700,900" rel="stylesheet">-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTPWN__X_moAy4Nty0TgEJKMkynbw-n6U&callback=initMap" async defer></script>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -199,7 +199,7 @@
                             <h3>Mechanical Engineering</h3>
                             <p>Let machines serve the mankind.</p>
 
-                             </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 gap-off">
                         <div class=shade>
@@ -576,8 +576,8 @@
                 </div>
             </div>
             <a data-toggle=modal data-target=#query><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
-                        <h3>Query Us.</h3>
-                        </div></a>
+                    <h3>Query Us.</h3>
+                </div></a>
             <a data-toggle=modal data-target=#scroll-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">
                     <h3>Meet Our Scrolls Team.</h3>
                     <p>Meet the people who are at the center of it all</p>
@@ -594,34 +594,34 @@
                     </div></a>
             </div>
         </div>
-<!--        <div class="row row-off display-web">-->
-<!--            <div class="col-sm-3 gap-off" id=team-head>-->
-<!--                <p>Contact <br>Us</p>-->
-<!--            </div>-->
-<!--            <div class="col-sm-9 gap-off">-->
-<!--                <div class=container-fluid style=padding:0>-->
-<!--                    <div id=map></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row row-off display-web">-->
-<!--            <a data-toggle=modal data-target=#query><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
-<!--                    <h3>Query Us.</h3>-->
-<!--                </div></a>-->
-<!--            <a data-toggle=modal data-target=#scroll-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
-<!--                    <h3>Meet Our Scrolls Team.</h3>-->
-<!--                    <p>Meet the people who are at the center of it all</p>-->
-<!--                </div></a>-->
-<!--            <a data-toggle=modal data-target=#dev-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
-<!--                    <h3 style=line-height:30px>Meet Our Designer and Developer Team.</h3>-->
-<!--                </div></a>-->
-<!--            <a href=http://www.silive.in target="_blank" id=anchorsi><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">-->
-<!--                    <div class=poweredbysi>-->
-<!--                        <p style=font-weight:700>Proudly Powered By- </p>-->
-<!--                        <h1 style=text-transform:uppercase;margin:0>Software <span style=display:block>Incubator</span></h1>-->
-<!--                        <img src=asset/images/silogo.svg id=si-logo class=center-block>-->
-<!--                    </div></a>-->
-<!--        </div>-->
+        <!--        <div class="row row-off display-web">-->
+        <!--            <div class="col-sm-3 gap-off" id=team-head>-->
+        <!--                <p>Contact <br>Us</p>-->
+        <!--            </div>-->
+        <!--            <div class="col-sm-9 gap-off">-->
+        <!--                <div class=container-fluid style=padding:0>-->
+        <!--                    <div id=map></div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <div class="row row-off display-web">-->
+        <!--            <a data-toggle=modal data-target=#query><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
+        <!--                    <h3>Query Us.</h3>-->
+        <!--                </div></a>-->
+        <!--            <a data-toggle=modal data-target=#scroll-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
+        <!--                    <h3>Meet Our Scrolls Team.</h3>-->
+        <!--                    <p>Meet the people who are at the center of it all</p>-->
+        <!--                </div></a>-->
+        <!--            <a data-toggle=modal data-target=#dev-team><div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 gap-off team-div">-->
+        <!--                    <h3 style=line-height:30px>Meet Our Designer and Developer Team.</h3>-->
+        <!--                </div></a>-->
+        <!--            <a href=http://www.silive.in target="_blank" id=anchorsi><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 gap-off">-->
+        <!--                    <div class=poweredbysi>-->
+        <!--                        <p style=font-weight:700>Proudly Powered By- </p>-->
+        <!--                        <h1 style=text-transform:uppercase;margin:0>Software <span style=display:block>Incubator</span></h1>-->
+        <!--                        <img src=asset/images/silogo.svg id=si-logo class=center-block>-->
+        <!--                    </div></a>-->
+        <!--        </div>-->
     </div>
     </div>
 </section>
@@ -772,25 +772,25 @@
                             </div>
                             <?php
 
-                            $courses_ch= curl_init();
-                            $courses_url="http://akgec-scrolls.com/rest/api/Domains/GetCourses";
-
-                            curl_setopt_array($courses_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-                                CURLOPT_RETURNTRANSFER => 1,
-                                CURLOPT_URL => $courses_url,
-                                CURLOPT_ENCODING => '',
-                            ));
-                            $courses= curl_exec($courses_ch);
-                            $courses=json_decode($courses);
-                            curl_close($courses_ch);
+                            // $courses_ch= curl_init();
+                            // $courses_url="http://akgec-scrolls.com/rest/api/Domains/GetCourses";
+                            //
+                            // curl_setopt_array($courses_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            //     CURLOPT_RETURNTRANSFER => 1,
+                            //     CURLOPT_URL => $courses_url,
+                            //     CURLOPT_ENCODING => '',
+                            // ));
+                            // $courses= curl_exec($courses_ch);
+                            // $courses=json_decode($courses);
+                            // curl_close($courses_ch);
                             ?>
                             <div class="form-group col-sm-4 col-xs-4 gap-off">
                                 <label for=sel1>Course </label>
-                                <select class=textbox id=form-course name=course data-validation=required>
-                                    <?php foreach ($courses as $course) {
-                                        ?>
-                                        <option value=<?php echo $course->CourseId; ?>><?php echo $course->CourseName; ?></option>
-                                    <?php } ?>
+                                <select class=textbox id="form-course" name=course data-validation=required>
+                                    <?php //foreach ($courses as $course) {
+                                    ?>
+                                    <!--option value=<?php //echo $course->CourseId; ?>><?php //echo $course->CourseName; ?></option-->
+                                    <?php //} ?>
                                 </select>
                             </div>
                             <div class="col-sm-4 gap-off col-xs-4">
@@ -805,28 +805,28 @@
                                 </div>
                             </div>
                             <?php
-                            $colleges_ch= curl_init();
-                            $colleges_url="http://akgec-scrolls.com/rest/api/Colleges/GetColleges";
-                            curl_setopt_array($colleges_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-                                CURLOPT_RETURNTRANSFER => 1,
-                                CURLOPT_URL => $colleges_url,
-
-                            ));
-                            $colleges= curl_exec($colleges_ch);
-                            $colleges=json_decode($colleges);
-                            curl_close($colleges_ch);
+                            // $colleges_ch= curl_init();
+                            // $colleges_url="http://akgec-scrolls.com/rest/api/Colleges/GetColleges";
+                            // curl_setopt_array($colleges_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            //     CURLOPT_RETURNTRANSFER => 1,
+                            //     CURLOPT_URL => $colleges_url,
+                            //
+                            // ));
+                            // $colleges= curl_exec($colleges_ch);
+                            // $colleges=json_decode($colleges);
+                            // curl_close($colleges_ch);
                             ?>
                             <div class="form-group col-sm-4 col-xs-4 gap-off">
                                 <label for=sel1>College</label>
-                                <select class=textbox id=form-college name=college>
+                                <select class=textbox id="form-college" name=college>
                                     <option value=4>AJAY KUMAR GARG ENGINEERING COLLEGE</option>
-                                    <?php foreach ($colleges as $college) {
-                                        if($college->CollegeId!=4)
-                                        {
-                                            ?>
-                                            <option value=<?php echo $college->CollegeId; ?>><?php echo $college->CollegeName; ?></option>
-                                        <?php }} ?>
-                                    <option value>OTHERS</option>
+                                    <?php //foreach ($colleges as $college) {
+                                    //if($college->CollegeId!=4)
+                                    //{
+                                    ?>
+                                    <!-- <option value=<?php //echo $college->CollegeId; ?>><?php //echo $college->CollegeName; ?></option> -->
+                                    <?php //}} ?>
+                                    <!-- <option value>OTHERS</option> -->
                                 </select>
                             </div>
                             <div class=form-group>
@@ -897,43 +897,43 @@
                             </div>
                             <br>
                             <?php
-                            $domains_ch= curl_init();
-                            $domains_url="http://akgec-scrolls.com/rest/api/Domains/GetDomains";
-                            curl_setopt_array($domains_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-                                CURLOPT_RETURNTRANSFER => 1,
-                                CURLOPT_URL => $domains_url,
-                            ));
-
-                            $domains= curl_exec($domains_ch);
-                            $domains=json_decode($domains);
-                            curl_close($domains_ch);
+                            // $domains_ch= curl_init();
+                            // $domains_url="http://akgec-scrolls.com/rest/api/Domains/GetDomains";
+                            // curl_setopt_array($domains_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            //     CURLOPT_RETURNTRANSFER => 1,
+                            //     CURLOPT_URL => $domains_url,
+                            // ));
+                            //
+                            // $domains= curl_exec($domains_ch);
+                            // $domains=json_decode($domains);
+                            // curl_close($domains_ch);
 
                             ?>
                             <label style=margin-top:20px;display:block>Domain</label>
-                            <select class=textbox id=form-domains name=domains data-validation=required>
-                                <?php foreach ($domains as $domain) {
-                                    ?>
-                                    <option value=<?php echo $domain->DomainId; ?>><?php echo $domain->DomainName; ?></option>
-                                <?php } ?>
+                            <select class=textbox id="form-domains" name=domains data-validation=required>
+                                <?php //foreach ($domains as $domain) {
+                                ?>
+                                <!-- <option value=<?php //echo $domain->DomainId; ?>><?php //echo $domain->DomainName; ?></option> -->
+                                <?php //} ?>
                             </select>
                             <?php
-                            $topics_ch= curl_init();
-                            $topics_url="http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=6";
-                            curl_setopt_array($topics_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
-                                CURLOPT_RETURNTRANSFER => 1,
-                                CURLOPT_URL => $topics_url,
-
-                            ));
-                            $topics= curl_exec($topics_ch);
-                            $topics=json_decode($topics);
-                            curl_close($topics_ch);
+                            // $topics_ch= curl_init();
+                            // $topics_url="http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=6";
+                            // curl_setopt_array($topics_ch, array( CURLOPT_HTTPHEADER => array('Content-Type: application/json'),
+                            //     CURLOPT_RETURNTRANSFER => 1,
+                            //     CURLOPT_URL => $topics_url,
+                            //
+                            // ));
+                            // $topics= curl_exec($topics_ch);
+                            // $topics=json_decode($topics);
+                            // curl_close($topics_ch);
                             ?>
                             <label style=margin-top:10px>Topic</label>
-                            <select class=textbox id=form-topics name=topics data-validation=required>
-                                <?php foreach ($topics as $topic) {
-                                    ?>
-                                    <option value=<?php echo $topic->TopicId; ?>><?php echo $topic->TopicName; ?></option>
-                                <?php } ?>
+                            <select class=textbox id="form-topics" name=topics data-validation=required>
+                                <?php //foreach ($topics as $topic) {
+                                ?>
+                                <!--option value=<?php //echo $topic->TopicId; ?>><?php //echo $topic->TopicName; ?></option-->
+                                <?php //} ?>
                             </select>
                             <div class=form-group>
                                 <label for=pwd style=margin-top:10px>Password</label>
@@ -1015,7 +1015,7 @@
 <script>var scene=document.getElementById("scene");var parallax=new Parallax(scene);</script>
 <script>$(document).ready(function(){$("#form-member-container-3").hide(),$("#team-leader-container-3").hide(),$("#form-college-name").hide(),$(".form-no-of-participants").click(function(){console.log("hi"),"2"==$(this).attr("value")&&($("#form-member-3").val(""),$("#form-member-3-name").val(""),$('input[type="radio"][name="team_leader"]').first().prop("checked",!0),$("#form-member-container-3").hide(),$("#team-leader-container-3").hide()),"3"==$(this).attr("value")&&($("#form-member-container-3").show(),$("#team-leader-container-3").show())}),$("#form-domains").change(function(){$("#form-topics").children().remove(),$.get("http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId="+$(this).val(),function(e,o){for(var a=0;a<e.length;a++)$("#form-topics").append($("<option>",{value:e[a].TopicId,text:e[a].TopicName}))})}),$("#form-college").change(function(){""==$(this).val()?($("#form-studentId").val(""),$("#form-college-name").show()):($("#form-studentId").val(""),$("#form-college-name").hide())}),$("#form-college").change(function(){4==$(this).val()?($("#form-studentId").show(),$("#form-college-name").val("")):($("#form-studentId").hide(),$("#form-college-name").val(""))})});</script>
 <script>$('#send-btn').click(function(){
-                $('#query-form').submit();
+        $('#query-form').submit();
         $('#send-btn').prop('disabled');
     });</script>
 <script>$(function(){$.scrollify({section:".landing, .about, .wrapper, .logo-section, .topics, .rules, .team",interstitialSection:"",scrollSpeed:1500,offset:0,scrollbars:false,standardScrollElements:".modal",setHeights:true,overflowScroll:true,})});</script>
@@ -1024,5 +1024,7 @@
 <script>$(document).ready(function(){var b=$(".ham"),a=$(".overlay"),d=false;b.click(function(){c()});function c(){if(d==true){a.hide();b.removeClass("is-open");b.addClass("is-closed");d=false}else{a.show();b.removeClass("is-closed");b.addClass("is-open");d=true}}$('[data-toggle="offcanvas"]').click(function(){$("#wrapper").toggleClass("toggled")})});</script>
 <script>google.maps.event.addDomListener(window,"load",init);function init(){var b={zoom:15,scrollwheel:false,draggable:false,center:new google.maps.LatLng(28.676488,77.501936),styles:[{featureType:"all",elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"administrative",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"administrative.neighborhood",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"landscape",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"landscape.natural",elementType:"geometry.fill",stylers:[{visibility:"on"},{color:"#e0efef"}]},{featureType:"poi",elementType:"geometry.fill",stylers:[{visibility:"on"},{hue:"#1900ff"},{color:"#c0e8e8"}]},{featureType:"poi.attraction",elementType:"all",stylers:[{visibility:"on"},{hue:"#ff0000"}]},{featureType:"poi.attraction",elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"poi.attraction",elementType:"labels.icon",stylers:[{hue:"#ff0000"},{saturation:"76"}]},{featureType:"poi.business",elementType:"all",stylers:[{visibility:"on"},{hue:"#ff0000"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{hue:"#ff0000"},{visibility:"on"},{saturation:"66"}]},{featureType:"poi.government",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"poi.government",elementType:"labels.icon",stylers:[{hue:"#ff0000"},{saturation:"100"}]},{featureType:"poi.medical",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"poi.park",elementType:"all",stylers:[{visibility:"on"},{hue:"#00ff74"}]},{featureType:"poi.place_of_worship",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"poi.school",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"poi.sports_complex",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"road",elementType:"geometry",stylers:[{lightness:100},{visibility:"simplified"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road.highway",elementType:"all",stylers:[{visibility:"on"},{lightness:"10"},{saturation:"-23"},{gamma:"1.57"}]},{featureType:"road.highway",elementType:"geometry",stylers:[{visibility:"on"}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#c2cacd"}]},{featureType:"road.highway.controlled_access",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"road.highway.controlled_access",elementType:"geometry",stylers:[{visibility:"on"}]},{featureType:"road.arterial",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"road.local",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"transit",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"transit.line",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"transit.line",elementType:"geometry",stylers:[{visibility:"on"},{lightness:700}]},{featureType:"transit.station",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"transit.station.bus",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"transit.station.rail",elementType:"all",stylers:[{visibility:"on"}]},{featureType:"water",elementType:"all",stylers:[{color:"#77c9c9"},{visibility:"on"}]}]};var c=document.getElementById("map");var d=new google.maps.Map(c,b);var a=new google.maps.Marker({position:new google.maps.LatLng(28.676488,77.501936),map:d,title:"Snazzy!"})}</script>
 <script>$(window).load(function(){$(".se-pre-con").fadeOut("slow")});</script>
+<script>$(document).ready(function(){$.get("http://akgec-scrolls.com/rest/api/Domains/GetCourses",function(a,b){$.each(a,function(a,b){$("#form-course").append($("<option>",{value:b.CourseId,text:b.CourseName}))})}),$.get("http://akgec-scrolls.com/rest/api/Colleges/GetColleges",function(a,b){$.each(a,function(a,b){4!=b.CollegeId&&$("#form-college").append($("<option>",{value:b.CollegeId,text:b.CollegeName}))}),$("#form-college").append($("<option>",{value:"",text:"OTHERS"}))}),$.get("http://akgec-scrolls.com/rest/api/Domains/GetDomains",function(a,b){$.each(a,function(a,b){$("#form-domains").append($("<option>",{value:b.DomainId,text:b.DomainName}))})}),$.get("http://akgec-scrolls.com/rest/api/Domains/GetTopics?domainId=6",function(a,b){$.each(a,function(a,b){$("#form-topics").append($("<option>",{value:b.TopicId,text:b.TopicName}))})})});</script>
+<!--<script src="asset/js/ajax_get_data.js"></script>-->
 </body>
 </html>
